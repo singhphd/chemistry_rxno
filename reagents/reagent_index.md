@@ -1,0 +1,700 @@
+# Reagent index
+
+Reagent (as written in the list) -> name reactions using it.
+
+- **(no buli at dibromoolefin stage)**: Corey-Fuchs terminal dibromoolefination
+- **1,2-dicarbonyl compound (oxalate)**: Hinsberg thiophene synthesis
+- **1,2-diol**: Malaprade reaction, Corey-Winter elimination
+- **1,2-diol (glycol)**: Fenton 1,2-glycol oxidation
+- **1,3-dicarbonyl compound**: Pinner pyrimidine synthesis
+- **1,3-difunctional substrate (e.g. 3-halo-alcohol, 1,3-diol monotosylate)**: Grob fragmentation
+- **1,3-diketone (acetylacetone)**: Combes quinoline synthesis
+- **1,3-diketone or beta-keto ester**: Knorr pyrazole synthesis
+- **1,3-dithiane**: Corey-Seebach reaction
+- **1,4-dicarbonyl compound**: Paal-Knorr synthesis
+- **1,4-diketone**: Paal-Knorr furan synthesis, Paal-Knorr thiophene synthesis, Paal-Knorr pyrrole synthesis
+- **1,5-diene**: Cope rearrangement
+- **1-haloalkyne**: Cadiot-Chodkiewicz coupling
+- **2 equiv. beta-keto ester**: Hantzsch pyridine synthesis
+- **2'-hydroxychalcone**: Algar-Flynn-Oyamada reaction
+- **2,3-epoxy alcohol**: Payne rearrangement
+- **2,4,6-trichlorobenzoyl chloride (yamaguchi reagent)**: Yamaguchi lactonisation, Yamaguchi esterification
+- **2,5-dimethoxytetrahydrofuran**: Clauson-Kaas reaction
+- **2,6-lutidine**: Lemieux-Johnson oxidation
+- **2-aminoazine (2-aminopyridine)**: Groebke-Blackburn-Bienaymé reaction
+- **2-aminobenzaldehyde or 2-aminoaryl ketone**: Friedlander quinoline synthesis
+- **2-furylcarbinol**: Piancatelli rearrangement
+- **2-iodoxybenzoic acid (ibx)**: IBX oxidation
+- **2-naphthol**: Betti reaction
+- **2-nitrobiphenyl**: Cadogan carbazole synthesis
+- **absolute ethanol**: Bouveault-Blanc reaction
+- **acetic acid**: Clauson-Kaas reaction
+- **acetic anhydride**: Polonovski reaction, Bergmann azlactone peptide synthesis, Albright-Goldman oxidation
+- **acetic anhydride (ac2o)**: Pummerer rearrangement
+- **acetone**: Jones oxidation
+- **acid**: Schmidt rearrangement, alkene, 2-aza-Cope rearrangement, Scholl reaction
+- **acid (glycerol/boric acid or tfa)**: Duff reaction
+- **acid (h2so4)**: Nef synthesis
+- **acid (h2so4, p2o5, tsoh)**: Paal-Knorr furan synthesis
+- **acid (h2so4, ppa, tscl, pcl5, socl2)**: Beckmann rearrangement
+- **acid (hcl or acoh)**: Béchamp reduction
+- **acid (hcl, h2so4)**: Borsche-Drechsel cyclisation
+- **acid (lewis or brønsted)**: Piancatelli rearrangement
+- **acid (or nh3/rnh2 for pyrroles**: Paal-Knorr synthesis
+- **acid (zncl2, ppa, hcl, acoh)**: Fischer indole synthesis
+- **acid anhydride (ac2o)**: Dakin-West reaction
+- **acid anhydride (e.g. acetic anhydride)**: Perkin reaction
+- **acid catalyst**: Amadori rearrangement, Rupe rearrangement
+- **acid catalyst (h+, lewis acid)**: Meyer-Schuster rearrangement
+- **acid catalyst (h2so4, lewis acid)**: Prins reaction
+- **acid catalyst (hcl, lewis acid)**: Biginelli reaction
+- **acid catalyst (phosphoric/pyridinium trifluoroacetate)**: Pfitzner-Moffatt oxidation
+- **acid catalyst (sc(otf)3)**: Groebke-Blackburn-Bienaymé reaction
+- **acid chloride**: Schotten-Baumann reaction
+- **acid or base**: Pinner pyrimidine synthesis, Friedlander quinoline synthesis, Baekeland-Manasse-Lederer reaction
+- **acid or base for elimination**: Peterson olefination
+- **acid workup**: Kolbe-Schmitt reaction, Rubottom oxidation
+- **acidic pronucleophile (carboxylic acid, phthalimide, hn3, phenol)**: Mitsunobu reaction
+- **activated alkene (acrylate, mvk)**: Baylis-Hillman reaction
+- **active methylene compound (malonate, cyanoacetate)**: Knoevenagel condensation
+- **acyl amino acid**: Bergmann degradation
+- **acyl azide (from acyl chloride + nan3 or acid + dppa)**: Curtius rearrangement
+- **acyl chloride**: Rosenmund reduction, Bergmann degradation
+- **acyl chloride or anhydride**: Friedel-Crafts acylation
+- **acyl halide (with tertiary base)**: Bellus-Claisen rearrangement
+- **acylating agent (ac2o/bzcl)**: Julia olefination
+- **ag2co3)**: Fetizon oxidation
+- **ag2o (or ag benzoate)**: Arndt-Eistert reaction
+- **aibn**: Barton-McCombie deoxygenation
+- **aibn or light**: Barton decarboxylation
+- **al(oipr)3**: Meerwein-Ponndorf-Verley reduction of an aldehyde, Meerwein-Ponndorf-Verley reduction of a ketone
+- **alcl3**: Gattermann reaction
+- **alcohol**: Mitsunobu reaction, Barton-McCombie deoxygenation, Swern oxidation, Pfitzner-Moffatt oxidation, Bose-Mitsunobu reaction, Dess-Martin oxidation, Fetizon oxidation, Yamaguchi lactonisation, Yamaguchi esterification, Jones oxidation, Pinner reaction, Appel halogenation, Appel iodination, Appel chlorination, Appel bromination, Benkeser reduction, Sarett oxidation, Sarett primary alcohol oxidation, Sarett secondary alcohol oxidation, Collins oxidation, Appel bromination with tetrabromomethane, Appel bromination with bromine, Dess-Martin aldehyde oxidation, Dess-Martin ketone oxidation, Steglich esterification, Corey-Kim oxidation, Corey-Suggs oxidation, Corey-Schmidt oxidation, Albright-Goldman oxidation, IBX oxidation
+- **alcohol (etoh, tbuoh)**: Birch reduction
+- **alcohol (excess)**: Fischer-Speier esterification
+- **alcohol (nucleophile)**: Ferrier rearrangement
+- **alcohol, phenol, amine or thiol**: Ullmann condensation
+- **aldehyde**: Baylis-Hillman reaction, Julia olefination, Ugi reaction, Corey-Fuchs reaction, Nozaki-Hiyama-Kishi reaction, Biginelli reaction, Stork-Wittig olefination, Hantzsch pyridine synthesis, Lindgren oxidation, Julia-Kocienski olefination, Seyferth-Gilbert-Bestmann homologation, Still-Gennari modification, Betti reaction, Corey-Fuchs terminal dibromoolefination, Meerwein-Ponndorf-Verley reduction of an aldehyde, Groebke-Blackburn-Bienaymé reaction
+- **aldehyde (2 equiv.)**: Tishchenko reaction
+- **aldehyde (paraformaldehyde)**: Prato reaction
+- **aldehyde (typically formaldehyde)**: Prins reaction
+- **aldehyde or ketone**: Reformatsky reaction, Pictet-Spengler reaction, Fischer indole synthesis, Passerini reaction, Seyferth-Gilbert homologation, Seyferth-Gilbert aldehyde homologation, Seyferth-Gilbert ketone homologation
+- **aldehyde/acyl halide**: Tsuji-Wilkinson decarbonylation
+- **aldehyde/ketone**: Wittig reaction, Knoevenagel condensation, Horner-Wadsworth-Emmons reaction, Horner reaction, Mukaiyama aldol condensation, Peterson olefination, Henry reaction, Wittig methylenation, Leuckart reaction, Leuckart-Wallach reaction, Strecker reaction, Sakurai reaction, aldehyde or ketone, Leuckart aldehyde reaction, Leuckart ketone reaction, Johnson-Corey-Chaykovsky epoxide synthesis, Corey-Seebach reaction
+- **aldehyde/ketone (2–3 equiv.)**: Chichibabin pyridine synthesis
+- **aldehyde/ketone/enone**: Johnson-Corey-Chaykovsky reaction, Johnson-Corey-Chaykovsky cyclopropane synthesis
+- **aldehyde/ketone/ester/nitrile**: Grignard reaction
+- **alkali metal (na or li)**: Birch reduction
+- **alkaline hydrogen peroxide (h2o2/naoh)**: Algar-Flynn-Oyamada reaction
+- **alkaline potassium persulfate (k2s2o8)**: Elbs persulfate oxidation, phenol variant, Boyland-Sims oxidation
+- **alkene**: Heck reaction, Prins reaction, Paternò–Büchi reaction, Sharpless asymmetric dihydroxylation, Sharpless asymmetric aminohydroxylation, Schmidt rearrangement, alkene, Kharasch reaction, Simmons-Smith reaction, Stork-Crabtree hydrogenation, Prilezhaev epoxidation, Pauson-Khand reaction, Heck-type reaction, Lemieux-Johnson oxidation, Mukaiyama hydration, Shi epoxidation
+- **alkene (allylic c–h)**: Kharasch-Sosnovsky reaction
+- **alkene (enamide/allylic alcohol)**: Noyori asymmetric hydrogenation, alkene
+- **alkene-tethered nucleophile (e.g. alcohol/amine)**: Wacker cyclisation
+- **alkene/alkyne**: Diimide reduction
+- **alkenyl halide**: Zweifel diene synthesis
+- **alkoxide (alcohol + nah/koh/naoh)**: Williamson ether synthesis
+- **alkoxide base (naoet)**: Claisen condensation
+- **alkoxide base (naoet, kotbu)**: Dieckmann cyclisation
+- **alkoxy/halosilane**: Tamao oxidation
+- **alkyl chloride/bromide**: Finkelstein reaction
+- **alkyl halide**: Friedel-Crafts alkylation, Arbuzov reaction, Barbier reaction, Menshutkin reaction
+- **alkyl halide (2 equiv.)**: Wurtz reaction
+- **alkyl halide (primary)**: Williamson ether synthesis
+- **alkyl heteroaryl sulfone (e.g. pt-sulfone)**: Julia-Kocienski olefination
+- **alkyl malonate/beta-keto ester**: Krapcho decarboxylation
+- **alkyl nitrite (rono)**: Barton reaction
+- **alkyl phenyl sulfone**: Julia olefination
+- **alkyl vinyl ether/ketone**: Mori-Ban indole synthesis
+- **alkyl/acyl halide**: Friedel-Crafts reaction
+- **alkyllithium (2 equiv., e.g. n-buli, meli)**: Shapiro reaction
+- **alkyne**: Pauson-Khand reaction, Dötz reaction
+- **allyl ester**: Ireland-Claisen rearrangement
+- **allyl ether**: [2,3]-Wittig rearrangement
+- **allyl vinyl ether**: Claisen rearrangement
+- **allylic acetate/carbonate**: Tsuji-Trost reaction
+- **allylic alcohol**: Sharpless asymmetric epoxidation, Eschenmoser-Claisen rearrangement, Johnson-Claisen rearrangement
+- **allylic amine/ether**: Bellus-Claisen rearrangement
+- **allylic beta-keto ester**: Carroll rearrangement
+- **allylic/benzylic substrate**: Wohl-Ziegler bromination
+- **allylsilane**: Sakurai reaction, aldehyde or ketone, Sakurai reaction, enone, Sakurai reaction, acid chloride, Sakurai reaction, acetal or ketal, Sakurai reaction, epoxide, Sakurai reaction
+- **alpha,beta-unsaturated carbonyl**: Kröhnke pyridine synthesis
+- **alpha,beta-unsaturated carbonyl compound**: Doebner-Miller reaction
+- **alpha-/beta-/gamma-hydroxysilane**: Brook rearrangement
+- **alpha-amino acid**: Dakin-West reaction, Strecker degradation
+- **alpha-bromoester**: Blaise reaction
+- **alpha-bromoketone**: Bischler-Möhlau indole synthesis
+- **alpha-cyanoester or malononitrile**: Gewald reaction
+- **alpha-diazoketone**: Wolff rearrangement
+- **alpha-halo ketone**: Bénary reaction
+- **alpha-halo ketone (enolisable)**: Favorskii rearrangement
+- **alpha-haloester**: Reformatsky reaction, Darzens reaction
+- **alpha-haloketone**: Perkow reaction, Feist-Bénary synthesis
+- **alpha-halosulfone**: Ramberg-Bäcklund reaction
+- **alpha-hydroxy carboxylic acid**: Fenton alpha-hydroxy carboxylic acid oxidation
+- **alpha-hydroxy nitrile (cyanohydrin)**: Weerman reaction
+- **alpha-isocyanoacetate**: Barton-Zard reaction
+- **alpha-pyridinium methyl ketone**: Kröhnke pyridine synthesis
+- **alpha-silyl carbanion (me3sich2mgcl or me3sich2li)**: Peterson olefination
+- **alpha-silyl or stabilized phosphonium ylide with alkoxy/aryl**: Stork-Wittig olefination
+- **aluminium alkoxide (al(oet)3)**: Tishchenko reaction
+- **aluminium alkoxide (al(oipr)3)**: Oppenauer oxidation
+- **aluminium isopropoxide (al(oipr)3)**: Meerwein-Ponndorf-Verley reduction
+- **amide**: Goldberg reaction, Niementowski quinazoline synthesis, Kulinkovich-de Meijere reaction
+- **amidine**: Pinner pyrimidine synthesis
+- **amine**: Leuckart-Wallach reaction, Ugi reaction, Fmoc protection, Buchwald-Hartwig amination, Petasis reaction, Kabachnik-Fields reaction
+- **amine (morpholine)**: Willgerodt reaction
+- **amine (n-chloroamine)**: Hofmann-Löffler-Freytag piperidine synthesis, Hofmann-Löffler-Freytag pyrrolidine synthesis
+- **amine base**: Cadiot-Chodkiewicz coupling
+- **amine base (et3n, ipr2nh)**: Sonogashira coupling
+- **amine base (morpholine)**: Gewald reaction
+- **amine or alcohol**: Boc protection, Schotten-Baumann reaction, Chan-Lam coupling, Atherton-Todd reaction
+- **amino acid (sarcosine)**: Prato reaction
+- **aminoacetaldehyde diethyl acetal**: Pomeranz–Fritsch reaction
+- **ammonia**: Weerman reaction, Chichibabin pyridine synthesis
+- **ammonia (or nh4oac)**: Hantzsch pyridine synthesis
+- **ammonia or amine**: Strecker reaction, Betti reaction
+- **ammonia or primary amine**: Paal-Knorr pyrrole synthesis
+- **ammonium acetate**: Kröhnke pyridine synthesis
+- **ammonium cyanate (nh4ocn)**: Woehler reaction
+- **ammonium formate or formamide**: Leuckart reaction, Leuckart aldehyde reaction, Leuckart ketone reaction
+- **ammonium polysulfide**: Willgerodt reaction
+- **anhydrous acid (tfa)**: Edman degradation
+- **anhydrous hcl (gas)**: Pinner reaction
+- **aniline**: Skraup reaction, Doebner-Miller reaction, Sandmeyer diphenylurea isatin synthesis, Sandmeyer isonitrosoacetanilide isatin synthesis, Conrad-Limpach cyclisation, Combes quinoline synthesis
+- **anthranilic acid**: Niementowski quinazoline synthesis
+- **aqueous acid**: Bouveault aldehyde synthesis
+- **aqueous acid workup (nh4cl, h3o+)**: Grignard reaction
+- **aqueous alkali**: Bergmann degradation
+- **aqueous base (naoh)**: Schotten-Baumann reaction
+- **aqueous naoh (base)**: Payne rearrangement
+- **aqueous strong acid (h2so4)**: Bamberger rearrangement
+- **arene**: Birch reduction, Friedel-Crafts acylation, Friedel-Crafts alkylation, Gattermann reaction, Friedel-Crafts reaction, Benkeser reduction, Quelet reaction
+- **arene diazonium salt**: Gattermann chlorination, Gattermann bromination
+- **aromatic aldehyde**: Perkin reaction, Doebner reaction, Bergmann azlactone peptide synthesis
+- **aromatic aldehyde (no alpha-h)**: Claisen-Schmidt condensation
+- **aromatic amine**: Griess reaction
+- **aromatic amine/phenol**: Boyland-Sims oxidation
+- **aromatic anhydride**: Allan-Robinson flavone synthesis, Allan-Robinson isoflavone synthesis, Allan-Robinson reaction
+- **aromatic nitro compound**: Mori-Ban indole synthesis
+- **aryl alkyl ketone**: Willgerodt reaction, Willgerodt-Kindler reaction
+- **aryl amine**: Balz-Schiemann reaction
+- **aryl diazonium salt**: Koerner-Contardi reaction, Japp-Klingemann reaction
+- **aryl diazonium salt (arn2+, from nano2/hx)**: Sandmeyer reaction, Sandmeyer halogenation, Sandmeyer pseudohalogenation, Sandmeyer fluorination, Sandmeyer chlorination, Sandmeyer bromination, Sandmeyer iodination
+- **aryl ester (phenolic)**: Fries rearrangement
+- **aryl grignard**: Barbier-Wieland degradation
+- **aryl halide**: Ullmann condensation, Goldberg reaction, Hiyama coupling, Rosenmund-von Braun reaction, Castro-Stephens coupling
+- **aryl halide (2 equiv.)**: Ullmann reaction
+- **aryl halide or triflate**: Buchwald-Hartwig amination
+- **aryl imidate**: Chapman rearrangement
+- **aryl/vinyl halide or triflate**: Heck reaction, Sonogashira coupling
+- **arylboronic acid**: Chan-Lam coupling
+- **arylhydrazine**: Fischer indole synthesis
+- **arylhydrazone of cyclohexanone**: Borsche-Drechsel cyclisation
+- **azide**: Staudinger reaction
+- **azoxybenzene**: Wallach degradation
+- **base**: Goldberg reaction, Japp-Klingemann reaction, Mori-Ban indole synthesis, Tsuji-Trost reaction, Suzuki-type coupling, Heck-type reaction
+- **base (alkoxide, hydroxide)**: Favorskii rearrangement
+- **base (dbu)**: Bingel reaction
+- **base (dbu, tbuok)**: Barton-Zard reaction
+- **base (et3n)**: Atherton-Todd reaction
+- **base (et3n, dmap, naoh)**: Boc protection
+- **base (et3n, k2co3)**: Heck reaction
+- **base (k2co3)**: Shi epoxidation
+- **base (k2co3, cs2co3)**: Ullmann condensation
+- **base (k2co3, cs2co3, k3po4)**: Suzuki-Miyaura coupling
+- **base (k2co3, licl)**: Larock indole synthesis
+- **base (koet/koh)**: Neber rearrangement
+- **base (koh)**: Pfitzinger reaction
+- **base (koh, kotbu)**: Ramberg-Bäcklund reaction
+- **base (koh, kotbu, nah)**: Baker-Venkataraman rearrangement
+- **base (kotbu)**: Noyori asymmetric hydrogenation, carbonyl, Seyferth-Gilbert homologation, Seyferth-Gilbert aldehyde homologation, Seyferth-Gilbert ketone homologation
+- **base (kotbu, nah)**: Grob fragmentation
+- **base (nah)**: Barton-McCombie deoxygenation
+- **base (nah, kotbu, licl/dbu)**: Horner-Wadsworth-Emmons reaction
+- **base (nahco3, dipea)**: Fmoc protection
+- **base (naoet)**: Hinsberg thiophene synthesis
+- **base (naoet, koh)**: Robinson annulation
+- **base (naoet, kotbu)**: Darzens reaction
+- **base (naoh)**: Nef reaction, Dakin reaction
+- **base (naoh, et3n, kotbu)**: Henry reaction
+- **base (naoh, koh)**: Claisen-Schmidt condensation
+- **base (naotbu, cs2co3)**: Buchwald-Hartwig amination
+- **base (nh3/amine)**: Glaser coupling
+- **base (pyridine, et3n)**: Chan-Lam coupling
+- **base or acid**: Pummerer rearrangement
+- **base or aqueous acid**: Dimroth rearrangement
+- **base or heat**: Lossen rearrangement
+- **benzaldehyde**: Pomeranz–Fritsch reaction
+- **benzofuroxan**: Beirut reaction
+- **benzyl quaternary ammonium salt**: Sommelet-Hauser rearrangement
+- **benzylic halide**: Sommelet reaction
+- **beta-amino alcohol**: Wenker synthesis
+- **beta-amino alcohol/cyclic ketone**: Tiffeneau-Demjanov rearrangement
+- **beta-arylethylamide**: Bischler-Napieralski reaction
+- **beta-arylethylamine (tryptamine)**: Pictet-Spengler reaction
+- **beta-dicarbonyl compound**: Feist-Bénary synthesis
+- **beta-keto anilide**: Knorr quinoline synthesis
+- **beta-keto ester**: Biginelli reaction, Conrad-Limpach cyclisation
+- **beta-keto ester or beta-keto acid**: Japp-Klingemann reaction
+- **beta-ketoester**: Bénary reaction
+- **bis(trifluoroethyl)phosphonate**: Still-Gennari modification
+- **boc-protected amine**: Boc deprotection
+- **borane (bh3·thf or bh3·sme2)**: Corey-Bakshi-Shibata reduction
+- **boronic acid**: Liebeskind-Srogl coupling
+- **br2**: Hell-Volhard-Zelinsky reaction
+- **bromine (br2)**: Appel bromination with bromine
+- **bromine or iodine**: Hunsdiecker reaction
+- **bromomalonate**: Bingel reaction
+- **brønsted or lewis acid (h2so4, fecl3, bf3)**: Nazarov cyclisation
+- **bu3snh**: Barton-McCombie deoxygenation, Barton decarboxylation
+- **buffer (nah2po4)**: Lindgren oxidation
+- **carbocation source (tertiary alcohol, alkene)**: Ritter reaction
+- **carbon dioxide (co2)**: Kolbe-Schmitt reaction
+- **carbon monoxide**: Cativa process, Fischer-Tropsch process
+- **carbon monoxide (co)**: Monsanto process, Pauson-Khand reaction
+- **carbon tetrahalide (ccl4, cbr4) or halogen source**: Appel halogenation
+- **carbonyl (glyoxylic acid, salicylaldehyde)**: Petasis reaction
+- **carbonyl compound**: Paternò–Büchi reaction
+- **carbonyl compound (aldehyde/ketone)**: Kabachnik-Fields reaction
+- **carbonyl compound (in situ organometallic)**: Barbier reaction
+- **carbonyl compound with alpha-ch2**: Pfitzinger reaction
+- **carboxylate salt**: Kolbe electrolysis
+- **carboxylic acid**: Ugi reaction, Barton decarboxylation, Fischer-Speier esterification, Schmidt rearrangement, carboxylic acid, Passerini reaction, Yamaguchi lactonisation, Yamaguchi esterification, Phillips benzimidazole synthesis, Bernthsen acridine synthesis, Steglich esterification, Hell-Volhard-Zelinsky reaction
+- **carboxylic acid (e.g. 4-nitrobenzoic acid)**: Bose-Mitsunobu reaction
+- **carboxylic acid chloride**: Arndt-Eistert reaction
+- **catalyst (al2o3, sio2)**: Chichibabin pyridine synthesis
+- **catalytic base**: Brook rearrangement
+- **catalytic sodium methoxide (naome)**: Zemplen transesterification
+- **cbr4**: Corey-Fuchs reaction, Corey-Fuchs terminal dibromoolefination
+- **cbr4 (or br2)**: Appel bromination
+- **cbs catalyst (chiral oxazaborolidine)**: Corey-Bakshi-Shibata reduction
+- **ccl4**: Atherton-Todd reaction
+- **ccl4 (or hexachloroacetone)**: Appel chlorination
+- **cecl3 (cerium(iii) chloride)**: Luche reaction
+- **cecl3·7h2o (luche conditions)**: Luche reduction
+- **chiral ligand ((dhq)2phal)**: Sharpless asymmetric aminohydroxylation
+- **chiral ligand ((dhq)2phal/(dhqd)2phal)**: Sharpless asymmetric dihydroxylation
+- **chloral hydrate**: Sandmeyer diphenylurea isatin synthesis, Sandmeyer isonitrosoacetanilide isatin synthesis
+- **chloroform (chcl3)**: Reimer-Tiemann reaction
+- **chlorotrimethylsilane (tmscl)**: Ireland-Claisen rearrangement
+- **chromic acid (cro3/h2so4/h2o = jones reagent)**: Jones oxidation
+- **chromium fischer carbene (aryl or alkoxy)**: Dötz reaction
+- **chromium trioxide-pyridine complex (sarett reagent**: Sarett oxidation, Sarett primary alcohol oxidation, Sarett secondary alcohol oxidation
+- **co**: Dötz reaction
+- **co(ii) or mn catalyst**: Mukaiyama hydration
+- **co2(co)8**: Nicholas reaction, Nicholas reaction, nucleophilic heteroatom centre, Nicholas reaction, nucleophilic carbon centre, Pauson-Khand reaction
+- **concentrated h2so4 or ppa**: Knorr quinoline synthesis
+- **concentrated hcl**: Clemmensen reduction
+- **concentrated naoh or koh**: Cannizzaro reaction
+- **concentrated sulfuric acid**: Wallach degradation
+- **copper**: Ullmann condensation, Goldberg reaction
+- **copper powder**: Ullmann reaction, Gattermann chlorination, Gattermann bromination
+- **copper(i) cyanide (cucn)**: Rosenmund-von Braun reaction
+- **copper(ii) halide (cucl2, cubr2)**: Koerner-Contardi reaction
+- **coupling partner (phenol or aniline)**: Griess reaction
+- **crabtree's catalyst ([ir(cod)(pcy3)(py)]pf6)**: Stork-Crabtree hydrogenation
+- **crcl2**: Nozaki-Hiyama-Kishi reaction
+- **cro3·2 pyridine (collins reagent)**: Collins oxidation
+- **cro3·2py)**: Sarett oxidation, Sarett primary alcohol oxidation, Sarett secondary alcohol oxidation
+- **cs2**: Barton-McCombie deoxygenation
+- **cu(i) carboxylate (cutc)**: Liebeskind-Srogl coupling
+- **cu(i) salt**: Glaser coupling, Kharasch-Sosnovsky reaction
+- **cu(oac)2**: Chan-Lam coupling
+- **cucl (or cu(oac)2)**: Wacker-Tsuji oxidation
+- **cucl, cubr or cucn**: Sandmeyer reaction, Sandmeyer halogenation, Sandmeyer pseudohalogenation, Sandmeyer fluorination, Sandmeyer chlorination, Sandmeyer bromination, Sandmeyer iodination
+- **cucl2**: Wacker process
+- **cyanide source (kcn, nacn, tmscn)**: Strecker reaction
+- **dcc**: Pfitzner-Moffatt oxidation
+- **dcc (or edc)**: Steglich esterification
+- **dead or diad**: Mitsunobu reaction
+- **dead/diad**: Bose-Mitsunobu reaction
+- **dehydrating**: Paal-Knorr furan synthesis
+- **dehydrating agent (pocl3, p2o5, tf2o)**: Bischler-Napieralski reaction
+- **dehydration (ac2o or acid)**: Barbier-Wieland degradation
+- **dess-martin periodinane (dmp)**: Dess-Martin oxidation, Dess-Martin aldehyde oxidation, Dess-Martin ketone oxidation
+- **di-tert-butyl dicarbonate (boc2o)**: Boc protection
+- **dialkyl phosphite**: Atherton-Todd reaction
+- **dialkyl phosphite (hp(o)(or)2)**: Kabachnik-Fields reaction
+- **diarylamine**: Bernthsen acridine synthesis
+- **diazomethane (ch2n2)**: Arndt-Eistert reaction
+- **diene**: Diels-Alder reaction
+- **dienophile (alkene/alkyne)**: Diels-Alder reaction
+- **diester**: Dieckmann cyclisation
+- **diethyl tartrate (det)**: Sharpless asymmetric epoxidation
+- **diethyl thiodiglycolate**: Hinsberg thiophene synthesis
+- **diethylene glycol**: Wolff-Kishner reduction, Huang-Minlon modification
+- **dihalocarbene (chcl3/naoh)**: Ciamician-Dennstedt rearrangement
+- **diimide (n2h2**: Diimide reduction
+- **diiodomethane (ch2i2)**: Simmons-Smith reaction
+- **dimethyl (diazomethyl)phosphonate anion**: Seyferth-Gilbert homologation, Seyferth-Gilbert aldehyde homologation, Seyferth-Gilbert ketone homologation
+- **dimethyl sulfide (dms)**: Corey-Kim oxidation
+- **divinyl ketone**: Nazarov cyclisation
+- **dmap**: Yamaguchi lactonisation, Yamaguchi esterification
+- **dmap (catalytic)**: Steglich esterification
+- **dmap catalyst (4-dimethylaminopyridine)**: Steglich rearrangement
+- **dmf (or n-methylformanilide)**: Vilsmeier-Haack reaction
+- **dmso**: Swern oxidation, Pfitzner-Moffatt oxidation, Krapcho decarboxylation, Albright-Goldman oxidation
+- **electric current (electrolysis)**: Kolbe electrolysis
+- **electron-rich arene**: Vilsmeier-Haack reaction
+- **electrophile**: Sakurai reaction, enone, Sakurai reaction, acid chloride, Sakurai reaction, acetal or ketal, Sakurai reaction, epoxide, Sakurai reaction, Parham cyclisation
+- **electrophile (alkyl halide)**: Corey-Seebach reaction
+- **electrophile or h2o**: Shapiro reaction
+- **elemental sulfur (s8)**: Gewald reaction
+- **enamine, enolate or 1,3-dicarbonyl**: Beirut reaction
+- **enediyne**: Bergman cyclisation
+- **enolisable carbonyl compound**: Mannich reaction
+- **enone**: Luche reduction
+- **enyne-allene**: Myers-Saito cyclisation
+- **ester**: Bouveault-Blanc reaction, Zemplen transesterification, Kulinkovich reaction
+- **ester or ketone**: Tebbe olefination
+- **et3n**: Yamaguchi lactonisation, Yamaguchi esterification, Corey-Kim oxidation
+- **et3sih**: Fukuyama reduction
+- **ether**: Wittig rearrangement, [1,2]-aza-Wittig rearrangement, [2,3]-aza-Wittig rearrangement
+- **ether (benzyl/allyl)**: [1,2]-Wittig rearrangement
+- **ethylene**: Wacker process, Aufbau reaction
+- **excess aniline**: Bischler-Möhlau indole synthesis
+- **excess ketone (acetone)**: Oppenauer oxidation
+- **fe(ii) (fenton's reagent)**: Fenton 1,2-glycol oxidation, Fenton alpha-hydroxy carboxylic acid oxidation
+- **fe(ii) (fenton's reagent) (producing hydroxyl radical)**: Fenton hydrogen peroxide reduction
+- **feso4 moderator**: Skraup reaction
+- **fluoride activator (tbaf) or base**: Hiyama coupling
+- **fmoc-cl or fmoc-osu**: Fmoc protection
+- **formaldehyde**: Quelet reaction, Baekeland-Manasse-Lederer reaction
+- **formaldehyde (hcho)**: Eschweiler-Clarke methylation
+- **formic acid**: Leuckart-Wallach reaction
+- **formic acid (hcooh)**: Eschweiler-Clarke methylation
+- **from hydrazine/oxidant or tsnhnh2)**: Diimide reduction
+- **fullerene**: Bingel reaction
+- **fullerene c60**: Prato reaction
+- **furfuryl alcohol**: Achmatowicz rearrangement
+- **glycal (acetylated)**: Ferrier rearrangement
+- **glycerol**: Skraup reaction
+- **grignard reagent**: Kumada coupling, Bodroux reaction, Bouveault aldehyde synthesis, Kulinkovich-de Meijere reaction, Kulinkovich-Szymoniak reaction
+- **grignard reagent (etmgbr, 2 equiv.)**: Kulinkovich reaction
+- **grignard reagent (rmgx)**: Grignard reaction
+- **h2**: Rosenmund reduction, Noyori asymmetric hydrogenation, alkene
+- **h2 (or iproh)**: Noyori asymmetric hydrogenation, carbonyl
+- **h2o (staudinger reduction) or carbonyl (aza-wittig)**: Staudinger reaction
+- **h2o2**: Dakin reaction, Fleming-Tamao oxidation, Tamao oxidation, Fenton 1,2-glycol oxidation, Fenton alpha-hydroxy carboxylic acid oxidation, Fenton hydrogen peroxide reduction
+- **h2so4**: Schmidt rearrangement, carboxylic acid, Schmidt rearrangement, tertiary alcohol, Wenker synthesis, Hofmann-Löffler-Freytag piperidine synthesis, Hofmann-Löffler-Freytag pyrrolidine synthesis
+- **h2so4 (conc.)**: Combes quinoline synthesis
+- **h2so4 or lewis acid**: Schmidt rearrangement, ketone
+- **halide salt (licl, nacl)**: Krapcho decarboxylation
+- **halogen (br2) or hypohalite (naobr)**: Hofmann rearrangement
+- **hbf4**: Balz-Schiemann reaction
+- **hbr**: Gattermann bromination
+- **hcl**: Fischer-Hepp rearrangement, Gattermann chlorination, Quelet reaction
+- **hcn and hcl (or zn(cn)2/hcl)**: Gattermann reaction
+- **heat**: Curtius rearrangement, Balz-Schiemann reaction, Eschenmoser-Claisen rearrangement, Hofmann elimination, 2-aza-Cope rearrangement, 3-aza-Cope rearrangement, 1-aza-Cope rearrangement, Cadogan carbazole synthesis, Phillips benzimidazole synthesis, Myers-Saito cyclisation, Krapcho decarboxylation, Madelung indole synthesis, Mumm rearrangement, Bernthsen acridine synthesis, Bischler-Möhlau indole synthesis, Cope elimination, Niementowski quinazoline synthesis, Prato reaction
+- **heat (150–200 °c)**: Chugaev reaction
+- **heat (200–300 °c)**: Newman-Kwart rearrangement
+- **heat (250 °c)**: Conrad-Limpach cyclisation
+- **heat (250–300 °c)**: Chapman rearrangement
+- **heat (decarboxylation)**: Carroll rearrangement
+- **heat (or light)**: Bergman cyclisation
+- **heat or hv**: Hofmann-Löffler-Freytag reaction
+- **heterocycle (e.g. 1-alkyl-2-iminopyrimidine)**: Dimroth rearrangement
+- **heterogeneous fe or co catalyst**: Fischer-Tropsch process
+- **hexamethylenetetramine (hmta)**: Sommelet reaction, Duff reaction
+- **hi/mei**: Monsanto process, Cativa process
+- **high-boiling solvent**: Wolff-Kishner reduction
+- **homoallylic iminium (from amine + aldehyde)**: 2-aza-Cope rearrangement
+- **hv or heat**: Hofmann-Löffler-Freytag piperidine synthesis, Hofmann-Löffler-Freytag pyrrolidine synthesis
+- **hydrazine**: Knorr pyrazole synthesis
+- **hydrazine (n2h4)**: Wolff-Kishner reduction
+- **hydrazine hydrate**: Ing-Manske procedure, Wolff-Kishner reduction, Huang-Minlon modification
+- **hydrazine or aqueous acid/base (deprotection)**: Gabriel synthesis
+- **hydrazoic acid**: Schmidt rearrangement, tertiary alcohol, Schmidt rearrangement, alkene
+- **hydrazoic acid (hn3)**: Schmidt rearrangement, carboxylic acid, Schmidt rearrangement, ketone
+- **hydrogen (h2)**: Stork-Crabtree hydrogenation
+- **hydrogen (syngas)**: Fischer-Tropsch process
+- **hydrogen halide or halogenated methane (ccl4/cbrcl3)**: Kharasch reaction
+- **hydrogen peroxide (h2o2)**: Fenton reaction
+- **hydroxamic acid derivative (o-acyl)**: Lossen rearrangement
+- **hydroxide base (naoh)**: Camps quinoline synthesis
+- **hydroxylamine hydrochloride**: Sandmeyer diphenylurea isatin synthesis, Sandmeyer isonitrosoacetanilide isatin synthesis
+- **i2**: Appel iodination
+- **imidate (isoimide)**: Mumm rearrangement
+- **imidazole**: Appel iodination
+- **imine**: Johnson-Corey-Chaykovsky aziridine synthesis
+- **internal alkyne**: Larock indole synthesis
+- **iodine**: Zweifel diene synthesis
+- **iron metal**: Béchamp reduction
+- **iron(ii) salt (fe2+)**: Fenton reaction
+- **isatin**: Pfitzinger reaction
+- **isocyanide**: Ugi reaction, Passerini reaction, Groebke-Blackburn-Bienaymé reaction
+- **isopropanol**: Meerwein-Ponndorf-Verley reduction, Meerwein-Ponndorf-Verley reduction of an aldehyde, Meerwein-Ponndorf-Verley reduction of a ketone
+- **k2co3**: Seyferth-Gilbert-Bestmann homologation
+- **k2co3 (ad-mix)**: Sharpless asymmetric dihydroxylation
+- **k3fe(cn)6 or nmo**: Sharpless asymmetric dihydroxylation
+- **ketone**: Baeyer-Villiger oxidation, Schmidt rearrangement, ketone, Noyori asymmetric hydrogenation, carbonyl, Robinson annulation, Meerwein-Ponndorf-Verley reduction of a ketone, Favorskii reaction
+- **ketone or aldehyde with alpha-h**: Claisen-Schmidt condensation
+- **ketone/aldehyde**: Clemmensen reduction, Darzens reaction, Meerwein-Ponndorf-Verley reduction, Wolff-Kishner reduction, Wolff-Kishner reduction, Huang-Minlon modification, Gewald reaction
+- **ketone/aldehyde with alpha-ch2**: Friedlander quinoline synthesis
+- **ketone/enone**: Luche reaction
+- **kf**: Tamao oxidation
+- **kf/khco3 (or hg(oac)2/peracid)**: Fleming-Tamao oxidation
+- **khco3**: Tamao oxidation
+- **koh**: Wolff-Kishner reduction, Huang-Minlon modification
+- **lewis acid**: Sakurai reaction, enone, Sakurai reaction, acid chloride, Sakurai reaction, acetal or ketal, Sakurai reaction, epoxide, Sakurai reaction
+- **lewis acid (alcl3)**: Friedel-Crafts reaction, Scholl reaction
+- **lewis acid (alcl3) or hv**: Fries rearrangement
+- **lewis acid (alcl3, fecl3)**: Friedel-Crafts acylation, Friedel-Crafts alkylation
+- **lewis acid (bcl3, alcl3)**: Sugasawa reaction
+- **lewis acid (bf3·oet2)**: Nicholas reaction, Nicholas reaction, nucleophilic heteroatom centre, Nicholas reaction, nucleophilic carbon centre, Ferrier rearrangement, Kulinkovich-Szymoniak reaction
+- **lewis acid (ticl4, bf3·oet2)**: Mukaiyama aldol condensation, Sakurai reaction, aldehyde or ketone
+- **lewis acid (tmsotf, sncl4)**: Vorbrueggen condensation
+- **li or na metal**: Benkeser reduction
+- **light**: Barton reaction
+- **liquid nh3**: Birch reduction
+- **liquid nh3 or phnme2**: Chichibabin reaction
+- **magnesium/zinc/indium metal**: Barbier reaction
+- **malonic acid**: Doebner reaction
+- **mei (xanthate formation)**: Barton-McCombie deoxygenation
+- **meoh**: Seyferth-Gilbert-Bestmann homologation
+- **methanol**: Monsanto process, Cativa process, Zemplen transesterification
+- **methyl ketone/ester**: Barbier-Wieland degradation
+- **methyl vinyl ketone (mvk) or equivalent**: Robinson annulation
+- **michael acceptor (enone, acrylate)**: Michael addition
+- **michael donor (enolate, malonate, nitroalkane)**: Michael addition
+- **mineral acid (hcl)**: Phillips benzimidazole synthesis
+- **n,n-dimethylacetamide dimethyl acetal**: Eschenmoser-Claisen rearrangement
+- **n,n-dimethylformamide dimethyl acetal (dmf-dma)**: Leimgruber-Batcho indole synthesis
+- **n,n-disubstituted formamide (dmf)**: Bouveault aldehyde synthesis
+- **n-acyl-o-toluidine**: Madelung indole synthesis
+- **n-acylglycine**: Bergmann azlactone peptide synthesis
+- **n-allyl enamine**: 3-aza-Cope rearrangement
+- **n-allyl imine or enamine**: 1-aza-Cope rearrangement
+- **n-bromosuccinimide (nbs)**: Wohl-Ziegler bromination
+- **n-buli**: Corey-Seebach reaction
+- **n-buli (2 equiv.)**: Corey-Fuchs reaction
+- **n-chlorosuccinimide (ncs)**: Corey-Kim oxidation
+- **n-glycoside of aldose**: Amadori rearrangement
+- **n-haloamine**: Hofmann-Löffler-Freytag reaction
+- **n-hydroxy-2-thiopyridone/thiohydroxamate ester**: Barton decarboxylation
+- **n-nitrosoaniline**: Fischer-Hepp rearrangement
+- **n-phenylhydroxylamine**: Bamberger rearrangement
+- **na/hg or smi2**: Julia olefination
+- **na/hg or zn/h+**: Emde degradation
+- **na2so4**: Sandmeyer diphenylurea isatin synthesis, Sandmeyer isonitrosoacetanilide isatin synthesis
+- **nabh4**: Luche reaction, Luche reduction
+- **naio4**: Lemieux-Johnson oxidation
+- **nano2 (diazonium tetrafluoroborate)**: Balz-Schiemann reaction
+- **naobr (br2/naoh)**: Hofmann reaction
+- **naoh**: Elbs persulfate oxidation, phenol variant, Hofmann rearrangement
+- **naoh (2 steps)**: Wenker synthesis
+- **naoh (or nh4cl)**: Zimmermann reaction
+- **naome**: Zweifel diene synthesis
+- **nh3/amine**: Benkeser reduction
+- **ni or pd catalyst**: Kumada coupling
+- **nicl2 (catalytic)**: Nozaki-Hiyama-Kishi reaction
+- **nitrile**: Ritter reaction, Blaise reaction, Pinner reaction, Demko-Sharpless reaction, Kulinkovich-Szymoniak reaction
+- **nitrile or amide**: Sugasawa reaction
+- **nitroalkane**: Henry reaction, Nef reaction
+- **nitroalkane (nitronate salt)**: Nef synthesis
+- **nitroalkene**: Barton-Zard reaction
+- **nitroarene**: Béchamp reduction
+- **nitroarene/nitroso compound**: Cadogan coupling
+- **nitroaromatic**: Zimmermann reaction
+- **nitrogen source (chloramine-t, tsnclna, or carbamate + tbuocl)**: Sharpless asymmetric aminohydroxylation
+- **nitrous acid (nano2/hcl)**: Griess reaction, Demjanov rearrangement
+- **nitrous acid (nano2/hcl) or diazomethane**: Tiffeneau-Demjanov rearrangement
+- **non-enolisable aldehyde (2 equiv.)**: Cannizzaro reaction
+- **non-enolisable aldehyde (typically formaldehyde)**: Mannich reaction
+- **nucleophile**: Nicholas reaction, Nicholas reaction, nucleophilic heteroatom centre, Nicholas reaction, nucleophilic carbon centre
+- **nucleophile (h2o, roh, amine)**: Curtius rearrangement
+- **o-acylaminoacetophenone**: Camps quinoline synthesis
+- **o-acylated azlactone/oxazole**: Steglich rearrangement
+- **o-acyloxyacetophenone**: Baker-Venkataraman rearrangement
+- **o-aryl thiocarbamate**: Newman-Kwart rearrangement
+- **o-haloaniline**: Larock indole synthesis
+- **o-halogenated aromatic**: Parham cyclisation
+- **o-hydroxyaryl ketone**: Allan-Robinson flavone synthesis, Allan-Robinson isoflavone synthesis, Allan-Robinson reaction
+- **o-nitrobiaryl or nitrostyrene**: Cadogan cyclization, Cadogan indole synthesis
+- **o-nitrotoluene**: Leimgruber-Batcho indole synthesis
+- **o-phenylenediamine**: Phillips benzimidazole synthesis
+- **o2**: Wacker-Tsuji oxidation, Wacker process, Mukaiyama hydration
+- **o2 (air)**: Chan-Lam coupling
+- **ohira-bestmann reagent (dimethyl 1-diazo-2-oxopropylphosphonate)**: Seyferth-Gilbert-Bestmann homologation
+- **or dimethylsulfoxonium methylide)**: Johnson-Corey-Chaykovsky reaction, Johnson-Corey-Chaykovsky cyclopropane synthesis
+- **organic halide**: Kumada coupling, Suzuki-type coupling, Heck-type reaction
+- **organic halide or triflate**: Stille coupling, Negishi coupling, Suzuki-Miyaura coupling
+- **organoboron**: Suzuki-type coupling
+- **organoboron (boronic acid/ester)**: Suzuki-Miyaura coupling
+- **organolithium (buli)**: Parham cyclisation
+- **organosilane**: Hiyama coupling
+- **organosilane (si–c bond)**: Fleming-Tamao oxidation
+- **organostannane (r-snbu3)**: Stille coupling
+- **organozinc halide (rznx)**: Negishi coupling
+- **organozinc reagent**: Fukuyama coupling
+- **ortho- or para-hydroxy aryl aldehyde/ketone**: Dakin reaction
+- **ortho-substituted nitroarene**: Bartoli indole synthesis
+- **oso4 (cat.)**: Sharpless asymmetric aminohydroxylation, Lemieux-Johnson oxidation
+- **oso4 (cat.) or k2oso2(oh)4**: Sharpless asymmetric dihydroxylation
+- **oxalyl chloride**: Swern oxidation
+- **oxidant (alloxan, dicarbonyl compound)**: Strecker degradation
+- **oxidant (can) to release alkyne**: Nicholas reaction, Nicholas reaction, nucleophilic heteroatom centre, Nicholas reaction, nucleophilic carbon centre
+- **oxidant (nbs, mcpba, or singlet oxygen)**: Achmatowicz rearrangement
+- **oxidant (nitrobenzene, as2o5)**: Skraup reaction
+- **oxidant (o2/air)**: Glaser coupling
+- **oxidation (cro3) to shorten chain**: Barbier-Wieland degradation
+- **oxime**: Beckmann rearrangement, Beckmann fragmentation
+- **oxime tosylate (ketoxime o-sulfonate)**: Neber rearrangement
+- **oxone (khso5)**: Shi epoxidation
+- **p4s10/lawesson reagent for thiophenes)**: Paal-Knorr synthesis
+- **pbr3 (or red p)**: Hell-Volhard-Zelinsky reaction
+- **pd(oac)2 (stoichiometric or catalytic with benzoquinone/o2)**: Saegusa oxidation
+- **pd/baso4**: Rosenmund reduction
+- **pd/c**: Fukuyama reduction
+- **pdcl2**: Wacker-Tsuji oxidation, Wacker process, Wacker cyclisation
+- **peptide n-terminus**: Edman degradation
+- **peracid (mcpba, peracetic acid)**: Prilezhaev epoxidation
+- **peracid (mcpba, peracetic acid, tfpaa) or h2o2 with lewis acid**: Baeyer-Villiger oxidation
+- **peroxide/radical initiator**: Kharasch reaction
+- **peroxy acid (mcpba)**: Criegee oxidation, Rubottom oxidation
+- **phenol**: Reimer-Tiemann reaction, Elbs persulfate oxidation, phenol variant, Duff reaction, Sugasawa reaction, Baekeland-Manasse-Lederer reaction
+- **phenoxide (phenol + naoh)**: Kolbe-Schmitt reaction
+- **phenyl isothiocyanate (pitc)**: Edman degradation
+- **phosphine (pph3)**: Staudinger reaction
+- **phosphine oxide carbanion (r2p(o)ch2r')**: Horner reaction
+- **phosphonate ester**: Horner-Wadsworth-Emmons reaction
+- **phosphonium salt**: Wittig reaction, Wittig methylenation
+- **phosphorus pentasulfide (p4s10) or lawesson's reagent**: Paal-Knorr thiophene synthesis
+- **phsih3 (or silane)**: Mukaiyama hydration
+- **pocl3**: Vilsmeier-Haack reaction
+- **poisoned catalyst (quinoline-s)**: Rosenmund reduction
+- **potassium persulfate**: Elbs persulfate oxidation, tolyl variant
+- **potassium phthalimide**: Gabriel synthesis, Ing-Manske procedure
+- **pph3**: Corey-Fuchs reaction, Bose-Mitsunobu reaction, Appel iodination, Appel chlorination, Appel bromination, Appel bromination with tetrabromomethane, Appel bromination with bromine
+- **pph3 (2 equiv.)**: Corey-Fuchs terminal dibromoolefination
+- **pressure/heat**: Kolbe-Schmitt reaction
+- **primary aliphatic amine**: Demjanov rearrangement
+- **primary alkyl halide**: Gabriel synthesis, Ing-Manske procedure
+- **primary amide**: Hofmann rearrangement, Hofmann reaction
+- **primary amine**: Clauson-Kaas reaction
+- **primary/secondary amine**: Eschweiler-Clarke methylation
+- **primary/secondary amine or nh3**: Mannich reaction
+- **prochiral ketone**: Corey-Bakshi-Shibata reduction
+- **propargylic alcohol**: Meyer-Schuster rearrangement
+- **propargylic alcohol/ether**: Nicholas reaction, Nicholas reaction, nucleophilic heteroatom centre, Nicholas reaction, nucleophilic carbon centre
+- **protected sugar acetate**: Vorbrueggen condensation
+- **pyridine**: Eglinton reaction, Castro-Stephens coupling
+- **pyridine (with piperidine)**: Doebner reaction
+- **pyridine base**: Tebbe olefination
+- **pyridine or azine**: Chichibabin reaction
+- **pyridine or base**: Dakin-West reaction, Bénary reaction
+- **pyridine/amine base**: Feist-Bénary synthesis
+- **pyridinium chlorochromate (pcc)**: Corey-Suggs oxidation
+- **pyridinium dichromate (pdc)**: Corey-Schmidt oxidation
+- **pyrrole or indole**: Ciamician-Dennstedt rearrangement
+- **pyrrolidine**: Leimgruber-Batcho indole synthesis
+- **quaternary ammonium hydroxide (from amine + mei/ag2o)**: Hofmann elimination
+- **quaternary ammonium salt**: Emde degradation, Stevens rearrangement, Stevens rearrangement, ammonium, Stevens rearrangement, sulfonium
+- **radical initiator (aibn or benzoyl peroxide)**: Wohl-Ziegler bromination
+- **ru–binap complex**: Noyori asymmetric hydrogenation, alkene
+- **ru–binap–diamine catalyst**: Noyori asymmetric hydrogenation, carbonyl
+- **scavenger (2-methyl-2-butene)**: Lindgren oxidation
+- **secondary alcohol**: Oppenauer oxidation
+- **secondary amine (morpholine)**: Willgerodt-Kindler reaction
+- **shi ketone catalyst (fructose-derived)**: Shi epoxidation
+- **silver carbonate on celite (fetizon's reagent**: Fetizon oxidation
+- **silver carboxylate**: Hunsdiecker reaction
+- **silyl enol ether**: Mukaiyama aldol condensation, Saegusa oxidation, Rubottom oxidation
+- **silylated nucleobase**: Vorbrueggen condensation
+- **sodium acetate**: Bergmann azlactone peptide synthesis
+- **sodium amide (nanh2)**: Chichibabin reaction
+- **sodium azide (nan3)**: Demko-Sharpless reaction
+- **sodium chlorite (naclo2)**: Lindgren oxidation
+- **sodium iodide**: Finkelstein reaction
+- **sodium metal**: Wurtz reaction, Bouveault-Blanc reaction
+- **sodium periodate (naio4) or periodic acid (hio4)**: Malaprade reaction
+- **sodium salt of aromatic acid**: Allan-Robinson isoflavone synthesis, Allan-Robinson reaction
+- **sodium salt of the aromatic acid**: Allan-Robinson flavone synthesis
+- **soft nucleophile (malonate, amine)**: Tsuji-Trost reaction
+- **stoichiometric copper(ii) acetate**: Eglinton reaction
+- **stoichiometric wilkinson's catalyst (rhcl(pph3)3)**: Tsuji-Wilkinson decarbonylation
+- **strong acid (h2so4)**: Ritter reaction, Nef reaction, Pomeranz–Fritsch reaction, Hofmann-Löffler-Freytag reaction
+- **strong acid (hcl)**: Doebner-Miller reaction
+- **strong acid (tfa or hcl in dioxane)**: Boc deprotection
+- **strong acid catalyst (h2so4, tsoh)**: Fischer-Speier esterification
+- **strong acid or pcl5**: Beckmann fragmentation
+- **strong aqueous base (naoh/koh)**: Reimer-Tiemann reaction
+- **strong base**: Stork-Wittig olefination
+- **strong base (alkyllithium)**: Wittig rearrangement, [1,2]-aza-Wittig rearrangement, [2,3]-aza-Wittig rearrangement
+- **strong base (khmds)**: Julia-Kocienski olefination
+- **strong base (khmds, 18-crown-6)**: Still-Gennari modification
+- **strong base (koh, kotbu)**: Wolff-Kishner reduction, Favorskii reaction
+- **strong base (lda)**: Ireland-Claisen rearrangement
+- **strong base (n-buli)**: Horner reaction, Julia olefination, [1,2]-Wittig rearrangement
+- **strong base (n-buli, kh)**: [2,3]-Wittig rearrangement
+- **strong base (n-buli, nah, kotbu, nahmds)**: Wittig reaction, Wittig methylenation
+- **strong base (nanh2)**: Sommelet-Hauser rearrangement
+- **strong base (nanh2, naoh)**: Stevens rearrangement, Stevens rearrangement, ammonium, Stevens rearrangement, sulfonium
+- **strong base (naoet, kotbu, buli)**: Madelung indole synthesis
+- **strong base (naome, nah) in protic solvent**: Bamford-Stevens reaction
+- **sulfide or sulfoxide**: Criegee oxidation
+- **sulfoxide**: Pummerer rearrangement
+- **sulfur**: Willgerodt reaction, Willgerodt-Kindler reaction
+- **sulfur ylide**: Johnson-Corey-Chaykovsky thiirane synthesis
+- **sulfur ylide (dimethylsulfonium methylide from me3s+i- and nah**: Johnson-Corey-Chaykovsky reaction, Johnson-Corey-Chaykovsky cyclopropane synthesis
+- **sulfur ylide (trimethylsulfonium iodide + nah or kotbu)**: Johnson-Corey-Chaykovsky epoxide synthesis
+- **sulfur ylide (trimethylsulfonium iodide + strong base)**: Johnson-Corey-Chaykovsky aziridine synthesis
+- **sulfuric acid**: Skraup reaction
+- **tebbe reagent (cp2ti(μ-cl)(μ-ch2)alme2)**: Tebbe olefination
+- **terminal alkene**: Wacker-Tsuji oxidation
+- **terminal alkyne**: Glaser coupling, Eglinton reaction, Cadiot-Chodkiewicz coupling, Sonogashira coupling, Favorskii reaction
+- **terminal alkyne (copper acetylide)**: Castro-Stephens coupling
+- **tert-butyl hydroperoxide (tbhp)**: Sharpless asymmetric epoxidation
+- **tert-butyl perbenzoate/peroxyester**: Kharasch-Sosnovsky reaction
+- **tertiary alcohol**: Schmidt rearrangement, tertiary alcohol
+- **tertiary amine**: Menshutkin reaction
+- **tertiary amine catalyst**: Baylis-Hillman reaction
+- **tertiary amine n-oxide**: Polonovski reaction, Polonovski-Potier reaction
+- **tertiary amine n-oxide (amine + h2o2 or mcpba)**: Cope elimination
+- **tertiary propargylic alcohol**: Rupe rearrangement
+- **tetrabromomethane (cbr4)**: Appel bromination with tetrabromomethane
+- **then acid hydrolysis**: Elbs persulfate oxidation, phenol variant
+- **then conc. h2so4**: Sandmeyer diphenylurea isatin synthesis, Sandmeyer isonitrosoacetanilide isatin synthesis
+- **then hydrolysis**: Strecker reaction
+- **then oxidant (hno3, ddq)**: Hantzsch pyridine synthesis
+- **then reductant (h2/pd-c or raney ni/n2h4)**: Leimgruber-Batcho indole synthesis
+- **thiocarbonyldiimidazole (tcdi) or thiophosgene**: Corey-Winter elimination
+- **thioester**: Fukuyama coupling, Fukuyama reduction
+- **thioester (or thioether)**: Liebeskind-Srogl coupling
+- **thioketone/thioaldehyde**: Johnson-Corey-Chaykovsky thiirane synthesis
+- **ti(oipr)4**: Sharpless asymmetric epoxidation, Kulinkovich-de Meijere reaction, Kulinkovich-Szymoniak reaction
+- **ti(oipr)4 (catalytic)**: Kulinkovich reaction
+- **tolyl/methylarene**: Elbs persulfate oxidation, tolyl variant
+- **tosylhydrazone**: Bamford-Stevens reaction, Shapiro reaction
+- **trialkyl orthoformate or acid derivative**: Bodroux reaction
+- **trialkyl phosphite**: Perkow reaction
+- **trialkyl phosphite (p(or)3)**: Arbuzov reaction
+- **triethyl orthoacetate**: Johnson-Claisen rearrangement
+- **triethyl phosphite (p(oet)3) or pph3**: Cadogan carbazole synthesis, Cadogan cyclization, Cadogan indole synthesis
+- **triethyl phosphite or pph3**: Cadogan coupling
+- **triethylaluminium (alet3)**: Aufbau reaction
+- **triethylamine**: Swern oxidation
+- **trifluoroacetic anhydride**: Polonovski-Potier reaction
+- **trimethyl phosphite**: Corey-Winter elimination
+- **triphenylphosphine (pph3)**: Mitsunobu reaction, Appel halogenation
+- **two arene rings**: Scholl reaction
+- **two ester molecules (with alpha-h)**: Claisen condensation
+- **urea**: Biginelli reaction
+- **vinyl grignard reagent (3 equiv.)**: Bartoli indole synthesis
+- **vinyl- or aryl-boronic acid**: Petasis reaction
+- **vinyl/aryl halide or triflate**: Nozaki-Hiyama-Kishi reaction
+- **vinylboronate (alkenylboronic ester)**: Zweifel diene synthesis
+- **water**: Wacker-Tsuji oxidation, Wacker process, Krapcho decarboxylation, Hell-Volhard-Zelinsky reaction
+- **water/acid**: Sommelet reaction
+- **water/alcohol/amine**: Arndt-Eistert reaction
+- **weak acid (propionic acid)**: Johnson-Claisen rearrangement
+- **weak base (piperidine, pyridine)**: Knoevenagel condensation
+- **xanthate ester (alcohol + cs2/naoh/mei)**: Chugaev reaction
+- **zinc amalgam (zn(hg))**: Clemmensen reduction
+- **zinc dust**: Zimmermann reaction
+- **zinc metal**: Reformatsky reaction, Blaise reaction
+- **zinc salt (znbr2)**: Demko-Sharpless reaction
+- **zinc-copper couple**: Simmons-Smith reaction
+- **zncl2**: Quelet reaction
+- **zncl2 (lewis acid)**: Bernthsen acridine synthesis

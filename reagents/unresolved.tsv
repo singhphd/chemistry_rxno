@@ -1,0 +1,33 @@
+id	name	reagents	catalyst	conditions	source	inherited_from	merck_index	wikidata	definition
+RXNO:0000238	Katritzky pyrylium-pyridinium method								The substitution of an amine with a nucleophile using a pyrylium salt.
+RXNO:0000250	Fritsch-Buttenberg-Wiechell rearrangement						https://www.rsc.org/Merck-Index/reaction/r161/	https://www.wikidata.org/wiki/Q573664	The rearrangement of a 2-bromoalkene into an alkyne, mediated by strong base.
+RXNO:0000254	MacDonald condensation								The reaction between a 1,9-diformyldipyrromethane and a dipyrromethane to give a porphodimethene.
+RXNO:0000301	Yamamoto polymerisation								The nickel-catalysed carbon-carbon coupling of a dihaloaromatic compound or aromatic bistriflate to give a polymer.
+RXNO:0000368	Crabbé homologation								Oxidation of an alkene to an allene by heating with formaldehyde, an amine and an inorganic salt.
+RXNO:0000397	Pechmann pyrazole synthesis						https://www.rsc.org/Merck-Index/reaction/r323/		Reaction of an organic diazo compound with an acetylene to yield a pyrazole.
+RXNO:0000403	Pinner triazine synthesis						https://www.rsc.org/Merck-Index/reaction/r343/		Reaction of aryl amidines or halogenated aliphatics amidines with phosgene to yield a 2-hydroxy-4,6-diaryl-s-triazine with loss of ammonia.
+RXNO:0000413	Zincke nitration						https://www.rsc.org/Merck-Index/reaction/r484/	https://www.wikidata.org/wiki/Q1061336	Substitution of phenol ortho- or para-bromo or iodo groups by a nitro group on treatment with nitrous acid or a nitrite in acetic acid.
+RXNO:0000473	Arens-van Dorp synthesis						https://www.rsc.org/Merck-Index/reaction/r9/	https://www.wikidata.org/wiki/Q16624458	Reaction of a ketone with ethoxyacetylene to form an alkoxyethynyl alcohol.
+RXNO:0000474	Auwers synthesis						https://www.rsc.org/Merck-Index/reaction/r11/	https://www.wikidata.org/wiki/Q3115850	Ring expansion of a 2-bromo-2-(alpha-bromobenzyl)-1-benzofuran to a flavonol in alcoholic alkali.
+RXNO:0000482	Schmittel cyclisation								Cyclization of a enynyl allene to yield a 1-methyl-5-methylenecyclopenta-1,3-diene biradical with radical centres on the methyl group and methylene group.
+RXNO:0000483	Baudisch reaction						https://www.rsc.org/Merck-Index/reaction/r26/	https://www.wikidata.org/wiki/Q3536586	Copper-catalysed reaction of benzene with a nitrosylating agent and hydrogen peroxide to form an o-nitrosophenol.
+RXNO:0000493	Bart reaction						https://www.rsc.org/Merck-Index/reaction/r19/		Reaction of an aromatic diazonium compound with an alkali arsenite in the presence of copper or silver to yield an aromatic arsonic acid.
+RXNO:0000495	Barton olefination						https://www.rsc.org/Merck-Index/reaction/r23/		Reaction of an aldehyde or ketone with a thioaldehyde or thioketone via a 1,3,4-thiadiazoline intermediate to yield an olefin.
+RXNO:0000502	Boulton-Katritzky rearrangement							https://www.wikidata.org/wiki/Q56298381	Rearrangement of a mancude eight-membered system containing a pentacycle into a different pentacycle where two of the ring atoms are ring atoms in the original molecule.
+RXNO:0000505	Mukaiyama-Hoshino method								Reaction of a primary nitro compound with phenyl isocynatate and triethylamine to yield a nitrile oxide.
+RXNO:0000512	Smith indole synthesis								Reaction of a N-(2-alkylphenyl)-trimethylsilylamine with two equivalents of organolithium and an ester or carboxylic acid to form an indole.
+RXNO:0000529	Bogert-Cook synthesis						https://www.rsc.org/Merck-Index/reaction/r53/		Condensation of beta-phenylethylmagnesium bromide with a cyclohexanone followed by cyclisation and dehydration in concentrated sulfuric acid to yield an octahydrophenanthrene.
+RXNO:0000530	Bohn-Schmidt reaction						https://www.rsc.org/Merck-Index/reaction/r54/		Reaction of a hydroxylated anthraquinone with fuming sulfuric acid or sulfuric acid in boric acid in the presence of a mercury or selenium catalyst to form a more hydroxylated anthraquinone.
+RXNO:0000531	Boord olefin synthesis						https://www.rsc.org/Merck-Index/reaction/r55/		Etherification of an aldehyde followed by bromination and reaction with a Grignard reagent followed by treatment with zinc to eliminate the halogen and alkoxy groups to produce an olefin.
+RXNO:0000534	Bradsher cyclisation						https://www.rsc.org/Merck-Index/reaction/r60/		Diels-Alder reaction of a dienophile with a cationic aromatic azadiene to yield a bridged-ring system.
+RXNO:0000535	Bradsher reaction						https://www.rsc.org/Merck-Index/reaction/r61/		Reaction of an ortho-acyldiarylmethane, catalysed by acid, to yield an anthracene.
+RXNO:0000543	Eastwood reaction						https://www.rsc.org/Merck-Index/reaction/r121/		Reaction of a 1,2-diol with triethoxymethane under heat to yield an olefin.
+RXNO:0000584	Niementowski quinoline synthesis							https://www.wikidata.org/wiki/Q2733837	A quinoline synthesis where the product is a gamma-hydroxyquinoline and the reactants are a 2-aminobenzoic acid and an aldehyde or ketone.
+RXNO:0000632	Baeyer–Emmerling indole synthesis							https://www.wikidata.org/wiki/Q3159940	An indole synthesis where an ortho-nitrocinnamic acid reacts with iron powder in a basic solution to form an indole.
+RXNO:0000664	Baeyer pyridine synthesis								The conversion of pyran or pyrone (pyranone) derivatives to the corresponding pyridine derivative.
+RXNO:0000671	Baeyer oxindole synthesis								The preparation of oxindole/indolin-2-one from 2-nitrophenylacetic acid by reduction of the nitro group and subsequent dehydration.
+RXNO:0000675	Balsohn alkylation								A carbon-carbon coupling reaction between an arene and an alkene to give a substituted arene. The reaction is catalysed by a Lewis acid.
+RXNO:0000678	Aston-Greenburg rearrangement								The rearrangement of an alpha-haloketone into an ester with a tertiary alpha-carbon atom by intramolecular migration of an alkyl or aryl group.
+RXNO:0000679	Baddeley isomerization								The rearrangement/migration of alkyl groups in polyalkylbenzenes or polynuclear aromatic compounds in the presence of anhydrous aluminum chloride or the mixture of protonic acid and Lewis acid.
+RXNO:0000688	Asinger reaction								A multicomponent reaction (A-4CR) in which 3-thiazolines (2,5-dihydro-1,3-thiazoles) or mixtures of several 3-thiazolines are synthesized from elemental sulfur, an alpha-substitutable ketone or aldehyde, another carbonyl component and ammonia.
+RXNO:0000691	Baeyer diarylmethane synthesis								Synthesis of diarylmethane derivatives using an aldehyde and an aromatic compound at low temperature in an acidic medium.
