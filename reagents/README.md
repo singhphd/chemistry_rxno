@@ -9,5 +9,5 @@ Generated from `rxno.obo` by `build_reagents.py` (run from repo root).
 
 RXNO itself only records reagents through `has_catalyst` (27 terms) and free text in definitions,
 so most reagents are curated from standard literature. The `source` column says which:
-`curated`, `ontology`, or `inherited` (from the parent class). Curated entries have not been
+`curated` or `curated+ontology`. Reactions without curated reagents, including catalyst-only ontology records, are in `unresolved.tsv`, with the parent class's reagents shown for context only. Curated entries have not been
 checked against primary references, so review them before using them for synthesis planning.

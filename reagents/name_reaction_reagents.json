@@ -6,7 +6,7 @@
   "catalyst": "alkali salt of the acid (e.g. NaOAc, K2CO3)",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r327/",
   "wikidata": "https://www.wikidata.org/wiki/Q898605",
   "definition": "An aldol condensation where an aryl aldehyde reacts with an acid anhydride to form a cinnamic acid."
@@ -18,10 +18,22 @@
   "catalyst": "Lewis acid optional (AlCl3, BF3, Et2AlCl)",
   "conditions": "heat or Lewis acid",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r109/",
   "wikidata": "https://www.wikidata.org/wiki/Q375669",
   "definition": "A [4+2] cycloaddition reaction where a diene reacts with a compound containing a double or triple bond (a dienophile) to form an unsaturated six-membered ring compound."
+ },
+ {
+  "id": "RXNO:0000007",
+  "name": "ene reaction",
+  "reagents": "alkene with allylic hydrogen (ene); enophile (aldehyde, maleic anhydride, azodicarboxylate)",
+  "catalyst": "Lewis acid optional (Me2AlCl, SnCl4)",
+  "conditions": "heat",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r129/",
+  "wikidata": "https://www.wikidata.org/wiki/Q26469",
+  "definition": "A joining reaction where an alkene with an allylic hydrogen reacts with a compound containing a multiple bond (an enophile) to form a substituted alkene."
  },
  {
   "id": "RXNO:0000009",
@@ -30,7 +42,7 @@
   "catalyst": "base (NaOEt, DBU, NaH) or organocatalyst",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r281/",
   "wikidata": "https://www.wikidata.org/wiki/Q642233",
   "definition": "A conjugate addition reaction where a carbon nucleophile adds to the beta-carbon of an alpha,beta-unsaturated system (or an activated carbon-carbon bond)."
@@ -42,7 +54,7 @@
   "catalyst": "",
   "conditions": "Et2O or THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r177/",
   "wikidata": "https://www.wikidata.org/wiki/Q337748",
   "definition": "A carbon-carbon coupling reaction where a Grignard reagent reacts with a compound containing an electrophilic carbon atom. A Grignard reagent is a magnesium-stabilised carbon nucleophile. An aldehyde leads to a secondary alcohol, a ketone leads to a tertiary alcohol, an ester leads to a ketone and a nitrile leads to a ketone."
@@ -54,10 +66,34 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r468/",
   "wikidata": "https://www.wikidata.org/wiki/Q909735",
   "definition": "A carbon-carbon coupling reaction where a carbonyl compound reacts with a phosphonium ylide to give an alkene."
+ },
+ {
+  "id": "RXNO:0000016",
+  "name": "aldol addition",
+  "reagents": "ketone/aldehyde with alpha-H; carbonyl electrophile",
+  "catalyst": "base (NaOH, LDA) or acid; proline (organocatalytic)",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r4/",
+  "wikidata": "https://www.wikidata.org/wiki/Q494392",
+  "definition": "A carbon-carbon coupling reaction where an enol or enolate reacts with a carbonyl compound to form a beta-hydroxy ketone. The name comes from aldehyde + alcohol."
+ },
+ {
+  "id": "RXNO:0000017",
+  "name": "aldol condensation",
+  "reagents": "ketone/aldehyde with alpha-H; carbonyl electrophile; base (NaOH, KOH) or acid; heat",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r4/",
+  "wikidata": "https://www.wikidata.org/wiki/Q1027170",
+  "definition": "An aldol addition where an enol or enolate reacts with a carbonyl compound to form an alpha,beta-unsaturated ketone."
  },
  {
   "id": "RXNO:0000021",
@@ -66,22 +102,10 @@
   "catalyst": "Cu(I) salt",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r386/",
   "wikidata": "https://www.wikidata.org/wiki/Q898821",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) halide or pseudohalide to form an aromatic halide or pseudohalide."
- },
- {
-  "id": "RXNO:0000022",
-  "name": "Gattermann halogenation",
-  "reagents": "",
-  "catalyst": "copper atom",
-  "conditions": "",
-  "source": "ontology",
-  "inherited_from": "",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with copper powder and hydrochloric acid or hydrobromic acid to form an aromatic chloride or bromide."
  },
  {
   "id": "RXNO:0000023",
@@ -90,7 +114,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(II) halide to form an aromatic halide."
@@ -102,7 +126,7 @@
   "catalyst": "Pd(OAc)2 or Pd(PPh3)4; phosphine ligand",
   "conditions": "DMF/MeCN, heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r192/",
   "wikidata": "https://www.wikidata.org/wiki/Q899916",
   "definition": "A carbon-carbon coupling reaction where an organohalide or triflate couples to a terminal olefin to produce an internal olefin, catalysed by palladium. It is stereospecific."
@@ -114,7 +138,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r29/",
   "wikidata": "https://www.wikidata.org/wiki/Q813746",
   "definition": "A rearrangement where an oxime rearranges to form an amide. Often there is selective migration of one group."
@@ -126,10 +150,22 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r86/",
   "wikidata": "https://www.wikidata.org/wiki/Q905087",
   "definition": "A [3,3]-sigmatropic rearrangement where a 1,5-hexadiene rearranges to form a 1,5-hexadiene."
+ },
+ {
+  "id": "RXNO:0000029",
+  "name": "oxy-Cope rearrangement",
+  "reagents": "3-hydroxy-1,5-diene; optional base (KH, 18-crown-6) for anionic variant",
+  "catalyst": "",
+  "conditions": "heat",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r86/",
+  "wikidata": "https://www.wikidata.org/wiki/Q25326942",
+  "definition": "A [3,3]-sigmatropic rearrangement of a 3-hydroxy-1,5-hexadiene rearranges to form a 5,6-unsaturated carbonyl compound."
  },
  {
   "id": "RXNO:0000031",
@@ -138,7 +174,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r13/",
   "wikidata": "https://www.wikidata.org/wiki/Q182033",
   "definition": "A reaction of a ketone to give an ester, in which an alkyl, benzyl or phenyl group migrates from one of the alpha-carbon centres to an adjacent oxygen, displacing an oxygen-based leaving group; the result is a formal insertion of an oxygen atom. The reaction also works with aldehydes, giving the corresponding carboxylic acid. The term \\\"Baeyer-Villiger rearrangement\\\" may occasionally be used in a mechanistic sense to refer specificially to the actual rearrangement step."
@@ -150,7 +186,7 @@
   "catalyst": "acid (HCl)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r265/",
   "wikidata": "https://www.wikidata.org/wiki/Q183055",
   "definition": "A carbon-carbon coupling reaction where ammonia or an amine reacts with a non-enolisable aldehyde, often methanal, and an enolisable carbonyl compound to form a beta-amino carbonyl compound."
@@ -162,7 +198,7 @@
   "catalyst": "",
   "conditions": "THF, 0 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r287/",
   "wikidata": "https://www.wikidata.org/wiki/Q899062",
   "definition": "A substitution where an alcohol is converted into something else. Typical reagents are a dialkyl azodicarboxylate and a triarylphosphine. The alcohol stereocentre is inverted."
@@ -174,7 +210,7 @@
   "catalyst": "Pd(PPh3)4 or Pd2(dba)3; CuI additive optional",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r415/",
   "wikidata": "https://www.wikidata.org/wiki/Q899861",
   "definition": "A carbon-carbon coupling reaction where a stannane reacts with an organohalide or organotriflate."
@@ -186,7 +222,7 @@
   "catalyst": "",
   "conditions": "THF/benzene",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r361/",
   "wikidata": "https://www.wikidata.org/wiki/Q898948",
   "definition": "A carbon-carbon coupling reaction where an aldehyde or amine reacts with a alpha-halo ester and zinc to form a beta-hydroxy ester."
@@ -198,7 +234,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r82/",
   "wikidata": "https://www.wikidata.org/wiki/Q898480",
   "definition": "A functional group reduction where an aldehyde or ketone carbonyl group is reduced to a methylene with zinc-mercury amalgam and hydrochloric acid."
@@ -210,7 +246,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r441/",
   "wikidata": "https://www.wikidata.org/wiki/Q904703",
   "definition": "A carbon-carbon homocoupling reaction of an aryl halide mediated by copper."
@@ -222,7 +258,7 @@
   "catalyst": "",
   "conditions": "liquid NH3",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r44/",
   "wikidata": "https://www.wikidata.org/wiki/Q864996",
   "definition": "Addition of hydrogen atoms to aromatic rings by means of alkali metals in liquid ammonia."
@@ -234,7 +270,7 @@
   "catalyst": "",
   "conditions": "EtOH",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r79/",
   "wikidata": "https://www.wikidata.org/wiki/Q898501",
   "definition": "A carbon-carbon coupling reaction of an ester and a carbonyl compound to form a beta-keto ester."
@@ -246,7 +282,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r230/",
   "wikidata": "https://www.wikidata.org/wiki/Q898972",
   "definition": "A carbon-carbon coupling reaction of an aldehyde and a methylene compound."
@@ -258,7 +294,7 @@
   "catalyst": "AlCl3 (stoichiometric)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r158/",
   "wikidata": "https://www.wikidata.org/wiki/Q15130933",
   "definition": "A carbon-carbon coupling reaction between an arene and a carbonyl compound (usually an acyl halide) to give an aryl ketone. The reaction is catalysed by a Lewis acid."
@@ -270,7 +306,7 @@
   "catalyst": "AlCl3",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r158/",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction between an arene and an alkyl halide/alkene/alcohol (anything that can form a carbocation) to give a substituted arene. The reaction is catalysed by a Lewis acid."
@@ -282,7 +318,7 @@
   "catalyst": "metal atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r311/",
   "wikidata": "https://www.wikidata.org/wiki/Q902263",
   "definition": "An oxidation of a secondary alcohol to a ketone involving an equilibrium between the alcohol and a reagent ketone present in excess, catalysed by a metal alkoxide."
@@ -294,10 +330,34 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r352/",
   "wikidata": "https://www.wikidata.org/wiki/Q267374",
   "definition": "A carbon-carbon coupling between formaldehyde and an alkene to give a 1,3-diol or an allylic alcohol, catalysed by acid."
+ },
+ {
+  "id": "RXNO:0000049",
+  "name": "intramolecular Prins reaction",
+  "reagents": "alkene; formaldehyde (or paraformaldehyde); acid (H2SO4, Lewis acid)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r352/",
+  "wikidata": "",
+  "definition": "A reaction between formaldehyde and an alkene to give a 1,3-dioxane, catalysed by acid."
+ },
+ {
+  "id": "RXNO:0000050",
+  "name": "pinacol rearrangement",
+  "reagents": "1,2-diol (pinacol); acid (H2SO4, H3PO4)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r341/",
+  "wikidata": "https://www.wikidata.org/wiki/Q902209",
+  "definition": "A rearrangement of a 1,2-diol to give a carbonyl compound, catalysed by acid."
  },
  {
   "id": "RXNO:0000051",
@@ -306,7 +366,7 @@
   "catalyst": "Ag2O, light (hv) or heat; nucleophile (H2O, ROH, R2NH)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r474/",
   "wikidata": "https://www.wikidata.org/wiki/Q255452",
   "definition": "A rearrangement of a diazoketone to give a ketene, with the elimination of molecular nitrogen."
@@ -318,7 +378,7 @@
   "catalyst": "",
   "conditions": "reflux",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r46/",
   "wikidata": "https://www.wikidata.org/wiki/Q866098",
   "definition": "A cyclodehydration of a beta-phenethylamide to give a 3,4-dihydroisoquinoline."
@@ -330,7 +390,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r97/",
   "wikidata": "https://www.wikidata.org/wiki/Q254370",
   "definition": "A rearrangement of an acyl azide to give an isocyanate by pyrolysis, with the elimination of molecular nitrogen."
@@ -342,7 +402,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r444/",
   "wikidata": "https://www.wikidata.org/wiki/Q903038",
   "definition": "A formylation of an activated arene with a disubstituted formamide to give an arenecarbaldehyde."
@@ -354,7 +414,7 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r468/",
   "wikidata": "https://www.wikidata.org/wiki/Q905020",
   "definition": "A carbon-carbon coupling reaction between a phosphonate and a carbonyl compound to give an olefin."
@@ -366,7 +426,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r468/",
   "wikidata": "",
   "definition": "A joining reaction between a phosphine oxide and a carbonyl compound to give an olefin."
@@ -378,7 +438,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r372/",
   "wikidata": "https://www.wikidata.org/wiki/Q902273",
   "definition": "A reaction between an alcohol or alkene and a nitrile to give an amide, catalysed by a Bronsted acid."
@@ -390,7 +450,7 @@
   "catalyst": "acid (TFA, HCl)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r338/",
   "wikidata": "https://www.wikidata.org/wiki/Q899206",
   "definition": "A condensation-cyclisation of a beta-phenethylamine with an aldehyde to give a tetrahydroisoquinoline."
@@ -402,7 +462,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q630801",
   "definition": "The alkylation of a trialkyl phosphite with an alkyl halide or acyl halide to give an alkyl phosphonate."
@@ -414,7 +474,7 @@
   "catalyst": "",
   "conditions": "DCM, -78 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1059787",
   "definition": "An aldol condensation between an aldehyde or ketone and a silyl enol ether (also known as a ketene silyl acetal) to give a beta-hydroxy carbonyl compound."
@@ -426,7 +486,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r403/",
   "wikidata": "https://www.wikidata.org/wiki/Q903836",
   "definition": "A condensation between an aromatic amine and glycerol to give a quinoline."
@@ -438,7 +498,7 @@
   "catalyst": "Ag(I)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r10/",
   "wikidata": "https://www.wikidata.org/wiki/Q137617",
   "definition": "A homologation reaction of a carboxylic acid to give the homologated carboxylic acid via acyl chloride and diazoketone intermediates."
@@ -450,7 +510,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q901218",
   "definition": "Reaction of an aldehyde or ketone with a phenylhydrazine to give an indole."
@@ -462,7 +522,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r108/",
   "wikidata": "https://www.wikidata.org/wiki/Q900932",
   "definition": "An intramolecular cyclisation of a diester to give a cyclic beta-ketoester."
@@ -474,10 +534,34 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q903726",
   "definition": "A joining of an organic azide and a tertiary phosphine to give a phosphazo compound."
+ },
+ {
+  "id": "RXNO:0000067",
+  "name": "benzidine rearrangement",
+  "reagents": "hydrazobenzene; strong acid (HCl, H2SO4)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r33/",
+  "wikidata": "https://www.wikidata.org/wiki/Q465781",
+  "definition": "A rearrangement of a hydrazobenzene to give a diaminobiphenyl compound."
+ },
+ {
+  "id": "RXNO:0000068",
+  "name": "semidine rearrangement",
+  "reagents": "para-substituted hydrazobenzene; acid",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r33/",
+  "wikidata": "",
+  "definition": "A rearrangement of a p-substituted hydrazobenzene to give a p-aminodiphenylamine."
  },
  {
   "id": "RXNO:0000069",
@@ -486,7 +570,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r111/",
   "wikidata": "https://www.wikidata.org/wiki/Q902659",
   "definition": "A rearrangement of a heterocyclic compound in which endocyclic and exocyclic heteroatoms swap places."
@@ -498,7 +582,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r122/",
   "wikidata": "https://www.wikidata.org/wiki/Q898506",
   "definition": "A cleaving reaction in which a peptide is treated with phenylisothiocyanate, removing the terminal amino acid group, to form the chain-shortened amine and a phenylthiohydantoin."
@@ -510,7 +594,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r362/",
   "wikidata": "",
   "definition": "A formylation reaction between a phenol and chloroform (for example, to form an ortho-formyl phenol)."
@@ -522,10 +606,22 @@
   "catalyst": "",
   "conditions": "dry ether",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r478/",
   "wikidata": "https://www.wikidata.org/wiki/Q898901",
   "definition": "A carbon-carbon homocoupling reaction of two molecules of an alkyl halide with sodium to give a symmetrical product."
+ },
+ {
+  "id": "RXNO:0000075",
+  "name": "benzilic acid rearrangement",
+  "reagents": "1,2-diketone (benzil); hydroxide base (NaOH, KOH); acid workup",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r34/",
+  "wikidata": "https://www.wikidata.org/wiki/Q818488",
+  "definition": "A rearrangement of a 1,2-diketone to an alpha-hydroxy carboxylic acid. It can also be applied to alpha-keto aldehydes. The first exmaple of this reaction was with benzil (PhC(=O)C(=O)Ph) to form benzilic acid, hence the name."
  },
  {
   "id": "RXNO:0000076",
@@ -534,7 +630,7 @@
   "catalyst": "DABCO (or quinuclidine, phosphine)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r27/",
   "wikidata": "https://www.wikidata.org/wiki/Q812563",
   "definition": "A carbon-carbon coupling of an aldehyde to an activated alkene in the presence of a nucleophilic base to give an alpha-hydroxyalkylated compound."
@@ -546,7 +642,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r101/",
   "wikidata": "https://www.wikidata.org/wiki/Q899351",
   "definition": "A coupling of an aldehyde or ketone with an alpha-halo ester to form an alpha,beta-epoxy ester, which hydrolyses to yield aldehydes or ketones by elimination of carbon dioxide."
@@ -558,7 +654,7 @@
   "catalyst": "DMAP optional",
   "conditions": "DCM or THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A protection reaction in which an amine is converted into a tert-butoxycarbonyl compound."
@@ -570,7 +666,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r331/",
   "wikidata": "https://www.wikidata.org/wiki/Q900350",
   "definition": "A carbon-carbon coupling reaction in which an alpha-silyl carbanion reacts with an aldehyde or a ketone to give an alkene, proceeding via a beta-hydroxysilane. The stereochemistry of the alkene can be controlled by treating the intermediate with acid or base."
@@ -582,7 +678,7 @@
   "catalyst": "Cu(I)/Cu powder",
   "conditions": "high-T polar solvent",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q2371705",
   "definition": "A coupling reaction in which a phenol is coupled to an aryl halide to give a diaryl ether in the presence of a copper compound."
@@ -594,7 +690,7 @@
   "catalyst": "CuI, diamine ligand",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A coupling reaction in which an acetanilide is coupled to an aryl halide to give an N-acetyl diaryl amine in the presence of a copper compound."
@@ -606,7 +702,7 @@
   "catalyst": "",
   "conditions": "hv (UV)",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r319/",
   "wikidata": "https://www.wikidata.org/wiki/Q902254",
   "definition": "A photochemical cycloaddition between an aldehyde or ketone and an alkene to give an oxetane."
@@ -618,10 +714,22 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q807848",
   "definition": "A joining reaction between an aldehyde or ketone and an alkyl halide or aryl halide or vinyl halide or allyl halide in the presence of metal to give a secondary or tertiary alcohol."
+ },
+ {
+  "id": "RXNO:0000085",
+  "name": "acyloin condensation",
+  "reagents": "two ester molecules; sodium metal; chlorotrimethylsilane (TMSCl, Rühlmann modification)",
+  "catalyst": "",
+  "conditions": "toluene/xylene, reflux",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r2/",
+  "wikidata": "https://www.wikidata.org/wiki/Q345007",
+  "definition": "A reductive coupling reaction between two esters to give an acyloin (an alpha-hydroxyketone)."
  },
  {
   "id": "RXNO:0000086",
@@ -630,7 +738,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r196/",
   "wikidata": "https://www.wikidata.org/wiki/Q903747",
   "definition": "A carbon-carbon coupling reaction between a nitroalkane and an aldehyde or ketone to give a beta-hydroxy nitroalkane."
@@ -642,7 +750,7 @@
   "catalyst": "",
   "conditions": "hv",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r24/",
   "wikidata": "https://www.wikidata.org/wiki/Q809549",
   "definition": "The photolytic oxidation of a nitrate ester to give a gamma-nitroalcohol."
@@ -654,7 +762,7 @@
   "catalyst": "Pd(PPh3)4 or Ni(acac)2",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r299/",
   "wikidata": "https://www.wikidata.org/wiki/Q902756",
   "definition": "A carbon-carbon coupling reaction between an organohalide or organotriflate and an organozinc compound. The reaction is catalysed by palladium or nickel."
@@ -666,7 +774,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r272/",
   "wikidata": "https://www.wikidata.org/wiki/Q903026",
   "definition": "A reduction of an aldehyde or ketone to an alcohol involving an equilibrium between the aldehyde or ketone and a reagent alcohol present in excess, catalysed by a metal alkoxide. This reaction is the reverse of the Oppenauer oxidation (RXNO:0000047)."
@@ -678,22 +786,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q898790",
   "definition": "The reaction between an alkyl halide or alkyl sulfate and a metal alkoxide to give an ether."
- },
- {
-  "id": "RXNO:0000091",
-  "name": "Wittig methylenation",
-  "reagents": "phosphonium salt; strong base (n-BuLi, NaH, KOtBu, NaHMDS); aldehyde/ketone",
-  "catalyst": "",
-  "conditions": "THF",
-  "source": "inherited",
-  "inherited_from": "Wittig reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A carbon-carbon coupling reaction where a carbonyl compound reacts with a phosphonium ylide to give a terminal alkene."
  },
  {
   "id": "RXNO:0000094",
@@ -702,7 +798,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1935557",
   "definition": "The reaction of an alpha-halosulfone to give an alkene, with the extrusion of sulfur dioxide."
@@ -714,7 +810,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1968891",
   "definition": "The rearrangement of an aromatic nitrosamine to a para-nitrosoaniline."
@@ -726,7 +822,7 @@
   "catalyst": "CuCl, TMEDA",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r169/",
   "wikidata": "https://www.wikidata.org/wiki/Q514335",
   "definition": "A coupling reaction between two molecules of a terminal alkyne catalysed by Cu(I) salts."
@@ -738,7 +834,7 @@
   "catalyst": "",
   "conditions": "pyridine",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r169/",
   "wikidata": "",
   "definition": "A coupling reaction between two molecules of a terminal alkyne using stoichiometric Cu(II) salts."
@@ -750,7 +846,7 @@
   "catalyst": "Cu(I) salt (CuBr)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r169/",
   "wikidata": "https://www.wikidata.org/wiki/Q903015",
   "definition": "A coupling reaction between a terminal alkyne and an alkynyl halide catalysed by Cu(I) salts."
@@ -762,7 +858,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q726513",
   "definition": "The reductive amination of ketones or aldehydes with an ammonium formate or formamide to form an amine."
@@ -774,7 +870,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q726513",
   "definition": "The reductive amination of ketones or aldehydes with an amine and formic acid to form amines."
@@ -786,7 +882,7 @@
   "catalyst": "",
   "conditions": "DMF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q123422",
   "definition": "The reaction of primary alkyl halides with sodium or potassium phthalimide, followed by hydrolysis, to give the corresponding primary amine."
@@ -798,7 +894,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of primary alkyl halides with sodium or potassium phthalimide, followed by treatment with hydrazine, to give the corresponding primary amine."
@@ -810,10 +906,22 @@
   "catalyst": "",
   "conditions": "CCl4",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r215/",
   "wikidata": "https://www.wikidata.org/wiki/Q902216",
   "definition": "The decarboxylation of silver carboxylates with halogens to give organic halides."
+ },
+ {
+  "id": "RXNO:0000107",
+  "name": "malonic ester synthesis",
+  "reagents": "diethyl malonate; base (NaOEt); alkyl halide; aqueous acid/heat (hydrolysis/decarboxylation)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r264/",
+  "wikidata": "https://www.wikidata.org/wiki/Q902284",
+  "definition": "A carbon-carbon coupling reaction between a dialkyl malonate and an alkyl halide, to give a substituted acetic acid. The base/R'X treatment can be repeated to give a disubstituted product."
  },
  {
   "id": "RXNO:0000109",
@@ -822,7 +930,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r334/",
   "wikidata": "https://www.wikidata.org/wiki/Q1580484",
   "definition": "The reaction between isatin and an alpha-methylene carbonyl compound to give a substituted quinoline-4-carboxylic acid."
@@ -834,7 +942,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q5609896",
   "definition": "The fragmentation of a molecule that takes place when an electron-donating fragment (X) and an electron-accepting fragment (X') are situated at positions 1 and 3 on an aliphatic chain, to give a cationic fragment, a neutral fragment (e.g. an alkene) and an anionic fragment."
@@ -846,7 +954,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r62/",
   "wikidata": "https://www.wikidata.org/wiki/Q2558021",
   "definition": "The rearrangement of an alpha-, beta- or gamma-hydroxy silane to give a silyl ether. It is catalysed by a base."
@@ -858,34 +966,10 @@
   "catalyst": "Co2(CO)8",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r303/",
   "wikidata": "https://www.wikidata.org/wiki/Q902932",
   "definition": "The reaction of a propargylic cation (stabilised with dicobalt octacarbonyl) with a nucleophile to give a substituted alkyne."
- },
- {
-  "id": "RXNO:0000115",
-  "name": "Nicholas reaction, nucleophilic heteroatom centre",
-  "reagents": "propargylic alcohol/ether; Co2(CO)8; Lewis acid (BF3·OEt2); nucleophile; oxidant (CAN) to release alkyne",
-  "catalyst": "Co2(CO)8",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Nicholas reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "The reaction of a propargylic cation (stabilised with dicobalt octacarbonyl) with a hydride or amine or enamine to give a substituted alkyne."
- },
- {
-  "id": "RXNO:0000116",
-  "name": "Nicholas reaction, nucleophilic carbon centre",
-  "reagents": "propargylic alcohol/ether; Co2(CO)8; Lewis acid (BF3·OEt2); nucleophile; oxidant (CAN) to release alkyne",
-  "catalyst": "Co2(CO)8",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Nicholas reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "The reaction of a propargylic cation (stabilised with dicobalt octacarbonyl) with a nucleophilic carbon centre (on e.g. enolates, allyl silanes, ketones, electron-rich aromatics, beta-dicarbonyl compounds) to give a substituted alkyne."
  },
  {
   "id": "RXNO:0000117",
@@ -894,7 +978,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r224/",
   "wikidata": "https://www.wikidata.org/wiki/Q902237",
   "definition": "A carbon-carbon coupling reaction between a phenyl sulfone and an aldehyde or ketone to give a (typically trans) alkene."
@@ -906,7 +990,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q909040",
   "definition": "The oxidation of a benzylic halide to give an aldehyde. The reaction uses hexamethylenetetramine."
@@ -918,7 +1002,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r58/",
   "wikidata": "https://www.wikidata.org/wiki/Q895315",
   "definition": "The reduction of an ester using sodium to give two alcohols."
@@ -930,10 +1014,22 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r321/",
   "wikidata": "https://www.wikidata.org/wiki/Q983127",
   "definition": "A base-catalysed isomerisation of a 2,3-epoxyalcohol, with inversion of configuration at C2."
+ },
+ {
+  "id": "RXNO:0000121",
+  "name": "aza-Payne rearrangement",
+  "reagents": "2,3-epoxy amine; base (NaH, KOtBu)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r321/",
+  "wikidata": "",
+  "definition": "A base-catalysed isomerisation of a 2,3-epoxyamine to form a hydroxy aziridine, with inversion of configuration at C2."
  },
  {
   "id": "RXNO:0000122",
@@ -942,7 +1038,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r14/",
   "wikidata": "https://www.wikidata.org/wiki/Q804325",
   "definition": "The base-catalysed rearrangement of an o-acetoxyacetophenone to give a hydroxyphenyl-1,3-diketone."
@@ -954,7 +1050,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r16/",
   "wikidata": "https://www.wikidata.org/wiki/Q575939",
   "definition": "The reaction of a tosylhydrazone of an aldehyde or ketone with a strong base to give an olefin."
@@ -966,7 +1062,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r16/",
   "wikidata": "https://www.wikidata.org/wiki/Q846597",
   "definition": "The reaction of a tosylhydrazone of an aldehyde or ketone with an alkyllithium or Grignard reagent to give an olefin."
@@ -978,7 +1074,7 @@
   "catalyst": "",
   "conditions": "pyridine",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r114/",
   "wikidata": "https://www.wikidata.org/wiki/Q3772250",
   "definition": "The reaction between an aromatic amine, an aldehyde and pyruvic acid on heating to give a quinoline 4-carboxylic acid (cinchoninic acid)."
@@ -990,7 +1086,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r388/",
   "wikidata": "https://www.wikidata.org/wiki/Q572113",
   "definition": "The conversion of an aromatic amine to the corresponding fluoride via the diazonium fluoroborate."
@@ -1002,7 +1098,7 @@
   "catalyst": "",
   "conditions": "MeOH",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r238/",
   "wikidata": "https://www.wikidata.org/wiki/Q901771",
   "definition": "The decarboxylation and coupling of a carboxylate or mixture of carboxylates to give a dimer."
@@ -1014,7 +1110,7 @@
   "catalyst": "",
   "conditions": "MeOH",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r440/",
   "wikidata": "https://www.wikidata.org/wiki/Q2002373",
   "definition": "Reaction of a ketone or aldehyde, amine, an isocyanide and carboxylic acid to form a bisamide."
@@ -1026,7 +1122,7 @@
   "catalyst": "PdCl2/CuCl; copper(II) chloride; palladium(II) chloride",
   "conditions": "DMF/H2O",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r452/",
   "wikidata": "",
   "definition": "The oxidation of a terminal alkene or ethene to a methyl ketone or acetaldehyde, catalysed by PdCl2 and CuCl2, and using molecular oxygen as the oxidant."
@@ -1038,7 +1134,7 @@
   "catalyst": "PdCl2/CuCl2",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q578923",
   "definition": "The oxidation of ethene to acetaldehyde, catalysed by PdCl2 and CuCl2, and using molecular oxygen as the oxidant."
@@ -1050,7 +1146,7 @@
   "catalyst": "Rh catalyst (cis-[Rh(CO)2I2]-)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q901246",
   "definition": "The reaction of carbon monoxide with methanol to form acetic acid, catalysed by a rhodium complex."
@@ -1062,7 +1158,7 @@
   "catalyst": "Ir catalyst ([Ir(CO)2I2]-), Ru promoter",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q579304",
   "definition": "The reaction of carbon monoxide with methanol to form acetic acid, catalysed by an iridium complex."
@@ -1074,7 +1170,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r22/",
   "wikidata": "https://www.wikidata.org/wiki/Q809548",
   "definition": "The deoxygenation of an alcohol to the corresponding alkane using a thiochloroformate. It proceeds by a radical mechanism."
@@ -1086,7 +1182,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r21/",
   "wikidata": "https://www.wikidata.org/wiki/Q3454335",
   "definition": "The decarboxylation of a carboxylic acid to the lower homologue alkane using a pyridine thione."
@@ -1098,7 +1194,7 @@
   "catalyst": "Pd/BaSO4; palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r375/",
   "wikidata": "https://www.wikidata.org/wiki/Q905524",
   "definition": "The hydrogenolysis of an acyl halide to the corresponding aldehyde, catalysed by palladium-on-barium sulfate."
@@ -1110,10 +1206,22 @@
   "catalyst": "Pd(PPh3)2Cl2; CuI; palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r408/",
   "wikidata": "https://www.wikidata.org/wiki/Q900334",
   "definition": "A carbon-carbon coupling reaction where a terminal alkyne reacts with an aryl halide to give an aryl alkyne. It is catalysed by palladium."
+ },
+ {
+  "id": "RXNO:0000138",
+  "name": "benzoin condensation",
+  "reagents": "aromatic aldehyde (2 equiv.); cyanide (NaCN/KCN) or thiazolium salt (NHC) catalyst",
+  "catalyst": "CN- or thiazolium/NHC",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r35/",
+  "wikidata": "https://www.wikidata.org/wiki/Q818514",
+  "definition": "A reaction between two aromatic aldehydes to give a benzoin (an alpha-hydroxyketone)."
  },
  {
   "id": "RXNO:0000139",
@@ -1122,7 +1230,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formylation of an arene with hydrogen cyanide to give an aryl aldehyde or ketone."
@@ -1134,7 +1242,7 @@
   "catalyst": "Pd(PPh3)4 or Pd(OAc)2/ligand; platinum atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r424/",
   "wikidata": "https://www.wikidata.org/wiki/Q899891",
   "definition": "The coupling of a boronic acid or boronic ester with an unsaturated halide, triflate or sulfonate catalysed by a palladium(0) complex."
@@ -1146,7 +1254,7 @@
   "catalyst": "Ti(OiPr)4/DET; titanium atom",
   "conditions": "DCM, -20 °C",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r397/",
   "wikidata": "https://www.wikidata.org/wiki/Q56672072",
   "definition": "The epoxidation of an allylic alcohol to give a beta,gamma-epoxy alcohol, with control of absolute stereochemistry at the two new stereocentres. The oxidising agent is tert-butyl hydroperoxide, and the catalyst is a complex of titanium salt and optically active diethyl tartrate."
@@ -1158,7 +1266,7 @@
   "catalyst": "OsO4",
   "conditions": "tBuOH/H2O",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r396/",
   "wikidata": "https://www.wikidata.org/wiki/Q752651",
   "definition": "The dihydroxylation of an alkene to give an alpha,beta-diol, with control of absolute stereochemistry at the two new stereocentres. The oxidising agent is osmium tetroxide, which is used catalytically with a stoichiometric oxidant and a chiral ligand. The reagents are available commercially as AD-mix."
@@ -1170,7 +1278,7 @@
   "catalyst": "OsO4",
   "conditions": "tBuOH/H2O",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The aminohydroxylation of an alkene to give a beta-amino alcohol, with control of absolute stereochemistry at the two new stereocentres. The oxidising agent is an oxygen-containing osmium species and/or an amino derivative which can be used catalytically with a stoichiometric oxidant and a chiral ligand."
@@ -1182,7 +1290,7 @@
   "catalyst": "Ni(dppp)Cl2 or Pd(PPh3)4",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r248/",
   "wikidata": "https://www.wikidata.org/wiki/Q899278",
   "definition": "A cross-coupling reaction between a Grignard reagent and an activated (aryl or vinyl) halide or triflate. The reaction is catalysed by a palladium or nickel catalyst."
@@ -1194,7 +1302,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r18/",
   "wikidata": "https://www.wikidata.org/wiki/Q5801440",
   "definition": "The degradation of a carboxylic acid to its next lower homologous carboxylic acid."
@@ -1206,7 +1314,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r89/",
   "wikidata": "https://www.wikidata.org/wiki/Q903573",
   "definition": "A homologation reaction of an aldehyde to yield a terminal alkyne. The reagents are tetrabromomethane, triphenylphosphine, butyllithium and water."
@@ -1218,7 +1326,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r127/",
   "wikidata": "https://www.wikidata.org/wiki/Q2026108",
   "definition": "A reduction of a quaternary ammonium salt containing at least one unsaturated substituent, to give a tertiary amine."
@@ -1230,7 +1338,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r80/",
   "wikidata": "https://www.wikidata.org/wiki/Q900936",
   "definition": "The [3,3]-sigmatropic rearrangement of an allyl vinyl ether to give a gamma,delta-unsaturated carbonyl compound."
@@ -1242,7 +1350,7 @@
   "catalyst": "",
   "conditions": "THF, -78 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r80/",
   "wikidata": "https://www.wikidata.org/wiki/Q1945726",
   "definition": "The enolisation and subsequent [3,3]-sigmatropic rearrangement of an allylic acetate to give a gamma,delta-unsaturated carboxylic acid."
@@ -1254,7 +1362,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The coupling and subsequent [3,3]-sigmatropic rearrangement of an allylic ether or allylic thioether or allylic amine and a ketene to give the corresponding gamma,delta-unsaturated carbonyl compound."
@@ -1266,7 +1374,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r80/",
   "wikidata": "",
   "definition": "The coupling and subsequent [3,3]-sigmatropic rearrangement of an allylic alcohol and alpha,alpha-dialkoxy ethylamine to give a gamma,delta-unsaturated dialkyl amide."
@@ -1278,7 +1386,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r80/",
   "wikidata": "",
   "definition": "The coupling and subsequent [3,3]-sigmatropic rearrangement of an allylic alcohol and trimethyl orthoacetate to give a gamma,delta-unsaturated alkyl ester."
@@ -1290,7 +1398,7 @@
   "catalyst": "",
   "conditions": "DCM, -78 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r426",
   "wikidata": "",
   "definition": "The oxidation of a primary alcohol or secondary alcohol to an aldehyde or ketone respectively. Does not work with allylic or benzylic alcohols."
@@ -1302,7 +1410,7 @@
   "catalyst": "",
   "conditions": "acetone",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r141/",
   "wikidata": "",
   "definition": "The conversion of an alkyl chloride, alkyl bromide or alkyl sulfonate ester to an alkyl iodide by SN2 substitution. The reaction relies upon the equilibrium being pushed to completion by the precipitation."
@@ -1314,7 +1422,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r259/",
   "wikidata": "",
   "definition": "The derivatisation (for example with tosyl chloride) and subsequent rearrangement of a hydroxamic acid to give an isocyanate."
@@ -1326,7 +1434,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r297/",
   "wikidata": "",
   "definition": "The conversion of a primary nitroalkane or secondary nitroalkane to an aldehyde or ketone, respectively."
@@ -1338,7 +1446,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a doubly activated methylene compound that has at least one carbonyl substituent with an aryl azide to give a hydrazone. Usually there is concomitant cleaving and oxidation of one of the carbonyl substituents."
@@ -1350,7 +1458,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formation of a quinoline from a primary aromatic amine and an alpha,beta-unsaturated carbonyl compound."
@@ -1362,7 +1470,7 @@
   "catalyst": "",
   "conditions": "dioxane/H2O",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The protection of an amine (often a peptide) as its 9H-fluoren-9-ylmethoxycarbonyl derivative."
@@ -1374,7 +1482,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The cyclisation of a 1,4-dicarbonyl compound with another molecule to give a five-membered aromatic ring compound."
@@ -1386,7 +1494,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r315/",
   "wikidata": "",
   "definition": "The cyclisation of a 1,4-dicarbonyl compound with an acid catalyst to give a furan."
@@ -1398,7 +1506,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The cyclisation of a 1,4-dicarbonyl compound with phosphorus pentasulfide to give a thiophene."
@@ -1410,7 +1518,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r316/",
   "wikidata": "",
   "definition": "The cyclisation of a 1,4-dicarbonyl compound with an amine to give a pyrrole."
@@ -1422,7 +1530,7 @@
   "catalyst": "",
   "conditions": "biphasic",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r392/",
   "wikidata": "",
   "definition": "The coupling of an alcohol or amine with an acyl chloride to give an ester or amide. A two-phase solvent system is often used, to enable the acid generated during the reaction to be neutralised by the aqueous base, while the starting materials and products remain in the organic phase."
@@ -1434,7 +1542,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r205/",
   "wikidata": "",
   "definition": "The elimination of a methylated amine from an alkylamine to form an olefin. The reaction proceeds via the quaternary ammonium salt."
@@ -1446,7 +1554,7 @@
   "catalyst": "H2SO4",
   "conditions": "reflux, Dean-Stark",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The esterification of a carboxylic acid with an alcohol. Various Lewis acids or Bronsted acids may be used as catalyst."
@@ -1458,7 +1566,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The degradation of an alpha-hydroxy amide or an alpha,beta-unsaturated amide to the lower homologue aldehyde, especially in carbohydrate chemistry. The process proceeds via Hofmann degradation."
@@ -1470,7 +1578,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of ortho- or para-phenolic (or ortho- or para-anilinic) aldehydes or ketones with hydrogen peroxide to form bisphenols (or hydroxy anilines) and carboxylic acids."
@@ -1482,7 +1590,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a carboxylic acid with hydrazoic acid to give the lower homologue amine, with the loss of the terminal carbon atom."
@@ -1494,7 +1602,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a ketone with hydrazoic acid with the insertion of an NH group between the carbonyl carbon and one of the R groups to form an amide."
@@ -1506,7 +1614,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a tertiary alcohol with hydrazoic acid with rearrangement to form an imide."
@@ -1518,7 +1626,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of an alkene with hydrazoic acid with rearrangement to form an imide."
@@ -1530,7 +1638,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The [2,3]-sigmatropic rearrangement of a benzyl quaternary ammonium salt to form an aniline."
@@ -1542,7 +1650,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of an amino acid with an acid anhydride to give an alpha-acylamido ketone. The reaction proceeds via the mixed anhydride and an oxazolone; the product is always racemic."
@@ -1554,7 +1662,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The cleavage of an oxime to the corresponding nitrile and an alkyl halide. This reaction is related to the Beckmann rearrangement, and occurs when the R group that is anti to the oxime hydroxyl is quaternary."
@@ -1566,7 +1674,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The transfer of a hydrogen or halogen atom from a haloalkane to an alkene, giving the chain-extended halogenated alkane."
@@ -1578,7 +1686,7 @@
   "catalyst": "CuBr or Cu(I)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The allylic oxidation of an alkene with a peroxy ester or a peroxide to give the corresponding allylic alcohol derivative. The catalyst is a copper compound."
@@ -1590,7 +1698,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of a phenol to give a (predominantly para) diphenol using potassium persulfate."
@@ -1602,7 +1710,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of a methyl-substituted aromatic compound to the corresponding benzaldehyde using potassium persulfate."
@@ -1614,7 +1722,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r59/",
   "wikidata": "",
   "definition": "The oxidation of an aromatic amine to give a (predominantly ortho) amino aryl sulfate using potassium persulfate followed by hydrolysis to yield the corresponding aminophenol."
@@ -1626,7 +1734,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r239/",
   "wikidata": "",
   "definition": "The (predominantly ortho) carboxylation of a phenoxide."
@@ -1638,7 +1746,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r329/",
   "wikidata": "",
   "definition": "The reaction between an alpha-halocarbonyl compound and a trialkyl phosphite to give an enol phosphate."
@@ -1650,7 +1758,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r335/",
   "wikidata": "",
   "definition": "The oxidation of a primary or secondary alcohol to the corresponding aldehyde or ketone respectively using dimethyl sulfoxide, 1,3-dicyclohexylcarbodiimide and acid. The reaction proceeds via an alkoxysulfonium ylide."
@@ -1662,7 +1770,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The conversion of an aryl alkyl ketone to an amide and/or an ammonium salt of a carboxylic acid using ammonium polysulfide. The carbonyl group of the product is always at the end of the alkyl chain."
@@ -1674,7 +1782,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r466/",
   "wikidata": "",
   "definition": "The conversion of an aryl alkyl ketone to an amide using sulfur and dry ammonia or a primary or secondary amine. The amide carbonyl group is always at the end of the alkyl chain."
@@ -1686,7 +1794,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r433/",
   "wikidata": "",
   "definition": "The formation of an ester from two aldehydes via a disproportionation process using a metal alkoxide to oxidise one aldehyde and reduce the other."
@@ -1698,7 +1806,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r482/",
   "wikidata": "",
   "definition": "The reaction between a methylene ketone and a polynitro aromatic compound."
@@ -1710,7 +1818,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r296/",
   "wikidata": "",
   "definition": "The rearrangement of the sulfonic ester of a ketoxime in base to give an alpha-amino ketone."
@@ -1722,7 +1830,7 @@
   "catalyst": "CrCl2/NiCl2",
   "conditions": "DMF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A coupling reaction of an aldehyde to an allyl, vinyl or aryl halide or triflate in the presence of chromium(II). It is catalysed by nickel."
@@ -1734,7 +1842,7 @@
   "catalyst": "Pd2(dba)3 or Pd(OAc)2; phosphine ligand (BINAP, XPhos); palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A reaction in which an aryl halide or aryl triflate reacts with a primary or secondary amine in the presence of base to give a secondary or tertiary amine. It is catalysed by a palladium catalyst."
@@ -1746,7 +1854,7 @@
   "catalyst": "Pd catalyst",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction where an organosilane reacts with an organic halide or triflate. It is catalysed by a palladium or nickel complex."
@@ -1758,7 +1866,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The 1,2-rearrangement of an alpha-methylene ammonium salt or alpha-methylene sulfonium salt to an amine or sulfide in the presence of strong base."
@@ -1766,11 +1874,11 @@
  {
   "id": "RXNO:0000195",
   "name": "Stevens rearrangement, ammonium",
-  "reagents": "quaternary ammonium salt; strong base (NaNH2, NaOH)",
+  "reagents": "alpha-methylene quaternary ammonium salt; strong base (NaNH2, BuLi)",
   "catalyst": "",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Stevens rearrangement",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The 1,2-rearrangement of an alpha-methylene ammonium salt to an amine in the presence of strong base."
@@ -1778,11 +1886,11 @@
  {
   "id": "RXNO:0000196",
   "name": "Stevens rearrangement, sulfonium",
-  "reagents": "quaternary ammonium salt; strong base (NaNH2, NaOH)",
+  "reagents": "alpha-methylene sulfonium salt; strong base (NaH, KOtBu, BuLi)",
   "catalyst": "",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Stevens rearrangement",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The 1,2-rearrangement of an alpha-methylene sulfonium salt to a sulfide in the presence of strong base."
@@ -1794,7 +1902,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The rearrangement of a 2-aza-1,5-hexadiene to form an imine."
@@ -1806,7 +1914,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The rearrangement of a 3-aza-1,5-hexadiene to form a delta,epsilon-unsaturated imine."
@@ -1818,7 +1926,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The rearrangement of a delta,epsilon-unsaturated imine to form a 3-aza-1,5-hexadiene."
@@ -1830,7 +1938,7 @@
   "catalyst": "DMAP or chiral analogue",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The rearrangement of an oxazolyl carbonate to a C-carboxyazlactone."
@@ -1842,7 +1950,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An addition reaction between a carbonyl compound, an inorganic cyanide and an ammonium salt, followed by hydrolysis, to give an alpha-amino carboxylic acid."
@@ -1854,7 +1962,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r295/",
   "wikidata": "",
   "definition": "The acid-catalysed cyclisation of a divinylketone to give a cyclopentenone."
@@ -1866,7 +1974,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r150/",
   "wikidata": "",
   "definition": "The stereospecific oxidation of a (phenyldimethylsilyl)alkane to the corresponding alcohol using bromine, usually generated in situ from potassium bromide and peracetic acid."
@@ -1878,7 +1986,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r150/",
   "wikidata": "",
   "definition": "The stereospecific oxidation of a (halosilyl)alkane to the corresponding alcohol using potassium fluoride and hydrogen peroxide."
@@ -1890,58 +1998,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction in which an aldehyde or ketone reacts with allyltrimethylsilane to form a homoallylic alcohol."
- },
- {
-  "id": "RXNO:0000213",
-  "name": "Sakurai reaction, enone",
-  "reagents": "allylsilane; electrophile; Lewis acid",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sakurai reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A carbon-carbon coupling reaction in which an enone reacts with allyltrimethylsilane to form a delta,epsilon-unsaturated carbonyl compound."
- },
- {
-  "id": "RXNO:0000214",
-  "name": "Sakurai reaction, acid chloride",
-  "reagents": "allylsilane; electrophile; Lewis acid",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sakurai reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A carbon-carbon coupling reaction in which an acid chloride reacts with allyltrimethylsilane to form a gamma,delta-unsaturated ketone."
- },
- {
-  "id": "RXNO:0000215",
-  "name": "Sakurai reaction, acetal or ketal",
-  "reagents": "allylsilane; electrophile; Lewis acid",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sakurai reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A carbon-carbon coupling reaction in which an acetal or ketal reacts with allyltrimethylsilane to form a homoallylic ether."
- },
- {
-  "id": "RXNO:0000217",
-  "name": "Sakurai reaction, epoxide",
-  "reagents": "allylsilane; electrophile; Lewis acid",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sakurai reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A ring-breaking reaction in which an epoxide reacts with allyltrimethylsilane to form a hydroxy alkene."
  },
  {
   "id": "RXNO:0000218",
@@ -1950,10 +2010,22 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r71/",
   "wikidata": "",
   "definition": "The disproportionation of a non-enolisable aldehyde to the corresponding carboxylic acid and alcohol. The reaction is base-catalysed."
+ },
+ {
+  "id": "RXNO:0000219",
+  "name": "crossed Cannizzaro reaction",
+  "reagents": "two different non-enolisable aldehydes; concentrated NaOH or KOH",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r71/",
+  "wikidata": "",
+  "definition": "The reaction between two different non-enolisable aldehydes to give a carboxylic acid and an alcohol. The reaction is base-catalysed."
  },
  {
   "id": "RXNO:0000220",
@@ -1962,7 +2034,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The conversion of a sulfoxide with an alpha-hydrogen to an alpha-substituted thioether. The reaction is usually performed with an acid anhydride or acyl halide."
@@ -1974,7 +2046,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a tertiary amine oxide with an anhydride or acyl chloride to give an N,N-disubstituted acetamide and an aldehyde."
@@ -1986,7 +2058,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of a tertiary amine oxide with trifluoroacetic anhydride to give an N,N-disubstituted acetamide and an aldehyde."
@@ -1998,7 +2070,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r275/",
   "wikidata": "",
   "definition": "The alkylation of a tertiary amine with an alkyl halide to the corresponding ammonium salt."
@@ -2010,7 +2082,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The deamination and decarboxylation of amino acids to imines and then to aldehydes or ketones, in the presence of a carbonyl compound (especially an alpha,beta-dicarbonyl compound or a reducing sugar such as glucose). The reaction is involved in the generation of meat aromas/flavours in cooking."
@@ -2022,7 +2094,7 @@
   "catalyst": "",
   "conditions": "CCl4, reflux",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The allylic or benzylic bromination of hydrocarbons using an N-bromoimide and a radical initiator, to give an allylic or benzylic bromide."
@@ -2034,7 +2106,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reduction of an aldehyde or ketone to the corresponding methylene compound, using hydrazine hydrate and a base."
@@ -2046,7 +2118,7 @@
   "catalyst": "",
   "conditions": "reflux",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reduction of an aldehyde or ketone to the corresponding methylene compound, using hydrazine hydrate and a base in refluxing ethylene glycol."
@@ -2058,7 +2130,7 @@
   "catalyst": "NaOMe",
   "conditions": "MeOH",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reduction of an ester to the corresponding alcohol, using sodium methoxide in dry methanol."
@@ -2070,7 +2142,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The rearrangement of an O-alkenyl acetal to give the corresponding beta-alkoxy carbonyl compound."
@@ -2082,7 +2154,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The alkylation of an amine with a boronic acid and an aldehyde to give a substituted amine."
@@ -2094,7 +2166,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A rearrangement of a furfuryl alcohol derivative to a dihydropyranone, from which monosaccharides may be synthesised."
@@ -2106,7 +2178,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r43/",
   "wikidata": "",
   "definition": "A three-component coupling of a beta-keto ester, an aldehyde and urea to give a 3,4-dihydropyrimidinone."
@@ -2118,7 +2190,7 @@
   "catalyst": "zinc atom",
   "conditions": "THF",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The coupling of an alpha-bromo ester with a nitrile to give a beta-ketoester, in the presence of zinc."
@@ -2130,7 +2202,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r37/",
   "wikidata": "",
   "definition": "The cyclisation of an ene-diyne to give a 1,4-diradical cyclohexatriene. The diradical usually aromatises."
@@ -2142,7 +2214,7 @@
   "catalyst": "Ru(II)-BINAP",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The homogeneous asymmetric catalytic hydrogenation of a C=C double bond using a ruthenium(II) BINAP catalyst."
@@ -2154,7 +2226,7 @@
   "catalyst": "Ru(II)-BINAP/diamine",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The homogeneous asymmetric catalytic hydrogenation of a carbonyl bond using a ruthenium(II) BINAP catalyst."
@@ -2166,7 +2238,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction between an isonitrile, a carboxylic acid and aldehyde or ketone to give an alpha-acyloxy amide."
@@ -2178,7 +2250,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r72/",
   "wikidata": "",
   "definition": "An adaptation of the Claisen rearrangement that transforms a beta-keto allyl ester into a gamma,delta-allyl ketone. It uses base and high temperature or milder conditions with a ruthenium or palladium complex as catalyst."
@@ -2190,7 +2262,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Mitsunobu reaction, where an alcohol is converted to something else with inversion at the stereocentre, using diphenylphosphoryl azide."
@@ -2202,7 +2274,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction where an aldehyde reacts with a phosphonium salt to give a Z-iodoalkene. The reaction is mediated by sodium or potassium hexamethyldisilazide."
@@ -2214,7 +2286,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reduction of a 2-nitrobiaryl compound to give a carbazole."
@@ -2226,7 +2298,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The arylation of an arylamine mediated by isopentyl nitrite."
@@ -2238,7 +2310,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The carbon-carbon homocoupling reaction of a pair of alkyne molecules using a borane and iodine. The reaction proceeds via a borane intermediate."
@@ -2250,7 +2322,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r107/",
   "wikidata": "https://www.wikidata.org/wiki/Q28455131",
   "definition": "The oxidation of a primary alcohol to an aldehyde or a secondary alcohol to a ketone using the Dess-Martin periodinane."
@@ -2262,7 +2334,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r96/",
   "wikidata": "https://www.wikidata.org/wiki/Q30693026",
   "definition": "The oxidative cleavage of an alpha,beta-diol using lead tetraacetate to give the corresponding carbonyl compounds."
@@ -2274,7 +2346,7 @@
   "catalyst": "Zn(Cu)",
   "conditions": "Et2O",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r400/",
   "wikidata": "https://www.wikidata.org/wiki/Q903776",
   "definition": "A ring formation reaction where an alkene reacts with a dihalomethane in the presence of a metal atom or metal complexes to form a cyclopropane. The traditional reaction uses a zinc-copper couple and diiodomethane."
@@ -2286,7 +2358,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Any of a family of sigmatropic rearrangements that involve the migration of a group on an electronegative atom (O or N) to a carbon atom."
@@ -2298,7 +2370,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A base-mediated 1,2-sigmatropic rearrangement of an ether to give an alcohol."
@@ -2310,34 +2382,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A base-mediated 2,3-sigmatropic rearrangement of an allyl ether to give a homoallylic alcohol."
- },
- {
-  "id": "RXNO:0000262",
-  "name": "[1,2]-aza-Wittig rearrangement",
-  "reagents": "ether; strong base (alkyllithium)",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Wittig rearrangement",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A base-mediated 1,2-sigmatropic rearrangement of a tertiary amine to give a secondary amine."
- },
- {
-  "id": "RXNO:0000263",
-  "name": "[2,3]-aza-Wittig rearrangement",
-  "reagents": "ether; strong base (alkyllithium)",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Wittig rearrangement",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A base-mediated 2,3-sigmatropic rearrangement of an activated tertiary allyl amine, to give a secondary homoallylic amine."
  },
  {
   "id": "RXNO:0000266",
@@ -2346,7 +2394,7 @@
   "catalyst": "Fe(II)",
   "conditions": "aqueous acid",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An oxidation reaction involving Fenton's reagent."
@@ -2358,7 +2406,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A ring-forming reaction between two equivalents of a beta-ketoester, an aldehyde and ammonia (or an ammonium salt), to give a dihydropyridine. The dihydropyridine can be oxidised to a pyridine using an oxidising agent."
@@ -2370,7 +2418,7 @@
   "catalyst": "Fe/Co",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A process in which carbon monoxide and hydrogen ('syngas') are converted into various liquid hydrocarbons."
@@ -2382,7 +2430,7 @@
   "catalyst": "Ir(I) (Crabtree)",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A hydrogenation in which a metal-ligating group distant from the reacting alkene directs the attack of hydrogen, giving preferentially one stereoisomer of the product."
@@ -2394,7 +2442,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The insertion of alkenes (usually ethene) into the Al-C bond of an aluminium alkyl, to give a long-chain aluminium alkyl that can go on to react again, or can decompose into the corresponding terminal alkene. The addition of transition metals results in reliable production of high molecular weight polymers."
@@ -2406,7 +2454,7 @@
   "catalyst": "zinc atom",
   "conditions": "MeOH",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction where an aldehyde or ketone reacts with an allyl halide and zinc to give a homoallylic alcohol."
@@ -2418,7 +2466,7 @@
   "catalyst": "",
   "conditions": "MeOH",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The chemoselective reduction of an enone to give an allylic alcohol, using sodium borohydride and an lanthanoid chloride, typically cerium chloride."
@@ -2430,7 +2478,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of an aldehyde to a carboxylic acid with chlorite."
@@ -2442,7 +2490,7 @@
   "catalyst": "",
   "conditions": "DMF, heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r376/",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction where an aryl halide reacts with copper(I) cyanide to give an aryl nitrile."
@@ -2454,7 +2502,7 @@
   "catalyst": "",
   "conditions": "heat",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formation of urea from ammonium cyanate. Ammonium cyanate is unstable, and so is formed in situ from either (a) cyanic acid and ammonia, (b) a metal cyanate and an ammonium salt, or (c) a metal cyanate and ammonia."
@@ -2466,7 +2514,7 @@
   "catalyst": "",
   "conditions": "benzene, reflux",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of a primary alcohol to an aldehyde or a secondary alcohol to a ketone using Fetizon's reagent."
@@ -2478,7 +2526,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The substitution of an acylated sugar with a silylated base to give a nucleoside."
@@ -2490,7 +2538,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction between a tetrazole sulfone and an aldehyde or ketone to give a (typically trans) alkene."
@@ -2502,22 +2550,10 @@
   "catalyst": "palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An intramolecular Heck reaction of an ortho-halo-aniline with an alkene, catalysed by palladium."
- },
- {
-  "id": "RXNO:0000308",
-  "name": "Yamaguchi lactonisation",
-  "reagents": "carboxylic acid; 2,4,6-trichlorobenzoyl chloride (Yamaguchi reagent); Et3N; DMAP; alcohol",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Yamaguchi esterification",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "The intramolecular esterification of a carboxylic acid group with an alcohol group using 2,4,6-trichlorobenzoyl chloride (Yamaguchi reagent) - an intramolecular Yamaguchi esterification."
  },
  {
   "id": "RXNO:0000309",
@@ -2526,7 +2562,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r479/",
   "wikidata": "",
   "definition": "The esterification of a carboxylic acid with an alcohol using 2,4,6-trichlorobenzoyl chloride (Yamaguchi reagent)."
@@ -2538,7 +2574,7 @@
   "catalyst": "Pd(PPh3)4",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction in which a nucleophile reacts with an allyl acetate, allyl halide, allyl carbonate, allyl carbamate, allyl phosphate, allyl sulfone or allyl nitro compound to give an allyl compound. The reaction is catalsed by Pd(0)."
@@ -2550,7 +2586,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A ring rearrangement reaction where an amine reacts with a 2,5-dialkoxytetrahydrofuran to give a pyrrole."
@@ -2562,7 +2598,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An amino group deprotection reaction where a tertbutoxycarbonyl group is removed in acid conditions."
@@ -2570,11 +2606,11 @@
  {
   "id": "RXNO:0000333",
   "name": "Sandmeyer halogenation",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper(I) halide (CuCl, CuBr, CuI)",
+  "catalyst": "Cu(I)",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) halide to form an aromatic halide."
@@ -2582,11 +2618,11 @@
  {
   "id": "RXNO:0000334",
   "name": "Sandmeyer pseudohalogenation",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper pseudohalide (CuCN, CuSCN)",
+  "catalyst": "Cu",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(II) pseudohalide to form an aromatic pseudohalide."
@@ -2598,10 +2634,22 @@
   "catalyst": "",
   "conditions": "acetone",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An oxidation reaction where an alcohol is oxidized to the corresponding carbonyl compound by a dichromate ion."
+ },
+ {
+  "id": "RXNO:0000357",
+  "name": "N-acylation to amide",
+  "reagents": "amine; acyl chloride or anhydride; base",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "",
+  "wikidata": "",
+  "definition": "An acylation reaction where a nitrogen atom is acylated to form an amide."
  },
  {
   "id": "RXNO:0000361",
@@ -2610,7 +2658,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A functional group modification where a nitrile reacts with an alcohol under acid catalysis to form an amidine or ester."
@@ -2622,7 +2670,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction between an arene and a carbonyl compound (an acylation) or an alkyl compound that can form a carbocation (an alkylation) to form a substituted arene."
@@ -2634,7 +2682,7 @@
   "catalyst": "Zn(II)",
   "conditions": "water",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A functional group modification of a nitrile to a 1H-tetrazole by addition of sodium azide."
@@ -2646,7 +2694,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r174/",
   "wikidata": "",
   "definition": "A diazotisation that proceeds by the addition of nitrous acid, nitric acid and water, resulting in a diazonium nitrate salt."
@@ -2658,7 +2706,7 @@
   "catalyst": "Cu(OAc)2",
   "conditions": "DCM, rt",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Arylation of an amine or an alcohol with an arylboronic acid, stannane or siloxane in air with a copper acetate catalyst."
@@ -2670,7 +2718,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "N-methylation of a primary or secondary amine with formic acid and formaldehyde to yield a tertiary amine."
@@ -2682,7 +2730,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r390/",
   "wikidata": "",
   "definition": "Coupling of two aromatic rings in the presence of a Lewis acid catalyst."
@@ -2694,7 +2742,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r373/",
   "wikidata": "",
   "definition": "Reaction of a cyclohexanone with methyl vinyl ketone to form a fused-ring cyclohexenone. It is a Michael reaction followed by an intramolecular aldol condensation."
@@ -2706,7 +2754,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r432/",
   "wikidata": "",
   "definition": "Rearrangement of a beta-amino alcohol to yield a carbonyl compound. In the first step the amine is diazotised by reaction with nitrous acid."
@@ -2718,7 +2766,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r106/",
   "wikidata": "",
   "definition": "Substitution reaction of a primary amine via deazotisation to yield a mixture of the corresponding primary alcohol and secondary alcohol."
@@ -2730,7 +2778,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Base-catalysed rearrangement of an alpha-haloketone to a carboxylic acid or ester or amide."
@@ -2742,7 +2790,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Favorskii rearrangement of a cyclic alpha-dibromoketone followed by decarboxylation to yield a ring-contracted cyclic ketone."
@@ -2754,34 +2802,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r395/",
   "wikidata": "",
   "definition": "Reaction of a carbonyl compound with a dimethyl diazomethyl phosphonate under basic conditions to yield an alkyne."
- },
- {
-  "id": "RXNO:0000388",
-  "name": "Seyferth-Gilbert aldehyde homologation",
-  "reagents": "aldehyde or ketone; dimethyl (diazomethyl)phosphonate anion; base (KOtBu)",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Seyferth-Gilbert homologation",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reaction of an aldehyde with a dimethyl diazomethyl phosphonate under basic conditions to yield a terminal alkyne."
- },
- {
-  "id": "RXNO:0000389",
-  "name": "Seyferth-Gilbert ketone homologation",
-  "reagents": "aldehyde or ketone; dimethyl (diazomethyl)phosphonate anion; base (KOtBu)",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Seyferth-Gilbert homologation",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reaction of a ketone with a dimethyl diazomethyl phosphonate under basic conditions to yield a terminal alkyne."
  },
  {
   "id": "RXNO:0000390",
@@ -2790,7 +2814,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r395/",
   "wikidata": "",
   "definition": "Seyferth-Gilbert aldehyde homologation where the Seyferth-Gilbert reagent is generated in situ by reaction with methanol and potassium carbonate."
@@ -2802,7 +2826,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r233/",
   "wikidata": "",
   "definition": "Synthesis of a pyrazole by condensation of a 1,3-dicarbonyl compound with a hydrazine, hydrazide, semicarbazide or aminoguanidine."
@@ -2814,7 +2838,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r234/",
   "wikidata": "",
   "definition": "Synthesis of an alpha-hydroxyquinoline by reaction of a beta-ketoester and an arylamine then dehydration with concentrated sulfuric acid."
@@ -2826,7 +2850,7 @@
   "catalyst": "Pd(OAc)2; palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r250/",
   "wikidata": "",
   "definition": "Palladium-catalysed synthesis of a 2,3-substituted indole by reaction of an ortho-iodoaniline with an internal alkyne."
@@ -2838,7 +2862,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of an ortho-diaminobenzene with a carboxylic acid under heat to yield a benzimidazole."
@@ -2850,7 +2874,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of a 1,3-dicarbonyl compound with an amidine to yield a pyrimidine."
@@ -2862,7 +2886,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r351/",
   "wikidata": "",
   "definition": "Epoxidation of an alkene by reaction with a peroxy acid."
@@ -2874,7 +2898,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl halide with triphenylphosphine and a halide source."
@@ -2886,7 +2910,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl iodide with triphenylphosphine and tetraiodomethane."
@@ -2898,7 +2922,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl chloride with triphenylphosphine and tetrachloromethane."
@@ -2910,7 +2934,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl bromide with triphenylphosphine and tetrabromomethane or bromine."
@@ -2922,7 +2946,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Rearrangement of a primary carboxylic amide to an isocyanate."
@@ -2934,7 +2958,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r209/",
   "wikidata": "",
   "definition": "Conversion of a primary carboxylic amide to the lower homologue primary amine. The first step is the Hofmann rearrangement"
@@ -2946,7 +2970,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q909753",
   "definition": "Rearrangement of an O-aryl thiocarbamate to an S-aryl thiocarbamate by migration of the aryl group."
@@ -2958,7 +2982,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q2144364",
   "definition": "Condensation of a 1,5-diketone with ammonium acetate in acetic acid to form a pyridine."
@@ -2970,7 +2994,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Gattermann halogenation where the aryl diazonium salt reacts with copper powder and hydrochloric acid to yield an aromatic chloride."
@@ -2982,7 +3006,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Gattermann halogenation where the aryl diazonium salt reacts with copper powder and hydrobromic acid to yield an aromatic bromide."
@@ -2994,7 +3018,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r383/",
   "wikidata": "https://www.wikidata.org/wiki/Q903031",
   "definition": "Reaction of allyltrimethylsilane with a carbon electrophile to allylate the carbon electrophile."
@@ -3006,7 +3030,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r160/",
   "wikidata": "https://www.wikidata.org/wiki/Q574893",
   "definition": "Rearrangement of the acyl group in a phenolate ester to the ortho- and/or para-position. It is catalysed by a Lewis acid."
@@ -3018,10 +3042,22 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r119/",
   "wikidata": "https://www.wikidata.org/wiki/Q903217",
   "definition": "Formylation of a phenol or aromatic amine with hexamethylenetetramine in acidic conditions."
+ },
+ {
+  "id": "RXNO:0000459",
+  "name": "acetoacetic ester synthesis",
+  "reagents": "ethyl acetoacetate (beta-ketoester); alkoxide base (NaOEt); alkyl halide; aqueous acid/heat for decarboxylation",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "https://www.rsc.org/Merck-Index/reaction/r1/",
+  "wikidata": "https://www.wikidata.org/wiki/Q1017086",
+  "definition": "A carbon-carbon coupling reaction between a beta-ketoester and an alkyl halide to yield an alpha-alkylated ester."
  },
  {
   "id": "RXNO:0000464",
@@ -3030,7 +3066,7 @@
   "catalyst": "Co2(CO)8",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r320/",
   "wikidata": "https://www.wikidata.org/wiki/Q903694",
   "definition": "A [2+2+1] cycloaddition between an alkyne, an alkene and carbon monoxide to form an alpha-beta-unsaturated cyclopentenone."
@@ -3042,7 +3078,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r5/",
   "wikidata": "https://www.wikidata.org/wiki/Q903717",
   "definition": "A fused-ring-system formation reaction where a flavonol is produced by oxidation of a chalcone with alkaline hydrogen peroxide."
@@ -3054,22 +3090,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of ortho-hydroxyaryl ketones with aromatic carboxylic acid anhydrides to yield a flavone."
- },
- {
-  "id": "RXNO:0000471",
-  "name": "Allan-Robinson isoflavone synthesis",
-  "reagents": "o-hydroxyaryl ketone; aromatic anhydride; sodium salt of aromatic acid",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Allan-Robinson reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reaction of ortho-hydroxyaryl ketones with aromatic carboxylic acid anhydrides to yield an isoflavone."
  },
  {
   "id": "RXNO:0000472",
@@ -3078,7 +3102,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r8/",
   "wikidata": "https://www.wikidata.org/wiki/Q452196",
   "definition": "Rearrangement of an aldose N-glycoside to a ketose N-glycoside by acid or base catalysis."
@@ -3090,7 +3114,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r6/",
   "wikidata": "https://www.wikidata.org/wiki/Q3046015",
   "definition": "Reaction of ortho-hydroxyaryl ketones with aromatic acid anhydrides to yield a flavone or isoflavone."
@@ -3102,7 +3126,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r278/",
   "wikidata": "https://www.wikidata.org/wiki/Q902668",
   "definition": "Rearrangement of a propargyl alcohol to an alpha,beta-unsaturated carbonyl compound via an allene intermediate to yield the gamma-substituted product."
@@ -3114,7 +3138,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r278/",
   "wikidata": "",
   "definition": "Rearrangement of a propargyl alcohol to an alpha,beta-unsaturated carbonyl compound via an enyne intermediate to yield the beta-substituted product."
@@ -3126,7 +3150,7 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Horner-Wadsworth-Emmons reaction that uses phosphonates with electron-withdrawing groups and dissociating conditions to produce predominantly Z-olefins."
@@ -3138,7 +3162,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r428/",
   "wikidata": "",
   "definition": "Reaction of an aldehyde or ketone or carboxylic ester or amide with the Tebbe reagent to yield an olefin or an enol ether or an enamine."
@@ -3150,7 +3174,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r292/",
   "wikidata": "https://www.wikidata.org/wiki/Q89925623",
   "definition": "Cyclization of a enynyl allene to yield a toluene biradical with radical centres on the methyl group and at the meta position."
@@ -3162,7 +3186,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r15/",
   "wikidata": "https://www.wikidata.org/wiki/Q139251",
   "definition": "Rearrangement of an N-phenylhydroxamine in acid to yield a para-aminophenol."
@@ -3174,7 +3198,7 @@
   "catalyst": "",
   "conditions": "THF, -40 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r20/",
   "wikidata": "https://www.wikidata.org/wiki/Q3508929",
   "definition": "Reaction of an ortho-substituted nitroarene with a vinyl Grignard reagent to yield a 7-substituted indole."
@@ -3186,7 +3210,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r25/",
   "wikidata": "https://www.wikidata.org/wiki/Q4865733",
   "definition": "Reaction of a nitroalkene with an alpha-isocyanoacetate to yield a substituted pyrrole."
@@ -3198,7 +3222,7 @@
   "catalyst": "Fe",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r28/",
   "wikidata": "https://www.wikidata.org/wiki/Q906075",
   "definition": "Reduction of an aromatic nitro compound to the corresponding arene by iron in some form in aqueous acid."
@@ -3210,7 +3234,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r30/",
   "wikidata": "",
   "definition": "Reaction of a benzofurazan 1-oxide with an enamine or enolate to yield a quinoxaline-1,4-dioxide."
@@ -3222,7 +3246,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r31/",
   "wikidata": "https://www.wikidata.org/wiki/Q816687",
   "definition": "Reaction of a beta-aminovinylketone with a Grignard reagent to yield a substituted alpha,beta-unsaturated carbonyl compound."
@@ -3234,7 +3258,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r138/",
   "wikidata": "https://www.wikidata.org/wiki/Q5441589",
   "definition": "Reaction of an alpha-haloketone or alpha-haloether with a 1,3-dicarbonyl compound in the presence of pyridine to yield a substituted furan."
@@ -3246,7 +3270,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r298/",
   "wikidata": "https://www.wikidata.org/wiki/Q16930708",
   "definition": "Reaction of an aldehyde or ketone with a sodium acetylide to yield a propargyl alcohol."
@@ -3258,7 +3282,7 @@
   "catalyst": "",
   "conditions": "DMSO, 150 °C",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r242/",
   "wikidata": "https://www.wikidata.org/wiki/Q4597398",
   "definition": "Reaction of an ester with an electron-withdrawing group alpha- to the ester functionality with a metal halide or pseudohalide to yield the shorter homologous system."
@@ -3270,22 +3294,10 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of an aromatic nitro compound with an unsaturated substituent at the alpha-position to form a fused-ring nitrogen heterocycle."
- },
- {
-  "id": "RXNO:0000509",
-  "name": "Cadogan indole synthesis",
-  "reagents": "o-nitrobiaryl or nitrostyrene; triethyl phosphite (P(OEt)3) or PPh3",
-  "catalyst": "",
-  "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Cadogan cyclization",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A Cadogan cyclization that results in an indole."
  },
  {
   "id": "RXNO:0000510",
@@ -3294,7 +3306,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r32/",
   "wikidata": "",
   "definition": "Addition of hydrogen atoms to unsaturated rings by means of alkali metals in low-molecular weight amines."
@@ -3306,7 +3318,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r261/",
   "wikidata": "https://www.wikidata.org/wiki/Q2632831",
   "definition": "Reaction of an N-(2-alkylphenyl)alkanamide with strong base to form an indole."
@@ -3318,7 +3330,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q723311",
   "definition": "Rearrangement of an acyl imidate to form a carboximide."
@@ -3330,7 +3342,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r74/",
   "wikidata": "",
   "definition": "Rearrangement of an aryl imino ether to yield an N,N-diaryl amide."
@@ -3342,7 +3354,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r38/",
   "wikidata": "",
   "definition": "Reaction of an acetylated amino acid with an aldehyde then with a second amino acid, then hydrogenation and hydrolysis to form a dipeptide. It proceeds via an azlactone intermediate."
@@ -3354,7 +3366,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r39/",
   "wikidata": "",
   "definition": "Removal of a terminal amino acid residue from a peptide by benzoylation, azidation, treatment with benzyl alcohol, hydrogenation and hydrolysis."
@@ -3366,7 +3378,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r41/",
   "wikidata": "",
   "definition": "Reaction of a diarylamine in an organic acid or anhydride in the presence of zinc chloride to yield a 9-substituted acridine."
@@ -3378,7 +3390,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r42/",
   "wikidata": "",
   "definition": "Reaction of a phenol, an aromatic aldehyde and a primary aromatic or heterocyclic amine to yield a Betti's base, also known as an alpha-aminobenzylphenol."
@@ -3390,7 +3402,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r45/",
   "wikidata": "",
   "definition": "Reaction of a terminal hydroxyketone or terminal halogenoketone with an aromatic amine to yield a 2-substituted indole."
@@ -3402,7 +3414,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r70/",
   "wikidata": "",
   "definition": "Cyclisation of an o-acylaminoacetophenone in alcoholic sodium hydroxide to form a substituted hydroxyquinoline."
@@ -3414,7 +3426,7 @@
   "catalyst": "Cu(I); palladium atom",
   "conditions": "pyridine, reflux",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r73/",
   "wikidata": "",
   "definition": "Palladium-catalysed coupling of copper(I) acetylides with aryl halides to yield arylacetylenes."
@@ -3426,7 +3438,7 @@
   "catalyst": "",
   "conditions": "gas phase",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r75/",
   "wikidata": "",
   "definition": "Reaction of carbonyl compounds with ammonia or an amine to yield a pyridine."
@@ -3438,7 +3450,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r76/",
   "wikidata": "",
   "definition": "Reaction of an azacycle with an alkali-metal amide to yield an aminated azacycle."
@@ -3450,7 +3462,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r52/",
   "wikidata": "",
   "definition": "Reaction of a carboxylic ester with a magnesium iodide alkylamide to yield a carboxamide."
@@ -3462,7 +3474,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r56/",
   "wikidata": "",
   "definition": "Rearrangement of a cyclohexanone phenylhydrazone followed by oxidation to yield a carbazole."
@@ -3474,7 +3486,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r57/",
   "wikidata": "",
   "definition": "Reaction of an organomagnesium or organolithium compound with an N,N'-disubstituted formamide to yield the next homologous aldehyde."
@@ -3486,7 +3498,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r317/",
   "wikidata": "",
   "definition": "Reaction of a bromoarene that has an electrophilic group at the para-position with lithium bromide or lithium iodide followed by intramolecular cyclisation to yield a fused-ring system."
@@ -3498,7 +3510,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r357/",
   "wikidata": "",
   "definition": "Reaction of an aliphatic aldehyde with a phenolic ether and hydrochloric acid to yield an alpha-chloroalkylphenolic ether."
@@ -3510,7 +3522,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r77/",
   "wikidata": "",
   "definition": "Elimination of a water molecule from a secondary alcohol to yield an olefin."
@@ -3522,7 +3534,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r85/",
   "wikidata": "https://www.wikidata.org/wiki/Q900370",
   "definition": "Elimination of a hydroxylamine from an amine oxide by pyrolysis to yield an olefin."
@@ -3534,7 +3546,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r423/",
   "wikidata": "",
   "definition": "Reaction of an aniline with a nitrile in the presence of boron trichloride and a Lewis acid to yield an ortho-acylated aniline."
@@ -3546,7 +3558,7 @@
   "catalyst": "Pd(OAc)2",
   "conditions": "MeCN",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r382/",
   "wikidata": "",
   "definition": "Reaction of silyl enol ethers with palladium acetate in acetonitrile to yield an alpha,beta-unsaturated ketone."
@@ -3558,7 +3570,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r384/",
   "wikidata": "",
   "definition": "Reaction of diphenylthiourea with lead carbonate and potassium cyanide to form a cyanoformidine followed by ring closure and acid hydrolysis to yield isatin."
@@ -3570,7 +3582,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r385/",
   "wikidata": "",
   "definition": "Reaction of aniline, hydroxylamine and chloral hydrate to form an aniline intermediate followed by cyclization in acid and hydrolysis to yield isatin."
@@ -3582,34 +3594,10 @@
   "catalyst": "",
   "conditions": "pyridine",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r387/",
   "wikidata": "",
   "definition": "Oxidation of an alcohol with a pyridine-chromium trioxide complex to yield a carbonyl compound."
- },
- {
-  "id": "RXNO:0000548",
-  "name": "Sarett primary alcohol oxidation",
-  "reagents": "alcohol; chromium trioxide-pyridine complex (Sarett reagent; CrO3·2py)",
-  "catalyst": "",
-  "conditions": "pyridine",
-  "source": "inherited",
-  "inherited_from": "Sarett oxidation",
-  "merck_index": "",
-  "wikidata": "https://www.wikidata.org/wiki/Q2227511",
-  "definition": "Oxidation of a primary alcohol with a pyridine-chromium trioxide complex to yield an aldehyde."
- },
- {
-  "id": "RXNO:0000549",
-  "name": "Sarett secondary alcohol oxidation",
-  "reagents": "alcohol; chromium trioxide-pyridine complex (Sarett reagent; CrO3·2py)",
-  "catalyst": "",
-  "conditions": "pyridine",
-  "source": "inherited",
-  "inherited_from": "Sarett oxidation",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Oxidation of a secondary alcohol with a pyridine-chromium trioxide complex to yield a ketone."
  },
  {
   "id": "RXNO:0000550",
@@ -3618,34 +3606,10 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r387/",
   "wikidata": "",
   "definition": "Oxidation of a primary alcohol with a pyridine-chromium trioxide complex in dichloromethane to yield an aldehyde."
- },
- {
-  "id": "RXNO:0000552",
-  "name": "Leuckart aldehyde reaction",
-  "reagents": "aldehyde/ketone; ammonium formate or formamide",
-  "catalyst": "",
-  "conditions": "heat",
-  "source": "inherited",
-  "inherited_from": "Leuckart reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reductive amination of an aldehyde with ammonium formate or formamide to form an amine."
- },
- {
-  "id": "RXNO:0000553",
-  "name": "Leuckart ketone reaction",
-  "reagents": "aldehyde/ketone; ammonium formate or formamide",
-  "catalyst": "",
-  "conditions": "heat",
-  "source": "inherited",
-  "inherited_from": "Leuckart reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reductive amination of a ketone with ammonium formate or formamide to form an amine."
  },
  {
   "id": "RXNO:0000554",
@@ -3654,7 +3618,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl bromide with triphenylphosphine and tetrabromomethane."
@@ -3666,7 +3630,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Conversion of an alcohol to an alkyl bromide with triphenylphosphine and bromine."
@@ -3678,34 +3642,10 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of an aldehyde with tetrabromomethane and triphenylphosphine to yield a terminal dibromoolefin."
- },
- {
-  "id": "RXNO:0000575",
-  "name": "Dess-Martin aldehyde oxidation",
-  "reagents": "alcohol; Dess-Martin periodinane (DMP)",
-  "catalyst": "",
-  "conditions": "DCM",
-  "source": "inherited",
-  "inherited_from": "Dess-Martin oxidation",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A Dess-Martin oxidation of a primary alcohol to an aldehyde."
- },
- {
-  "id": "RXNO:0000576",
-  "name": "Dess-Martin ketone oxidation",
-  "reagents": "alcohol; Dess-Martin periodinane (DMP)",
-  "catalyst": "",
-  "conditions": "DCM",
-  "source": "inherited",
-  "inherited_from": "Dess-Martin oxidation",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "A Dess-Martin oxidation of a secondary alcohol to a ketone."
  },
  {
   "id": "RXNO:0000577",
@@ -3714,7 +3654,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1058388",
   "definition": "Synthesis of a quinoline by reaction of a 2-aminobenzaldehyde with a ketone."
@@ -3726,7 +3666,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q240091",
   "definition": "Reaction of an aldehyde or ketone with an alpha-cyanoester to form a 2-aminothiophene."
@@ -3738,7 +3678,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1059542",
   "definition": "An azacycle synthesis where the product is a 4-oxo-3,4-dihydroquinazoline and the reactants are a 2-aminobenzoic acid and an amide."
@@ -3750,7 +3690,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q18217151",
   "definition": "An azacycle synthesis where the product is an isoquinoline and the reactants are a benzaldehyde and a 2,2-dialkoxyethylamine."
@@ -3762,7 +3702,7 @@
   "catalyst": "DMAP",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q695687",
   "definition": "An O-acylation to ester where dicyclohexylcarbodiimide is used as a coupling reagent and 4-dimethylaminopyridine as a catalyst."
@@ -3774,7 +3714,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q900233",
   "definition": "Synthesis of an aziridine by dehydrating a beta aminoalcohol with sulfuric acid."
@@ -3786,7 +3726,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r202/",
   "wikidata": "https://www.wikidata.org/wiki/Q18020904",
   "definition": "Reaction of an alpha-diketone with a dialkyl thiodiacetate to form a thiophene dicarboxylic acid."
@@ -3798,7 +3738,7 @@
   "catalyst": "Pd catalyst",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The coupling of a boronic acid or boronic ester with an unsaturated halide, triflate or sulfonate."
@@ -3810,7 +3750,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r78/",
   "wikidata": "https://www.wikidata.org/wiki/Q6151790",
   "definition": "Expansion of a pyrrole ring by heating with a halogeno compond to form a 3-halogenopyridine."
@@ -3822,7 +3762,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r81/",
   "wikidata": "https://www.wikidata.org/wiki/Q56298266",
   "definition": "Condensation of an aromatic aldehyde with an aliphatic aldehyde or ketone in the presence of a relatively strong base to from an alpha,beta-unsaturated aldehyde or ketone."
@@ -3834,7 +3774,7 @@
   "catalyst": "(S)-/(R)-Me-CBS oxazaborolidine",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r87/",
   "wikidata": "https://www.wikidata.org/wiki/Q903598",
   "definition": "Enantioselective reduction of a ketone to an alcohol with a chiral oxazaborolidine."
@@ -3846,7 +3786,7 @@
   "catalyst": "",
   "conditions": "DMSO/THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r88/",
   "wikidata": "https://www.wikidata.org/wiki/Q1582682",
   "definition": "Reaction of a sulfur ylide with a double-bond to produce a three-membered ring."
@@ -3858,22 +3798,10 @@
   "catalyst": "",
   "conditions": "DMSO/THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of a sulfur ylide with a ketone to produce an epoxide."
- },
- {
-  "id": "RXNO:0000600",
-  "name": "Johnson-Corey-Chaykovsky cyclopropane synthesis",
-  "reagents": "sulfur ylide (dimethylsulfonium methylide from Me3S+I- and NaH; or dimethylsulfoxonium methylide); aldehyde/ketone/enone",
-  "catalyst": "",
-  "conditions": "DMSO/THF",
-  "source": "inherited",
-  "inherited_from": "Johnson-Corey-Chaykovsky reaction",
-  "merck_index": "",
-  "wikidata": "",
-  "definition": "Reaction of a sulfur ylide with an olefin to produce a cyclopropane."
  },
  {
   "id": "RXNO:0000601",
@@ -3882,7 +3810,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of a sulfur ylide with an imine to produce an aziridine."
@@ -3894,7 +3822,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reaction of a sulfur ylide with a thione to produce a thiirane."
@@ -3906,7 +3834,7 @@
   "catalyst": "Pd(0); Cu(I) thiophene-2-carboxylate; transition element atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q6543886",
   "definition": "A cross-coupling reaction where a thioester and a boronic acid react to form a ketone. It uses a metal catalyst."
@@ -3918,7 +3846,7 @@
   "catalyst": "Pd catalyst; palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q5507762",
   "definition": "A cross-coupling reaction where a thioester and an organozinc halide react to form a ketone. It uses a palladium catalyst."
@@ -3926,11 +3854,11 @@
  {
   "id": "RXNO:0000609",
   "name": "Sandmeyer fluorination",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper(I) fluoride (CuF); (practically via HBF4/Balz-Schiemann-type conditions)",
+  "catalyst": "Cu(I)",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) fluoride to form an aromatic fluoride."
@@ -3938,11 +3866,11 @@
  {
   "id": "RXNO:0000610",
   "name": "Sandmeyer chlorination",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper(I) chloride (CuCl)",
+  "catalyst": "Cu(I)",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) chloride to form an aromatic chloride."
@@ -3950,11 +3878,11 @@
  {
   "id": "RXNO:0000611",
   "name": "Sandmeyer bromination",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper(I) bromide (CuBr)",
+  "catalyst": "Cu(I)",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) bromide to form an aromatic bromide."
@@ -3962,11 +3890,11 @@
  {
   "id": "RXNO:0000612",
   "name": "Sandmeyer iodination",
-  "reagents": "aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN",
-  "catalyst": "Cu(I) salt",
+  "reagents": "aryl diazonium salt; copper(I) iodide (CuI) (or KI)",
+  "catalyst": "Cu(I)",
   "conditions": "",
-  "source": "inherited",
-  "inherited_from": "Sandmeyer reaction",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "An aromatic substitution reaction where an aryl diazonium salt reacts with a copper(I) iodide to form an aromatic iodide."
@@ -3978,7 +3906,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r207/",
   "wikidata": "https://www.wikidata.org/wiki/Q5876831",
   "definition": "An azacycle synthesis in which pyrrolidines or piperidines are formed by decomposition of protonated N-haloamines."
@@ -3990,7 +3918,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Hofmann-Löffler-Freytag reaction in which the product is a piperidine."
@@ -4002,7 +3930,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A Hofmann-Löffler-Freytag reaction in which the product is a pyrrolidine."
@@ -4014,7 +3942,7 @@
   "catalyst": "phosphorus atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r194",
   "wikidata": "https://www.wikidata.org/wiki/Q902219",
   "definition": "An alpha-halogenation reaction where a carboxylic acid reacts with dibromine to form an alpha-bromocarboxylic acid."
@@ -4026,7 +3954,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Meerwein-Ponndorf-Verley reduction of an aldehyde to the corresponding primary alcohol."
@@ -4038,7 +3966,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Meerwein-Ponndorf-Verley reduction of a ketone to the corresponding secondary alcohol."
@@ -4050,7 +3978,7 @@
   "catalyst": "Pd catalyst",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A carbon-carbon coupling reaction where an organohalide or triflate couples to a terminal olefin to produce an internal olefin."
@@ -4062,7 +3990,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r84/",
   "wikidata": "https://www.wikidata.org/wiki/Q1944895",
   "definition": "Reaction of an arylamine wtih a beta-ketoester to yield a 4-hydroxyquinoline."
@@ -4074,7 +4002,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "https://www.rsc.org/Merck-Index/reaction/r83/",
   "wikidata": "https://www.wikidata.org/wiki/Q1058068",
   "definition": "Reaction of a beta-diketone with a primary arylamine to yield a quinoline. It is acid-catalysed."
@@ -4086,7 +4014,7 @@
   "catalyst": "",
   "conditions": "toluene, reflux",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q4391481",
   "definition": "A 1,3-dipolar cycloaddition reaction where a fullerene reacts with an aldehyde and an amino acid to form a pyrrolidinofullerene."
@@ -4098,7 +4026,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q3319193",
   "definition": "A rearrangement of a 2-furylcarbinol to a 4-hydroxycyclopentenone. It is acid-catalysed."
@@ -4110,7 +4038,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q1054818",
   "definition": "A cycloaddition where a fullerene reacts with diethyl bromomalonate to form a methanofullerene."
@@ -4122,7 +4050,7 @@
   "catalyst": "Pd(II)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A cyclisation where a hydroxyl group acts as the nucleophile in a Wacker-Tsuji oxidation accompanied by beta-hydride elimination, forming a ring."
@@ -4134,7 +4062,7 @@
   "catalyst": "",
   "conditions": "dioxane/H2O",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q6521154",
   "definition": "A cleaving reaction where an olefin is dihydroxylated with osmium tetroxide and undergoes a Malaprade reaction to yield two aldehydes, two ketones, or an aldehyde and a ketone."
@@ -4146,7 +4074,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "https://www.wikidata.org/wiki/Q10851620",
   "definition": "A cleaving reaction of a 1,2-diol using periodic acid to give the corresponding carbonyl compounds."
@@ -4158,7 +4086,7 @@
   "catalyst": "Fe(II)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of a 1,2-glycol with Fenton's reagent (hydrogen peroxide and iron salts) to give an alpha-hydroxy aldehyde."
@@ -4170,7 +4098,7 @@
   "catalyst": "Fe(II)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The oxidation of an alpha-hydroxy carboxylic acid with Fenton's reagent to give an alpha-keto carboxylic acid."
@@ -4182,7 +4110,7 @@
   "catalyst": "Fe(II)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reaction of the components of Fenton's reagent, viz. reduction of hydrogen peroxide by Fe(II) , producing an hydroxyl radical."
@@ -4194,7 +4122,7 @@
   "catalyst": "Co(acac)2 or Mn(dpm)3",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The Mukaiyama hydration is an organic reaction involving formal addition of an equivalent of water across an alkene by the action of catalytic bis(acetylacetonato)cobalt(II) complex, phenylsilane and atmospheric oxygen."
@@ -4206,7 +4134,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A reaction between an alkyne and a carbonyl group under basic conditions in which a terminal alkyne serves as the CH-acidic moiety. When the carbonyl is an aldehyde, the 'Favorskii rearrangement' (RXNO:0000385) takes place and leads to an enone."
@@ -4218,7 +4146,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Reductions with diimide are a chemical reactions that convert unsaturated organic compounds to reduced alkane products. In the process, diimide is oxidized to dinitrogen."
@@ -4226,11 +4154,11 @@
  {
   "id": "RXNO:0000659",
   "name": "Miyaura borylation",
-  "reagents": "",
-  "catalyst": "palladium atom",
-  "conditions": "",
-  "source": "ontology",
-  "inherited_from": "",
+  "reagents": "aryl/vinyl halide; bis(pinacolato)diboron (B2pin2); base (KOAc)",
+  "catalyst": "Pd(dppf)Cl2 or other Pd catalyst; palladium atom",
+  "conditions": "dioxane/DMSO",
+  "source": "curated+ontology",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A chemical reaction that allows the generation of boronates from vinyl or aryl halides with the cross-coupling of bis(pinacolato)diboron under basic conditions."
@@ -4242,7 +4170,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A chemical reaction for the stereoselective synthesis of an olefin from a 1,2-diol."
@@ -4254,7 +4182,7 @@
   "catalyst": "Rh(I) (RhCl(PPh3)3)",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The Tsuji-Wilkinson decarbonylation reaction is a method for the decarbonylation of aldehydes and some acyl chlorides."
@@ -4266,7 +4194,7 @@
   "catalyst": "",
   "conditions": "THF",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A chemical reaction in which ketones are synthesized from formaldehyde or other aldehydes, involving a temporary repolarization of a carbonyl group."
@@ -4278,7 +4206,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Oxidation of primary and secondary alcohols via their alkoxysulfonium salts. Upon the addition of base, the salt rearranges intramolecularly to aldehydes and ketones, respectively."
@@ -4290,7 +4218,7 @@
   "catalyst": "",
   "conditions": "DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Oxidation of primary and secondary alcohols to aldehydes and ketones, respectively, through the use of pyridinium chlorochromate (PCC)."
@@ -4302,7 +4230,7 @@
   "catalyst": "",
   "conditions": "DMF/DCM",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Oxidation of primary and secondary alcohols to aldehydes and ketones, respectively, through the use of pyridinium dichromate (PDC)."
@@ -4314,7 +4242,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A particularly mild oxidation method in which, for example, dimethyl sulfoxide and acetic anhydride can be used as oxidizing agents to selectively produce aldehydes from primary alcohols without further oxidation to carboxylic acids. Analogously, secondary alcohols can be oxidized to form ketones."
@@ -4326,7 +4254,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The Rubottom oxidation is a useful, high-yielding chemical reaction between silyl enol ethers and peroxy acids to give the corresponding α-hydroxy carbonyl product."
@@ -4338,7 +4266,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A three-component reaction (3CR) of a heterocyclic amidine, an aldehyde, and an isocyanide, resulting in a cyclic compound with imidazo[1,2-a] heterocycle as the core structure."
@@ -4350,7 +4278,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Condensation of a formamide acetal with a derivative of o-nitrotoluene to yield an enamine intermediate that subsequently undergoes reductive cyclization to give the corresponding indole."
@@ -4362,7 +4290,7 @@
   "catalyst": "",
   "conditions": "DMSO",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Oxidation of alcohols to the corresponding carbonyl product using 2-iodoxybenzoic acid (IBX) as oxidizing agent."
@@ -4374,7 +4302,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A three-component condensation reaction in which primary or secondary amines react with a carbonyl compound (aldehyde or ketone) and a dialkyl phosphonate (also called dialkyl phosphite) to form an alpha-aminophosphonate."
@@ -4386,7 +4314,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A polymerisation reaction in which phenol and formaldehyde react together in a chain reaction to form a phenol formaldehyde resin (also infrequently called phenoplast)."
@@ -4398,7 +4326,7 @@
   "catalyst": "palladium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The reduction of a thioester to an aldehyde by a silyl hydride in the presence of catalytic amounts of palladium."
@@ -4410,7 +4338,7 @@
   "catalyst": "Cr(CO)6 carbene",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "A three component cyclization of an aromatic or vinylic alkoxy pentacarbonyl chromium carbene complex, an alkyne and carbon monoxide to give a Cr(CO)3 coordinated phenol."
@@ -4422,7 +4350,7 @@
   "catalyst": "Ti(OiPr)4; titanium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formation of a substituted cyclopropanol by reaction of a carboxylic ester with a Grignard reagent (carrying a hydrogen atom in the beta-position) in the presence of a titanium(IV) alkoxide as catalyst. A modified cyclopropanol product can be generated by addition of a terminal alkene as a further reactant."
@@ -4434,7 +4362,7 @@
   "catalyst": "titanium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formation of a substituted cyclopropylamine by reaction of an amide with a Grignard reagent (carrying a hydrogen atom in the beta-position) in the presence of a titanium(IV) alkoxide as catalyst."
@@ -4446,7 +4374,7 @@
   "catalyst": "titanium atom",
   "conditions": "",
   "source": "curated+ontology",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The formation of a substituted primary cyclopropylamine by reaction of a nitrile with a Grignard reagent (carrying a hydrogen atom in the beta-position) in the presence of a titanium(IV) alkoxide as catalyst."
@@ -4454,11 +4382,11 @@
  {
   "id": "RXNO:0000686",
   "name": "Jacobsen epoxidation",
-  "reagents": "",
-  "catalyst": "manganese atom",
-  "conditions": "",
-  "source": "ontology",
-  "inherited_from": "",
+  "reagents": "alkene; chiral (salen)Mn(III) complex (Jacobsen catalyst); terminal oxidant (NaOCl, mCPBA)",
+  "catalyst": "(salen)Mn(III); manganese atom",
+  "conditions": "DCM",
+  "source": "curated+ontology",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Chiral (salen)manganese(III)-catalyzed asymmetric epoxidation of alkenes. In addition to the catalyst, stoichiometric amounts of an oxidant (e.g. sodium hypochlorite) are required."
@@ -4470,10 +4398,22 @@
   "catalyst": "Shi ketone",
   "conditions": "MeCN/aq. buffer",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "Organocatalytic enantioselective epoxidation of trans- and tri-substituted olefins using a fructose derived chiral ketone catalyst and potassium peroxomonosulfate or H2O2 as an oxidant."
+ },
+ {
+  "id": "RXNO:0000689",
+  "name": "haloform reaction",
+  "reagents": "methyl ketone; halogen (Cl2, Br2, I2) or hypohalite (NaOX); hydroxide base (NaOH)",
+  "catalyst": "",
+  "conditions": "",
+  "source": "curated",
+  "parent_class_reagents_unverified": "",
+  "merck_index": "",
+  "wikidata": "",
+  "definition": "Cleavage of methyl ketones (i.e. oxidative demethylation) with halogens (or hypohalites) in the presence of a base to give a carboxylic acid and haloform (trihalomethane)."
  },
  {
   "id": "RXNO:0000690",
@@ -4482,7 +4422,7 @@
   "catalyst": "",
   "conditions": "",
   "source": "curated",
-  "inherited_from": "",
+  "parent_class_reagents_unverified": "",
   "merck_index": "",
   "wikidata": "",
   "definition": "The conversion of dialkyl phosphites (dialkyl phosphonates) to dialkyl chlorophosphates using tetrachloromethane and a base (usually a primary, secondary or tertiary amine)."

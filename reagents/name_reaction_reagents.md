@@ -1,20 +1,23 @@
 # Organic name reactions and their reagents (RXNO)
 
-374 name reactions with reagents; 32 in `unresolved.tsv`. Source: `curated` = literature reagents, `ontology` = has_catalyst in rxno.obo, `inherited` = from parent class.
+369 name reactions with reagents; 54 in `unresolved.tsv` (no curated reagents yet). Source: `curated` = literature reagents, `ontology` = has_catalyst in rxno.obo.
 
 | RXNO | Name reaction | Reagents | Catalyst / promoter | Conditions | Source |
 |---|---|---|---|---|---|
 | RXNO:0000003 | Perkin reaction | aromatic aldehyde; acid anhydride (e.g. acetic anhydride) | alkali salt of the acid (e.g. NaOAc, K2CO3) | heat | curated |
 | RXNO:0000006 | Diels-Alder reaction | diene; dienophile (alkene/alkyne) | Lewis acid optional (AlCl3, BF3, Et2AlCl) | heat or Lewis acid | curated |
+| RXNO:0000007 | ene reaction | alkene with allylic hydrogen (ene); enophile (aldehyde, maleic anhydride, azodicarboxylate) | Lewis acid optional (Me2AlCl, SnCl4) | heat | curated |
 | RXNO:0000009 | Michael addition | Michael donor (enolate, malonate, nitroalkane); Michael acceptor (enone, acrylate) | base (NaOEt, DBU, NaH) or organocatalyst |  | curated |
 | RXNO:0000014 | Grignard reaction | Grignard reagent (RMgX); aldehyde/ketone/ester/nitrile; aqueous acid workup (NH4Cl, H3O+) |  | Et2O or THF | curated |
 | RXNO:0000015 | Wittig reaction | phosphonium salt; strong base (n-BuLi, NaH, KOtBu, NaHMDS); aldehyde/ketone |  | THF | curated |
+| RXNO:0000016 | aldol addition | ketone/aldehyde with alpha-H; carbonyl electrophile | base (NaOH, LDA) or acid; proline (organocatalytic) |  | curated |
+| RXNO:0000017 | aldol condensation | ketone/aldehyde with alpha-H; carbonyl electrophile; base (NaOH, KOH) or acid; heat |  |  | curated |
 | RXNO:0000021 | Sandmeyer reaction | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | curated |
-| RXNO:0000022 | Gattermann halogenation |  | copper atom |  | ontology |
 | RXNO:0000023 | Koerner-Contardi reaction | aryl diazonium salt; copper(II) halide (CuCl2, CuBr2) |  |  | curated |
 | RXNO:0000024 | Heck reaction | aryl/vinyl halide or triflate; alkene; base (Et3N, K2CO3) | Pd(OAc)2 or Pd(PPh3)4; phosphine ligand | DMF/MeCN, heat | curated |
 | RXNO:0000026 | Beckmann rearrangement | oxime; acid (H2SO4, PPA, TsCl, PCl5, SOCl2) |  |  | curated |
 | RXNO:0000028 | Cope rearrangement | 1,5-diene |  | heat | curated |
+| RXNO:0000029 | oxy-Cope rearrangement | 3-hydroxy-1,5-diene; optional base (KH, 18-crown-6) for anionic variant |  | heat | curated |
 | RXNO:0000031 | Baeyer-Villiger oxidation | ketone; peracid (mCPBA, peracetic acid, TFPAA) or H2O2 with Lewis acid |  | DCM | curated |
 | RXNO:0000032 | Mannich reaction | non-enolisable aldehyde (typically formaldehyde); primary/secondary amine or NH3; enolisable carbonyl compound | acid (HCl) |  | curated |
 | RXNO:0000034 | Mitsunobu reaction | alcohol; triphenylphosphine (PPh3); DEAD or DIAD; acidic pronucleophile (carboxylic acid, phthalimide, HN3, phenol) |  | THF, 0 °C | curated |
@@ -29,6 +32,8 @@
 | RXNO:0000046 | Friedel-Crafts alkylation | arene; alkyl halide; Lewis acid (AlCl3, FeCl3) | AlCl3 |  | curated |
 | RXNO:0000047 | Oppenauer oxidation | secondary alcohol; excess ketone (acetone); aluminium alkoxide (Al(OiPr)3) | metal atom |  | curated+ontology |
 | RXNO:0000048 | Prins reaction | alkene; aldehyde (typically formaldehyde); acid catalyst (H2SO4, Lewis acid) |  |  | curated |
+| RXNO:0000049 | intramolecular Prins reaction | alkene; formaldehyde (or paraformaldehyde); acid (H2SO4, Lewis acid) |  |  | curated |
+| RXNO:0000050 | pinacol rearrangement | 1,2-diol (pinacol); acid (H2SO4, H3PO4) |  |  | curated |
 | RXNO:0000051 | Wolff rearrangement | alpha-diazoketone | Ag2O, light (hv) or heat; nucleophile (H2O, ROH, R2NH) |  | curated |
 | RXNO:0000053 | Bischler-Napieralski reaction | beta-arylethylamide; dehydrating agent (POCl3, P2O5, Tf2O) |  | reflux | curated |
 | RXNO:0000054 | Curtius rearrangement | acyl azide (from acyl chloride + NaN3 or acid + DPPA); heat; nucleophile (H2O, ROH, amine) |  |  | curated |
@@ -44,10 +49,13 @@
 | RXNO:0000064 | Fischer indole synthesis | arylhydrazine; aldehyde or ketone; acid (ZnCl2, PPA, HCl, AcOH) |  |  | curated |
 | RXNO:0000065 | Dieckmann cyclisation | diester; alkoxide base (NaOEt, KOtBu) |  |  | curated |
 | RXNO:0000066 | Staudinger reaction | azide; phosphine (PPh3); H2O (Staudinger reduction) or carbonyl (aza-Wittig) |  | THF | curated |
+| RXNO:0000067 | benzidine rearrangement | hydrazobenzene; strong acid (HCl, H2SO4) |  |  | curated |
+| RXNO:0000068 | semidine rearrangement | para-substituted hydrazobenzene; acid |  |  | curated |
 | RXNO:0000069 | Dimroth rearrangement | heterocycle (e.g. 1-alkyl-2-iminopyrimidine); base or aqueous acid |  |  | curated |
 | RXNO:0000071 | Edman degradation | peptide N-terminus; phenyl isothiocyanate (PITC); anhydrous acid (TFA) |  |  | curated |
 | RXNO:0000072 | Reimer-Tiemann reaction | phenol; chloroform (CHCl3); strong aqueous base (NaOH/KOH) |  |  | curated |
 | RXNO:0000074 | Wurtz reaction | alkyl halide (2 equiv.); sodium metal |  | dry ether | curated |
+| RXNO:0000075 | benzilic acid rearrangement | 1,2-diketone (benzil); hydroxide base (NaOH, KOH); acid workup |  |  | curated |
 | RXNO:0000076 | Baylis-Hillman reaction | aldehyde; activated alkene (acrylate, MVK); tertiary amine catalyst | DABCO (or quinuclidine, phosphine) |  | curated |
 | RXNO:0000077 | Darzens reaction | ketone/aldehyde; alpha-haloester; base (NaOEt, KOtBu) |  |  | curated |
 | RXNO:0000079 | Boc protection | amine or alcohol; di-tert-butyl dicarbonate (Boc2O); base (Et3N, DMAP, NaOH) | DMAP optional | DCM or THF | curated |
@@ -56,12 +64,12 @@
 | RXNO:0000082 | Goldberg reaction | aryl halide; amide; copper; base | CuI, diamine ligand |  | curated |
 | RXNO:0000083 | Paternò–Büchi reaction | carbonyl compound; alkene |  | hv (UV) | curated |
 | RXNO:0000084 | Barbier reaction | alkyl halide; magnesium/zinc/indium metal; carbonyl compound (in situ organometallic) |  | THF | curated |
+| RXNO:0000085 | acyloin condensation | two ester molecules; sodium metal; chlorotrimethylsilane (TMSCl, Rühlmann modification) |  | toluene/xylene, reflux | curated |
 | RXNO:0000086 | Henry reaction | nitroalkane; aldehyde/ketone; base (NaOH, Et3N, KOtBu) |  |  | curated |
 | RXNO:0000087 | Barton reaction | alkyl nitrite (RONO); light |  | hv | curated |
 | RXNO:0000088 | Negishi coupling | organozinc halide (RZnX); organic halide or triflate | Pd(PPh3)4 or Ni(acac)2 | THF | curated |
 | RXNO:0000089 | Meerwein-Ponndorf-Verley reduction | ketone/aldehyde; isopropanol; aluminium isopropoxide (Al(OiPr)3) |  |  | curated |
 | RXNO:0000090 | Williamson ether synthesis | alkoxide (alcohol + NaH/KOH/NaOH); alkyl halide (primary) |  |  | curated |
-| RXNO:0000091 | Wittig methylenation | phosphonium salt; strong base (n-BuLi, NaH, KOtBu, NaHMDS); aldehyde/ketone |  | THF | inherited (Wittig reaction) |
 | RXNO:0000094 | Ramberg-Bäcklund reaction | alpha-halosulfone; base (KOH, KOtBu) |  |  | curated |
 | RXNO:0000095 | Fischer-Hepp rearrangement | N-nitrosoaniline; HCl |  |  | curated |
 | RXNO:0000098 | Glaser coupling | terminal alkyne; base (NH3/amine); Cu(I) salt; oxidant (O2/air) | CuCl, TMEDA |  | curated |
@@ -72,16 +80,16 @@
 | RXNO:0000103 | Gabriel synthesis | potassium phthalimide; primary alkyl halide; hydrazine or aqueous acid/base (deprotection) |  | DMF | curated |
 | RXNO:0000104 | Ing-Manske procedure | potassium phthalimide; primary alkyl halide; hydrazine hydrate |  |  | curated |
 | RXNO:0000106 | Hunsdiecker reaction | silver carboxylate; bromine or iodine |  | CCl4 | curated |
+| RXNO:0000107 | malonic ester synthesis | diethyl malonate; base (NaOEt); alkyl halide; aqueous acid/heat (hydrolysis/decarboxylation) |  |  | curated |
 | RXNO:0000109 | Pfitzinger reaction | isatin; carbonyl compound with alpha-CH2; base (KOH) |  |  | curated |
 | RXNO:0000111 | Grob fragmentation | 1,3-difunctional substrate (e.g. 3-halo-alcohol, 1,3-diol monotosylate); base (KOtBu, NaH) |  |  | curated |
 | RXNO:0000113 | Brook rearrangement | alpha-/beta-/gamma-hydroxysilane; catalytic base |  |  | curated |
 | RXNO:0000114 | Nicholas reaction | propargylic alcohol/ether; Co2(CO)8; Lewis acid (BF3·OEt2); nucleophile; oxidant (CAN) to release alkyne | Co2(CO)8 |  | curated |
-| RXNO:0000115 | Nicholas reaction, nucleophilic heteroatom centre | propargylic alcohol/ether; Co2(CO)8; Lewis acid (BF3·OEt2); nucleophile; oxidant (CAN) to release alkyne | Co2(CO)8 |  | inherited (Nicholas reaction) |
-| RXNO:0000116 | Nicholas reaction, nucleophilic carbon centre | propargylic alcohol/ether; Co2(CO)8; Lewis acid (BF3·OEt2); nucleophile; oxidant (CAN) to release alkyne | Co2(CO)8 |  | inherited (Nicholas reaction) |
 | RXNO:0000117 | Julia olefination | alkyl phenyl sulfone; strong base (n-BuLi); aldehyde; acylating agent (Ac2O/BzCl); Na/Hg or SmI2 |  |  | curated |
 | RXNO:0000118 | Sommelet reaction | benzylic halide; hexamethylenetetramine (HMTA); water/acid |  |  | curated |
 | RXNO:0000119 | Bouveault-Blanc reaction | ester; sodium metal; absolute ethanol |  |  | curated |
 | RXNO:0000120 | Payne rearrangement | 2,3-epoxy alcohol; aqueous NaOH (base) |  |  | curated |
+| RXNO:0000121 | aza-Payne rearrangement | 2,3-epoxy amine; base (NaH, KOtBu) |  |  | curated |
 | RXNO:0000122 | Baker-Venkataraman rearrangement | o-acyloxyacetophenone; base (KOH, KOtBu, NaH) |  |  | curated |
 | RXNO:0000124 | Bamford-Stevens reaction | tosylhydrazone; strong base (NaOMe, NaH) in protic solvent |  |  | curated |
 | RXNO:0000125 | Shapiro reaction | tosylhydrazone; alkyllithium (2 equiv., e.g. n-BuLi, MeLi); electrophile or H2O |  |  | curated |
@@ -97,6 +105,7 @@
 | RXNO:0000135 | Barton decarboxylation | carboxylic acid; N-hydroxy-2-thiopyridone/thiohydroxamate ester; Bu3SnH; AIBN or light |  |  | curated |
 | RXNO:0000136 | Rosenmund reduction | acyl chloride; H2; Pd/BaSO4; poisoned catalyst (quinoline-S) | Pd/BaSO4; palladium atom |  | curated+ontology |
 | RXNO:0000137 | Sonogashira coupling | aryl/vinyl halide or triflate; terminal alkyne; amine base (Et3N, iPr2NH) | Pd(PPh3)2Cl2; CuI; palladium atom |  | curated+ontology |
+| RXNO:0000138 | benzoin condensation | aromatic aldehyde (2 equiv.); cyanide (NaCN/KCN) or thiazolium salt (NHC) catalyst | CN- or thiazolium/NHC |  | curated |
 | RXNO:0000139 | Gattermann reaction | arene; HCN and HCl (or Zn(CN)2/HCl); AlCl3 |  |  | curated |
 | RXNO:0000140 | Suzuki-Miyaura coupling | organoboron (boronic acid/ester); organic halide or triflate; base (K2CO3, Cs2CO3, K3PO4) | Pd(PPh3)4 or Pd(OAc)2/ligand; platinum atom |  | curated+ontology |
 | RXNO:0000141 | Sharpless asymmetric epoxidation | allylic alcohol; Ti(OiPr)4; diethyl tartrate (DET); tert-butyl hydroperoxide (TBHP) | Ti(OiPr)4/DET; titanium atom | DCM, -20 °C | curated+ontology |
@@ -151,8 +160,8 @@
 | RXNO:0000192 | Buchwald-Hartwig amination | aryl halide or triflate; amine; base (NaOtBu, Cs2CO3) | Pd2(dba)3 or Pd(OAc)2; phosphine ligand (BINAP, XPhos); palladium atom |  | curated+ontology |
 | RXNO:0000193 | Hiyama coupling | organosilane; aryl halide; fluoride activator (TBAF) or base | Pd catalyst |  | curated |
 | RXNO:0000194 | Stevens rearrangement | quaternary ammonium salt; strong base (NaNH2, NaOH) |  |  | curated |
-| RXNO:0000195 | Stevens rearrangement, ammonium | quaternary ammonium salt; strong base (NaNH2, NaOH) |  |  | inherited (Stevens rearrangement) |
-| RXNO:0000196 | Stevens rearrangement, sulfonium | quaternary ammonium salt; strong base (NaNH2, NaOH) |  |  | inherited (Stevens rearrangement) |
+| RXNO:0000195 | Stevens rearrangement, ammonium | alpha-methylene quaternary ammonium salt; strong base (NaNH2, BuLi) |  |  | curated |
+| RXNO:0000196 | Stevens rearrangement, sulfonium | alpha-methylene sulfonium salt; strong base (NaH, KOtBu, BuLi) |  |  | curated |
 | RXNO:0000198 | 2-aza-Cope rearrangement | homoallylic iminium (from amine + aldehyde); acid; heat |  |  | curated |
 | RXNO:0000199 | 3-aza-Cope rearrangement | N-allyl enamine; heat |  |  | curated |
 | RXNO:0000200 | 1-aza-Cope rearrangement | N-allyl imine or enamine; heat |  |  | curated |
@@ -162,11 +171,8 @@
 | RXNO:0000210 | Fleming-Tamao oxidation | organosilane (Si–C bond); H2O2; KF/KHCO3 (or Hg(OAc)2/peracid) |  |  | curated |
 | RXNO:0000211 | Tamao oxidation | alkoxy/halosilane; H2O2; KF; KHCO3 |  |  | curated |
 | RXNO:0000212 | Sakurai reaction, aldehyde or ketone | allylsilane; aldehyde/ketone; Lewis acid (TiCl4, BF3·OEt2) |  |  | curated |
-| RXNO:0000213 | Sakurai reaction, enone | allylsilane; electrophile; Lewis acid |  |  | inherited (Sakurai reaction) |
-| RXNO:0000214 | Sakurai reaction, acid chloride | allylsilane; electrophile; Lewis acid |  |  | inherited (Sakurai reaction) |
-| RXNO:0000215 | Sakurai reaction, acetal or ketal | allylsilane; electrophile; Lewis acid |  |  | inherited (Sakurai reaction) |
-| RXNO:0000217 | Sakurai reaction, epoxide | allylsilane; electrophile; Lewis acid |  |  | inherited (Sakurai reaction) |
 | RXNO:0000218 | Cannizzaro reaction | non-enolisable aldehyde (2 equiv.); concentrated NaOH or KOH |  |  | curated |
+| RXNO:0000219 | crossed Cannizzaro reaction | two different non-enolisable aldehydes; concentrated NaOH or KOH |  |  | curated |
 | RXNO:0000220 | Pummerer rearrangement | sulfoxide; acetic anhydride (Ac2O); base or acid |  |  | curated |
 | RXNO:0000221 | Polonovski reaction | tertiary amine N-oxide; acetic anhydride |  |  | curated |
 | RXNO:0000222 | Polonovski-Potier reaction | tertiary amine N-oxide; trifluoroacetic anhydride |  |  | curated |
@@ -197,8 +203,6 @@
 | RXNO:0000259 | Wittig rearrangement | ether; strong base (alkyllithium) |  |  | curated |
 | RXNO:0000260 | [1,2]-Wittig rearrangement | ether (benzyl/allyl); strong base (n-BuLi) |  |  | curated |
 | RXNO:0000261 | [2,3]-Wittig rearrangement | allyl ether; strong base (n-BuLi, KH) |  |  | curated |
-| RXNO:0000262 | [1,2]-aza-Wittig rearrangement | ether; strong base (alkyllithium) |  |  | inherited (Wittig rearrangement) |
-| RXNO:0000263 | [2,3]-aza-Wittig rearrangement | ether; strong base (alkyllithium) |  |  | inherited (Wittig rearrangement) |
 | RXNO:0000266 | Fenton reaction | hydrogen peroxide (H2O2); iron(II) salt (Fe2+) | Fe(II) | aqueous acid | curated |
 | RXNO:0000268 | Hantzsch pyridine synthesis | aldehyde; 2 equiv. beta-keto ester; ammonia (or NH4OAc); then oxidant (HNO3, DDQ) |  |  | curated |
 | RXNO:0000271 | Fischer-Tropsch process | carbon monoxide; hydrogen (syngas); heterogeneous Fe or Co catalyst | Fe/Co |  | curated |
@@ -213,14 +217,14 @@
 | RXNO:0000299 | Vorbrueggen condensation | silylated nucleobase; protected sugar acetate; Lewis acid (TMSOTf, SnCl4) |  |  | curated |
 | RXNO:0000304 | Julia-Kocienski olefination | alkyl heteroaryl sulfone (e.g. PT-sulfone); strong base (KHMDS); aldehyde |  |  | curated |
 | RXNO:0000307 | Mori-Ban indole synthesis | aromatic nitro compound; alkyl vinyl ether/ketone; base | palladium atom |  | curated+ontology |
-| RXNO:0000308 | Yamaguchi lactonisation | carboxylic acid; 2,4,6-trichlorobenzoyl chloride (Yamaguchi reagent); Et3N; DMAP; alcohol |  |  | inherited (Yamaguchi esterification) |
 | RXNO:0000309 | Yamaguchi esterification | carboxylic acid; 2,4,6-trichlorobenzoyl chloride (Yamaguchi reagent); Et3N; DMAP; alcohol |  |  | curated |
 | RXNO:0000311 | Tsuji-Trost reaction | allylic acetate/carbonate; soft nucleophile (malonate, amine); base | Pd(PPh3)4 |  | curated |
 | RXNO:0000312 | Clauson-Kaas reaction | primary amine; 2,5-dimethoxytetrahydrofuran; acetic acid |  |  | curated |
 | RXNO:0000326 | Boc deprotection | Boc-protected amine; strong acid (TFA or HCl in dioxane) |  | DCM | curated |
-| RXNO:0000333 | Sandmeyer halogenation | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
-| RXNO:0000334 | Sandmeyer pseudohalogenation | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
+| RXNO:0000333 | Sandmeyer halogenation | aryl diazonium salt; copper(I) halide (CuCl, CuBr, CuI) | Cu(I) |  | curated |
+| RXNO:0000334 | Sandmeyer pseudohalogenation | aryl diazonium salt; copper pseudohalide (CuCN, CuSCN) | Cu |  | curated |
 | RXNO:0000356 | Jones oxidation | alcohol; chromic acid (CrO3/H2SO4/H2O = Jones reagent); acetone |  | acetone | curated |
+| RXNO:0000357 | N-acylation to amide | amine; acyl chloride or anhydride; base |  |  | curated |
 | RXNO:0000361 | Pinner reaction | nitrile; alcohol; anhydrous HCl (gas) |  |  | curated |
 | RXNO:0000369 | Friedel-Crafts reaction | arene; alkyl/acyl halide; Lewis acid (AlCl3) |  |  | curated |
 | RXNO:0000370 | Demko-Sharpless reaction | nitrile; sodium azide (NaN3); zinc salt (ZnBr2) | Zn(II) | water | curated |
@@ -234,8 +238,6 @@
 | RXNO:0000385 | Favorskii rearrangement | alpha-halo ketone (enolisable); base (alkoxide, hydroxide) |  |  | curated |
 | RXNO:0000386 | Wallach degradation | azoxybenzene; concentrated sulfuric acid |  |  | curated |
 | RXNO:0000387 | Seyferth-Gilbert homologation | aldehyde or ketone; dimethyl (diazomethyl)phosphonate anion; base (KOtBu) |  |  | curated |
-| RXNO:0000388 | Seyferth-Gilbert aldehyde homologation | aldehyde or ketone; dimethyl (diazomethyl)phosphonate anion; base (KOtBu) |  |  | inherited (Seyferth-Gilbert homologation) |
-| RXNO:0000389 | Seyferth-Gilbert ketone homologation | aldehyde or ketone; dimethyl (diazomethyl)phosphonate anion; base (KOtBu) |  |  | inherited (Seyferth-Gilbert homologation) |
 | RXNO:0000390 | Seyferth-Gilbert-Bestmann homologation | aldehyde; Ohira-Bestmann reagent (dimethyl 1-diazo-2-oxopropylphosphonate); K2CO3; MeOH |  |  | curated |
 | RXNO:0000391 | Knorr pyrazole synthesis | hydrazine; 1,3-diketone or beta-keto ester |  |  | curated |
 | RXNO:0000394 | Knorr quinoline synthesis | beta-keto anilide; concentrated H2SO4 or PPA |  |  | curated |
@@ -256,10 +258,10 @@
 | RXNO:0000443 | Sakurai reaction | allylsilane; electrophile; Lewis acid |  |  | curated |
 | RXNO:0000444 | Fries rearrangement | aryl ester (phenolic); Lewis acid (AlCl3) or hv |  |  | curated |
 | RXNO:0000447 | Duff reaction | phenol; hexamethylenetetramine (HMTA); acid (glycerol/boric acid or TFA) |  |  | curated |
+| RXNO:0000459 | acetoacetic ester synthesis | ethyl acetoacetate (beta-ketoester); alkoxide base (NaOEt); alkyl halide; aqueous acid/heat for decarboxylation |  |  | curated |
 | RXNO:0000464 | Pauson-Khand reaction | alkyne; alkene; carbon monoxide (CO); Co2(CO)8 | Co2(CO)8 |  | curated |
 | RXNO:0000467 | Algar-Flynn-Oyamada reaction | 2'-hydroxychalcone; alkaline hydrogen peroxide (H2O2/NaOH) |  |  | curated |
 | RXNO:0000470 | Allan-Robinson flavone synthesis | o-hydroxyaryl ketone; aromatic anhydride; sodium salt of the aromatic acid |  |  | curated |
-| RXNO:0000471 | Allan-Robinson isoflavone synthesis | o-hydroxyaryl ketone; aromatic anhydride; sodium salt of aromatic acid |  |  | inherited (Allan-Robinson reaction) |
 | RXNO:0000472 | Amadori rearrangement | N-glycoside of aldose; acid catalyst |  |  | curated |
 | RXNO:0000475 | Allan-Robinson reaction | o-hydroxyaryl ketone; aromatic anhydride; sodium salt of aromatic acid |  |  | curated |
 | RXNO:0000476 | Meyer-Schuster rearrangement | propargylic alcohol; acid catalyst (H+, Lewis acid) |  |  | curated |
@@ -277,7 +279,6 @@
 | RXNO:0000506 | Nef synthesis | nitroalkane (nitronate salt); acid (H2SO4) |  |  | curated |
 | RXNO:0000507 | Krapcho decarboxylation | alkyl malonate/beta-keto ester; halide salt (LiCl, NaCl); DMSO; water; heat |  | DMSO, 150 °C | curated |
 | RXNO:0000508 | Cadogan cyclization | o-nitrobiaryl or nitrostyrene; triethyl phosphite (P(OEt)3) or PPh3 |  |  | curated |
-| RXNO:0000509 | Cadogan indole synthesis | o-nitrobiaryl or nitrostyrene; triethyl phosphite (P(OEt)3) or PPh3 |  |  | inherited (Cadogan cyclization) |
 | RXNO:0000510 | Benkeser reduction | arene; Li or Na metal; NH3/amine; alcohol |  |  | curated |
 | RXNO:0000511 | Madelung indole synthesis | N-acyl-o-toluidine; strong base (NaOEt, KOtBu, BuLi); heat |  |  | curated |
 | RXNO:0000513 | Mumm rearrangement | imidate (isoimide); heat |  |  | curated |
@@ -303,16 +304,10 @@
 | RXNO:0000545 | Sandmeyer diphenylurea isatin synthesis | aniline; chloral hydrate; hydroxylamine hydrochloride; Na2SO4; then conc. H2SO4 |  |  | curated |
 | RXNO:0000546 | Sandmeyer isonitrosoacetanilide isatin synthesis | aniline; chloral hydrate; hydroxylamine hydrochloride; Na2SO4; then conc. H2SO4 |  |  | curated |
 | RXNO:0000547 | Sarett oxidation | alcohol; chromium trioxide-pyridine complex (Sarett reagent; CrO3·2py) |  | pyridine | curated |
-| RXNO:0000548 | Sarett primary alcohol oxidation | alcohol; chromium trioxide-pyridine complex (Sarett reagent; CrO3·2py) |  | pyridine | inherited (Sarett oxidation) |
-| RXNO:0000549 | Sarett secondary alcohol oxidation | alcohol; chromium trioxide-pyridine complex (Sarett reagent; CrO3·2py) |  | pyridine | inherited (Sarett oxidation) |
 | RXNO:0000550 | Collins oxidation | alcohol; CrO3·2 pyridine (Collins reagent) |  | DCM | curated |
-| RXNO:0000552 | Leuckart aldehyde reaction | aldehyde/ketone; ammonium formate or formamide |  | heat | inherited (Leuckart reaction) |
-| RXNO:0000553 | Leuckart ketone reaction | aldehyde/ketone; ammonium formate or formamide |  | heat | inherited (Leuckart reaction) |
 | RXNO:0000554 | Appel bromination with tetrabromomethane | alcohol; PPh3; tetrabromomethane (CBr4) |  |  | curated |
 | RXNO:0000555 | Appel bromination with bromine | alcohol; PPh3; bromine (Br2) |  |  | curated |
 | RXNO:0000556 | Corey-Fuchs terminal dibromoolefination | aldehyde; CBr4; PPh3 (2 equiv.); (no BuLi at dibromoolefin stage) |  | DCM | curated |
-| RXNO:0000575 | Dess-Martin aldehyde oxidation | alcohol; Dess-Martin periodinane (DMP) |  | DCM | inherited (Dess-Martin oxidation) |
-| RXNO:0000576 | Dess-Martin ketone oxidation | alcohol; Dess-Martin periodinane (DMP) |  | DCM | inherited (Dess-Martin oxidation) |
 | RXNO:0000577 | Friedlander quinoline synthesis | 2-aminobenzaldehyde or 2-aminoaryl ketone; ketone/aldehyde with alpha-CH2; acid or base |  |  | curated |
 | RXNO:0000578 | Gewald reaction | ketone/aldehyde; alpha-cyanoester or malononitrile; elemental sulfur (S8); amine base (morpholine) |  |  | curated |
 | RXNO:0000583 | Niementowski quinazoline synthesis | anthranilic acid; amide; heat |  |  | curated |
@@ -326,15 +321,14 @@
 | RXNO:0000597 | Corey-Bakshi-Shibata reduction | prochiral ketone; borane (BH3·THF or BH3·SMe2); CBS catalyst (chiral oxazaborolidine) | (S)-/(R)-Me-CBS oxazaborolidine | THF | curated |
 | RXNO:0000598 | Johnson-Corey-Chaykovsky reaction | sulfur ylide (dimethylsulfonium methylide from Me3S+I- and NaH; or dimethylsulfoxonium methylide); aldehyde/ketone/enone |  | DMSO/THF | curated |
 | RXNO:0000599 | Johnson-Corey-Chaykovsky epoxide synthesis | aldehyde/ketone; sulfur ylide (trimethylsulfonium iodide + NaH or KOtBu) |  | DMSO/THF | curated |
-| RXNO:0000600 | Johnson-Corey-Chaykovsky cyclopropane synthesis | sulfur ylide (dimethylsulfonium methylide from Me3S+I- and NaH; or dimethylsulfoxonium methylide); aldehyde/ketone/enone |  | DMSO/THF | inherited (Johnson-Corey-Chaykovsky reaction) |
 | RXNO:0000601 | Johnson-Corey-Chaykovsky aziridine synthesis | imine; sulfur ylide (trimethylsulfonium iodide + strong base) |  |  | curated |
 | RXNO:0000602 | Johnson-Corey-Chaykovsky thiirane synthesis | thioketone/thioaldehyde; sulfur ylide |  |  | curated |
 | RXNO:0000604 | Liebeskind-Srogl coupling | thioester (or thioether); boronic acid; Cu(I) carboxylate (CuTC) | Pd(0); Cu(I) thiophene-2-carboxylate; transition element atom |  | curated+ontology |
 | RXNO:0000605 | Fukuyama coupling | thioester; organozinc reagent | Pd catalyst; palladium atom |  | curated+ontology |
-| RXNO:0000609 | Sandmeyer fluorination | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
-| RXNO:0000610 | Sandmeyer chlorination | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
-| RXNO:0000611 | Sandmeyer bromination | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
-| RXNO:0000612 | Sandmeyer iodination | aryl diazonium salt (ArN2+, from NaNO2/HX); CuCl, CuBr or CuCN | Cu(I) salt |  | inherited (Sandmeyer reaction) |
+| RXNO:0000609 | Sandmeyer fluorination | aryl diazonium salt; copper(I) fluoride (CuF); (practically via HBF4/Balz-Schiemann-type conditions) | Cu(I) |  | curated |
+| RXNO:0000610 | Sandmeyer chlorination | aryl diazonium salt; copper(I) chloride (CuCl) | Cu(I) |  | curated |
+| RXNO:0000611 | Sandmeyer bromination | aryl diazonium salt; copper(I) bromide (CuBr) | Cu(I) |  | curated |
+| RXNO:0000612 | Sandmeyer iodination | aryl diazonium salt; copper(I) iodide (CuI) (or KI) | Cu(I) |  | curated |
 | RXNO:0000618 | Hofmann-Löffler-Freytag reaction | N-haloamine; strong acid (H2SO4); heat or hv |  |  | curated |
 | RXNO:0000619 | Hofmann-Löffler-Freytag piperidine synthesis | amine (N-chloroamine); H2SO4; hv or heat |  |  | curated |
 | RXNO:0000620 | Hofmann-Löffler-Freytag pyrrolidine synthesis | amine (N-chloroamine); H2SO4; hv or heat |  |  | curated |
@@ -356,7 +350,7 @@
 | RXNO:0000654 | Mukaiyama hydration | alkene; Co(II) or Mn catalyst; PhSiH3 (or silane); O2 | Co(acac)2 or Mn(dpm)3 |  | curated |
 | RXNO:0000655 | Favorskii reaction | terminal alkyne; ketone; strong base (KOH, KOtBu) |  |  | curated |
 | RXNO:0000656 | Diimide reduction | alkene/alkyne; diimide (N2H2; from hydrazine/oxidant or TsNHNH2) |  |  | curated |
-| RXNO:0000659 | Miyaura borylation |  | palladium atom |  | ontology |
+| RXNO:0000659 | Miyaura borylation | aryl/vinyl halide; bis(pinacolato)diboron (B2pin2); base (KOAc) | Pd(dppf)Cl2 or other Pd catalyst; palladium atom | dioxane/DMSO | curated+ontology |
 | RXNO:0000660 | Corey-Winter elimination | 1,2-diol; thiocarbonyldiimidazole (TCDI) or thiophosgene; trimethyl phosphite |  |  | curated |
 | RXNO:0000661 | Tsuji-Wilkinson decarbonylation | aldehyde/acyl halide; stoichiometric Wilkinson's catalyst (RhCl(PPh3)3) | Rh(I) (RhCl(PPh3)3) |  | curated |
 | RXNO:0000662 | Corey-Seebach reaction | aldehyde/ketone; 1,3-dithiane; n-BuLi; electrophile (alkyl halide) |  | THF | curated |
@@ -375,6 +369,7 @@
 | RXNO:0000682 | Kulinkovich reaction | ester; Grignard reagent (EtMgBr, 2 equiv.); Ti(OiPr)4 (catalytic) | Ti(OiPr)4; titanium atom |  | curated+ontology |
 | RXNO:0000683 | Kulinkovich-de Meijere reaction | amide; Grignard reagent; Ti(OiPr)4 | titanium atom |  | curated+ontology |
 | RXNO:0000684 | Kulinkovich-Szymoniak reaction | nitrile; Grignard reagent; Ti(OiPr)4; Lewis acid (BF3·OEt2) | titanium atom |  | curated+ontology |
-| RXNO:0000686 | Jacobsen epoxidation |  | manganese atom |  | ontology |
+| RXNO:0000686 | Jacobsen epoxidation | alkene; chiral (salen)Mn(III) complex (Jacobsen catalyst); terminal oxidant (NaOCl, mCPBA) | (salen)Mn(III); manganese atom | DCM | curated+ontology |
 | RXNO:0000687 | Shi epoxidation | alkene; Shi ketone catalyst (fructose-derived); Oxone (KHSO5); base (K2CO3) | Shi ketone | MeCN/aq. buffer | curated |
+| RXNO:0000689 | haloform reaction | methyl ketone; halogen (Cl2, Br2, I2) or hypohalite (NaOX); hydroxide base (NaOH) |  |  | curated |
 | RXNO:0000690 | Atherton-Todd reaction | dialkyl phosphite; base (Et3N); CCl4; amine or alcohol |  |  | curated |

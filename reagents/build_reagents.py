@@ -4,8 +4,9 @@
 Sources per reaction:
   ontology  - has_catalyst (RXNO:0000425) relationships in rxno.obo
   curated   - curated_reagents.tsv (standard literature reagents)
-  inherited - taken from the closest is_a ancestor that has curated reagents
-Reactions with no source are written to unresolved.tsv.
+Parent-class reagents are listed for context only (parent_class_reagents_unverified) and
+never count as a reaction's own reagents. Reactions without curated reagents (including
+catalyst-only ontology records) are written to unresolved.tsv.
 Run from the repo root:  python3 reagents/build_reagents.py
 """
 import csv, json, re, collections, pathlib
@@ -39,13 +40,16 @@ for r in csv.reader((l for l in open(root / 'curated_reagents.tsv') if not l.sta
     r += [''] * (4 - len(r))
     cur['RXNO:' + r[0]] = dict(reagents=r[1], catalyst=r[2], conditions=r[3])
 
-# name reactions: proper-name terms (capitalised, not generic class names)
+# name reactions: explicit rule (any of)
+#  - Merck Index xref (RXNO xref to rsc.org/Merck-Index)
+#  - an entry in curated_reagents.tsv
+#  - proper-name term (capitalised name, not an N-/O- acylation class)
 def is_named(t):
     n = t['name']
-    return n[:1].isupper() or n[:1] in '[' and re.search(r'[A-Z]', n) or n[:1].isdigit() and re.search(r'[A-Z]', n)
+    if t['id'] in cur or any('Merck' in x for x in t['xref']):
+        return True
+    return bool(re.search(r'[A-Z]', n[:1] if n[:1].isalpha() else n)) and not n.startswith(('N-', 'O-'))
 named = {i: t for i, t in terms.items() if is_named(t) and i != 'RXNO:0000001'}
-generic = re.compile(r'^(N-|O-)')
-named = {i: t for i, t in named.items() if not generic.match(t['name'])}
 
 def ancestors(i, seen=None):
     seen = seen or set()
@@ -56,23 +60,22 @@ def ancestors(i, seen=None):
 rows, unresolved = [], []
 for i in sorted(named):
     t = named[i]
-    src, reag, cat, cond, via = [], '', '; '.join(t['cat']), '', ''
+    reag, cat, cond, parent = '', '; '.join(t['cat']), '', ''
     if i in cur:
         c = cur[i]; reag, cond = c['reagents'], c['conditions']
-        cat = '; '.join(x for x in [c['catalyst'], cat] if x); src.append('curated')
+        cat = '; '.join(x for x in [c['catalyst'], cat] if x)
     else:
+        # parent-class reagents are shown for context only; never counted as this reaction's reagents
         for a in ancestors(i):
             if a in cur and a in named:
-                c = cur[a]; reag, cond = c['reagents'], c['conditions']
-                cat = '; '.join(x for x in [c['catalyst'], cat] if x)
-                src.append('inherited'); via = terms[a]['name']; break
-    if t['cat']: src.append('ontology')
+                parent = f"{terms[a]['name']}: {cur[a]['reagents']}"; break
+    src = '+'.join(x for x, ok in (('curated', i in cur), ('ontology', bool(t['cat']))) if ok)
     row = dict(id=i, name=t['name'], reagents=reag, catalyst=cat, conditions=cond,
-               source='+'.join(src), inherited_from=via,
+               source=src, parent_class_reagents_unverified=parent,
                merck_index=next((x for x in t['xref'] if 'Merck' in x), ''),
                wikidata=next((x for x in t['xref'] if 'wikidata' in x), ''),
                definition=t['defn'])
-    (rows if src else unresolved).append(row)
+    (rows if reag else unresolved).append(row)
 
 fields = list(rows[0].keys())
 def dump(path, data):
@@ -82,10 +85,21 @@ dump('name_reaction_reagents.tsv', rows)
 dump('unresolved.tsv', unresolved)
 json.dump(rows, open(root / 'name_reaction_reagents.json', 'w'), indent=1, ensure_ascii=False)
 
+def split_top(text):
+    """Split on semicolons that are not inside parentheses."""
+    out, depth, cur_ = [], 0, ''
+    for ch in text:
+        depth += ch == '('; depth -= ch == ')'
+        if ch == ';' and depth == 0:
+            out.append(cur_); cur_ = ''
+        else:
+            cur_ += ch
+    return out + [cur_]
+
 # reagent index (reagent -> reactions)
 idx = collections.defaultdict(list)
 for r in rows:
-    for part in re.split(r';\s*', r['reagents']):
+    for part in split_top(r['reagents']):
         p = part.strip()
         if p: idx[p.lower()].append(r['name'])
 with open(root / 'reagent_index.md', 'w') as f:
@@ -94,12 +108,10 @@ with open(root / 'reagent_index.md', 'w') as f:
 
 with open(root / 'name_reaction_reagents.md', 'w') as f:
     f.write('# Organic name reactions and their reagents (RXNO)\n\n')
-    f.write(f'{len(rows)} name reactions with reagents; {len(unresolved)} in `unresolved.tsv`. '
-            'Source: `curated` = literature reagents, `ontology` = has_catalyst in rxno.obo, '
-            '`inherited` = from parent class.\n\n')
+    f.write(f'{len(rows)} name reactions with reagents; {len(unresolved)} in `unresolved.tsv` (no curated reagents yet). '
+            'Source: `curated` = literature reagents, `ontology` = has_catalyst in rxno.obo.\n\n')
     f.write('| RXNO | Name reaction | Reagents | Catalyst / promoter | Conditions | Source |\n|---|---|---|---|---|---|\n')
     for r in rows:
         f.write('| {} | {} | {} | {} | {} | {}{} |\n'.format(
-            r['id'], r['name'], r['reagents'], r['catalyst'], r['conditions'], r['source'],
-            f" ({r['inherited_from']})" if r['inherited_from'] else ''))
+            r['id'], r['name'], r['reagents'], r['catalyst'], r['conditions'], r['source'], ''))
 print(len(named), 'named;', len(rows), 'with reagents;', len(unresolved), 'unresolved')

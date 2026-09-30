@@ -343,3 +343,28 @@
 0000673	alcohol; 2-iodoxybenzoic acid (IBX)		DMSO
 0000681	chromium Fischer carbene (aryl or alkoxy); alkyne; CO	Cr(CO)6 carbene	
 0000687	alkene; Shi ketone catalyst (fructose-derived); Oxone (KHSO5); base (K2CO3)	Shi ketone	MeCN/aq. buffer
+0000007	alkene with allylic hydrogen (ene); enophile (aldehyde, maleic anhydride, azodicarboxylate)	Lewis acid optional (Me2AlCl, SnCl4)	heat
+0000016	ketone/aldehyde with alpha-H; carbonyl electrophile	base (NaOH, LDA) or acid; proline (organocatalytic)	
+0000017	ketone/aldehyde with alpha-H; carbonyl electrophile; base (NaOH, KOH) or acid; heat		
+0000029	3-hydroxy-1,5-diene; optional base (KH, 18-crown-6) for anionic variant		heat
+0000049	alkene; formaldehyde (or paraformaldehyde); acid (H2SO4, Lewis acid)		
+0000050	1,2-diol (pinacol); acid (H2SO4, H3PO4)		
+0000067	hydrazobenzene; strong acid (HCl, H2SO4)		
+0000068	para-substituted hydrazobenzene; acid		
+0000075	1,2-diketone (benzil); hydroxide base (NaOH, KOH); acid workup		
+0000085	two ester molecules; sodium metal; chlorotrimethylsilane (TMSCl, Rühlmann modification)		toluene/xylene, reflux
+0000121	2,3-epoxy amine; base (NaH, KOtBu)		
+0000138	aromatic aldehyde (2 equiv.); cyanide (NaCN/KCN) or thiazolium salt (NHC) catalyst	CN- or thiazolium/NHC	
+0000195	alpha-methylene quaternary ammonium salt; strong base (NaNH2, BuLi)		
+0000196	alpha-methylene sulfonium salt; strong base (NaH, KOtBu, BuLi)		
+0000219	two different non-enolisable aldehydes; concentrated NaOH or KOH		
+0000333	aryl diazonium salt; copper(I) halide (CuCl, CuBr, CuI)	Cu(I)	
+0000334	aryl diazonium salt; copper pseudohalide (CuCN, CuSCN)	Cu	
+0000459	ethyl acetoacetate (beta-ketoester); alkoxide base (NaOEt); alkyl halide; aqueous acid/heat for decarboxylation		
+0000609	aryl diazonium salt; copper(I) fluoride (CuF); (practically via HBF4/Balz-Schiemann-type conditions)	Cu(I)	
+0000610	aryl diazonium salt; copper(I) chloride (CuCl)	Cu(I)	
+0000611	aryl diazonium salt; copper(I) bromide (CuBr)	Cu(I)	
+0000612	aryl diazonium salt; copper(I) iodide (CuI) (or KI)	Cu(I)	
+0000659	aryl/vinyl halide; bis(pinacolato)diboron (B2pin2); base (KOAc)	Pd(dppf)Cl2 or other Pd catalyst	dioxane/DMSO
+0000686	alkene; chiral (salen)Mn(III) complex (Jacobsen catalyst); terminal oxidant (NaOCl, mCPBA)	(salen)Mn(III)	DCM
+0000689	methyl ketone; halogen (Cl2, Br2, I2) or hypohalite (NaOX); hydroxide base (NaOH)		
